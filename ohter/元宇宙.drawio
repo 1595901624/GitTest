@@ -1,20 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T02:23:54.436Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="CjYH5BnfHv0cs-tTvcMR" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-28T02:28:15.058Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.71" etag="VnqNtjPOnsYtRikC9hHY" version="20.2.2" type="github">
   <diagram id="oYSICPfImLo-NCTNYdRf" name="第 1 页">
     <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="z92oI3uu4lC6RW4nWdfM-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="z92oI3uu4lC6RW4nWdfM-12" target="z92oI3uu4lC6RW4nWdfM-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="z92oI3uu4lC6RW4nWdfM-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="114" y="340" width="260" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="z92oI3uu4lC6RW4nWdfM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="z92oI3uu4lC6RW4nWdfM-1" target="z92oI3uu4lC6RW4nWdfM-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="z92oI3uu4lC6RW4nWdfM-1" value="和家亲App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="134" y="370" width="74" height="40" as="geometry" />
+          <mxGeometry x="180" y="340" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="z92oI3uu4lC6RW4nWdfM-2" value="区块链数藏平台&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;（需要开发）&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="184" y="220" width="120" height="60" as="geometry" />
@@ -22,14 +13,32 @@
         <mxCell id="z92oI3uu4lC6RW4nWdfM-4" value="中移链平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="184" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z92oI3uu4lC6RW4nWdfM-5" value="&lt;font color=&quot;#000000&quot;&gt;时光轨迹子模块&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="234" y="360" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="z92oI3uu4lC6RW4nWdfM-15" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontColor=#000000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="z92oI3uu4lC6RW4nWdfM-2" target="z92oI3uu4lC6RW4nWdfM-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="240" as="sourcePoint" />
             <mxPoint x="410" y="190" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="z92oI3uu4lC6RW4nWdfM-16" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontColor=#000000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="243.5" y="340" as="sourcePoint" />
+            <mxPoint x="243.5" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z92oI3uu4lC6RW4nWdfM-17" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="525" width="370" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="z92oI3uu4lC6RW4nWdfM-19" value="和家亲" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="530" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z92oI3uu4lC6RW4nWdfM-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="z92oI3uu4lC6RW4nWdfM-20" target="z92oI3uu4lC6RW4nWdfM-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z92oI3uu4lC6RW4nWdfM-20" value="时光轨迹模块" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="111" y="585" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="z92oI3uu4lC6RW4nWdfM-21" value="每日生成时光轨迹&lt;br&gt;（1个）" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="111" y="680" width="120" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
