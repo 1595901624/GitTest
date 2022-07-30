@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-30T06:39:25.866Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="ceeN4gMpPj2WzoDCsdDC" version="20.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-30T06:44:07.348Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="pR2Cyh6U1w4ze7trhUrl" version="20.2.0" type="github">
   <diagram id="KWpwURfB7rHuXTJCAP7D" name="第 1 页">
     <mxGraphModel dx="2692" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,11 +58,14 @@
         <mxCell id="1AF5RXiKY2fiIgN_QnTK-31" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;u8&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;1字节&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-1270" y="180" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1AF5RXiKY2fiIgN_QnTK-33" value="&lt;font color=&quot;#000000&quot;&gt;留空对齐&lt;br&gt;4字节&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="1AF5RXiKY2fiIgN_QnTK-33" value="&lt;font color=&quot;#000000&quot;&gt;留空4字节&lt;br&gt;4字节&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-1170" y="180" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1AF5RXiKY2fiIgN_QnTK-35" value="&lt;font color=&quot;#000000&quot;&gt;String&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-1055" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1AF5RXiKY2fiIgN_QnTK-38" value="&lt;font color=&quot;#ffffff&quot;&gt;枚举类型Week的内存布局&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-1520" y="140" width="180" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
