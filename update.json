@@ -2,10 +2,10 @@
     "Code": 0,
     "Msg": "",
     "UpdateStatus": 1,
-    "VersionCode": 3,
+    "VersionCode": 4,
     "VersionName": "1.0.3 Beta",
     "ModifyContent": "1、修复资讯无法正常显示图片的问题。\r\n2、增加APP的稳定性。",
     "DownloadUrl": "https://raw.githubusercontent.com/1595901624/GitTest/master/stardance_1.0.3_Beta.apk",
     "ApkSize": 6910,
-    "ApkMd5": "7e12a67dfb1b795120e86d0b7effef55"
+    "ApkMd5": "5b4ee52c6c48689a42f49592d386a591"
 }
