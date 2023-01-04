@@ -1,1 +1,91 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T10:36:56.471Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" version="20.8.1" etag="UPHwz1oX4T3v_HToDS07" type="github"><diagram id="zEsYCZzYgM8VHua-X73Q">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-04T12:55:14.559Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" version="20.8.1" etag="JciOU1Pcq-XywSh1YL7B" type="github">
+  <diagram id="4FGU1Zcx3ENLEvKdphcp" name="第 1 页">
+    <mxGraphModel dx="1050" dy="1805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JzI-263z_hB751Y9OSYp-3" value="栈" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="370" y="270" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-4" value="堆" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="370" y="330" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-5" value="BSS Segment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="370" y="390" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-8" value="动态生命期" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="190" y="310" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="330" y="280" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-10" value="静态生命期" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="190" y="405" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-14" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;PingFang SC&amp;quot;, Avenir, Tahoma, Arial, &amp;quot;Lantinghei SC&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft Sans Serif&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, Helvetica, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Box::leak&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="380" y="370" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-26" value="Data Segment（只读）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="370" y="420" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-27" value="Text Segment（只读）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="370" y="450" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-28" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="330" y="390" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-29" value="普通全局变量、静态全局变量、静态局部变量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="390" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-30" value="代码片段" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="450" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-31" value="数值常量、字符常量、字符串字面量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="420" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-40" width="660" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-45" value="栈" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="385" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-46" value="堆" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="385" y="60" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-47" value="BSS Segment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="385" y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-48" value="动态生命期" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="205" y="40" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-49" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="345" y="10" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-50" value="静态生命期" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="205" y="135" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-51" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;PingFang SC&amp;quot;, Avenir, Tahoma, Arial, &amp;quot;Lantinghei SC&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft Sans Serif&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, Helvetica, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Box::leak&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="395" y="100" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-52" value="Data Segment（只读）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="385" y="150" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-53" value="Text Segment（只读）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="385" y="180" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-54" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="345" y="120" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-55" value="普通全局变量、静态全局变量、静态局部变量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="545" y="120" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-56" value="代码片段" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="545" y="180" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JzI-263z_hB751Y9OSYp-57" value="数值常量、字符常量、字符串字面量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="545" y="150" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
