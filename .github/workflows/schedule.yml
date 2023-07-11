@@ -15,9 +15,9 @@ on:
                 default: 'xxx'
     schedule: 
       - cron: "0 3 * * 1"
-    # push:
-    #     branches:
-    #     - xxx
+    push:
+        branches:
+        - xxx
 
 jobs:
   run-script:
@@ -42,6 +42,7 @@ jobs:
         run: |
             git config --local user.email "haoyu3@163.com"
             git config --local user.name "haoyu3_git"
+            git pull
             git add .
             git commit -m "Auto-generated files"
             git push
