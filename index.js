@@ -25,7 +25,7 @@ const detail_area = {
 };
 
 (async function () {
-    // await queryVmessUrl();
+    await queryVmessUrl();
 
     convert2ClashYml();
 
