@@ -9,8 +9,8 @@ on:
       version:
         description: 'Version to release'
 
-  schedule:
-    - cron: '0 * * * *'
+#   schedule:
+#     - cron: '0 * * * *'
 
 jobs:
   run-script:
