@@ -18,5 +18,8 @@ jobs:
         with:
           node-version: 14
 
+      - name: Install dependencies
+        run: npm install request-promise uuid crypto-js crypto fs date-fns base64url protobuf
+
       - name: Run JavaScript script
         run: node index.js
