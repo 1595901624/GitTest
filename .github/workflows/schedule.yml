@@ -8,7 +8,7 @@ name: Run JavaScript Script
 #     - cron: "0 3 * * 1" 
 on:
   schedule:
-    - cron: '45 14 * * *'
+    - cron: '47 * * * *'
   workflow_dispatch:
     #   - cron: "0 3 * * 1"
     # push:
