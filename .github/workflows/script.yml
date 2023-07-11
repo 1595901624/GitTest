@@ -9,11 +9,11 @@ name: Run JavaScript Script
 on:
     workflow_dispatch:
     schedule: 
-        - cron: "40 * * * *"
-    #   - cron: "0 3 * * 1"
-    push:
-        branches:
-        - xxx
+#         - cron: "40 * * * *"
+       - cron: "0 3 * * 1"
+#     push:
+#         branches:
+#         - xxx
 
 jobs:
   run-script:
