@@ -8,6 +8,13 @@ name: Run JavaScript Script
 #     - cron: "0 3 * * 1" 
 on:
     workflow_dispatch:
+        inputs:
+            branch:
+                description: 'Branch to run on'
+                required: true
+                default: 'xxx'
+    schedule: 
+      - cron: "0 3 * * 1"
 
 jobs:
   run-script:
