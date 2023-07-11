@@ -2,7 +2,7 @@ name: Run JavaScript Script
 
 on:
   schedule:
-    - cron: '55 14 * * *'
+    - cron: '0 3 * * 1'
   workflow_dispatch:
     # push:
     #     branches:
