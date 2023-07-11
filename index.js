@@ -55,7 +55,7 @@ async function queryVmessUrl() {
         } catch (e) {
 
         }
-        sleep(5000)
+        sleep(3000)
     }
 }
 
