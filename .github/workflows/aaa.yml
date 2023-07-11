@@ -9,6 +9,9 @@ on:
       version:
         description: 'Version to release'
 
+  schedule:
+    - cron: '0 * * * *'
+
 jobs:
   run-script:
     runs-on: ubuntu-latest
