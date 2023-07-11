@@ -4,9 +4,6 @@ const CryptoJS = require("crypto-js")
 const Crypto = require("crypto")
 const fs = require('fs');
 const { format, parseISO } = require('date-fns');
-const base64url = require('base64url');
-const protobuf = require('protobufjs');
-const { de, da } = require('date-fns/locale');
 
 
 const currentDate = new Date();
