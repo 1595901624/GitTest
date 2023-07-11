@@ -1,15 +1,13 @@
 name: Run JavaScript Script
 
-on:
+# on:
 #   push:
 #     branches:
 #       - xxx
 #   schedule: 
 #     - cron: "0 3 * * 1" 
-  workflow_dispatch:
-    inputs:
-      version:
-        description: 'Version to release'
+on:
+    workflow_dispatch:
 
 jobs:
   run-script:
