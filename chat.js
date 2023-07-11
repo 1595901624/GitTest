@@ -2,7 +2,6 @@ const crypto = require('crypto');
 const Base64 = require('js-base64').Base64;
 const axios = require('axios');
 
-
 function encode(json) {
     const buffer = Buffer.from(json, 'utf-8');
     return Base64.encode(buffer, true);
