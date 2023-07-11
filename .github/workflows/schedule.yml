@@ -23,3 +23,11 @@ jobs:
 
       - name: Run JavaScript script
         run: node index.js
+
+      - name: Commit and Push Changes
+        run: |
+            git config --local user.email "haoyu3@163.com"
+            git config --local user.name "haoyu3_git"
+            git add .
+            git commit -m "Auto-generated files"
+            git push
