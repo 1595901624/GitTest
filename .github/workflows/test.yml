@@ -1,14 +1,16 @@
 name: 'TEST'
 
 on: 
+  # push:
+  #   tags:
+  #     - 'v*'
   workflow_dispatch:
     inputs:
       version:
         description: 'Version to release'
 
 jobs:
-    job:
-        name: Debug
+    run-script:
         runs-on: ubuntu-latest
         steps:
         - name: test
