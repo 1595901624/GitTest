@@ -1,0 +1,22 @@
+name: Run JavaScript Script
+
+on:
+  push:
+    branches:
+      - xxx
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Run JavaScript script
+        run: node index.js
