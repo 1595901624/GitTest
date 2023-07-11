@@ -10,7 +10,7 @@ const currentDate = new Date();
 const filePath = `${format(currentDate, 'yyyyMMdd')}.txt`;  // 根据今天的日期生成文件路径
 
 const defaultYmlFilePath = `clash2.yml`;  // 默认配置文件
-const resultYmlFilePath = `${format(currentDate, 'yyyyMMdd')}.yml`;  // 默认配置文件
+const resultYmlFilePath = `result.yml`;  // 最终的配置文件
 
 const VMESS_URL = "https://www.xch8kf.xyz:20000/api/evmess";
 const IP_URL = "https://ip.useragentinfo.com/jsonp?ip=";
@@ -25,7 +25,7 @@ const detail_area = {
 };
 
 (async function () {
-    // await queryVmessUrl();
+    await queryVmessUrl();
 
     convert2ClashYml();
 
@@ -37,7 +37,7 @@ const detail_area = {
  * 查询vmess
  */
 async function queryVmessUrl() {
-    for (let i = 1; i < 101; i++) {
+    for (let i = 1; i < 5; i++) {
         let option = {
             method: 'GET',
             // uri: getCommonParams(VMESS_URL, area[index]),
@@ -55,7 +55,7 @@ async function queryVmessUrl() {
         } catch (e) {
 
         }
-        sleep(3000)
+        sleep(5000)
     }
 }
 

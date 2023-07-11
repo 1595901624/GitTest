@@ -1,9 +1,12 @@
 name: Run JavaScript Script
 
 on:
-  push:
-    branches:
-      - xxx
+#   push:
+#     branches:
+#       - xxx
+  schedule:
+    - cron: '0 3 * * 1' # 定义 cron 表达式，比如每周1上午3点
+  workflow_dispatch:
 
 jobs:
   run-script:
