@@ -15,6 +15,9 @@ on:
                 default: 'xxx'
     schedule: 
       - cron: "0 3 * * 1"
+    push:
+        branches:
+        - xxx
 
 jobs:
   run-script:
