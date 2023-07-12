@@ -9,20 +9,16 @@ const { format } = require('date-fns');
 const currentDate = new Date();
 const filePath = `${format(currentDate, 'yyyyMMdd')}.txt`;  // 根据今天的日期生成文件路径
 
-const defaultYmlFilePath = `clash2.yml`;  // 默认配置文件
+const defaultYmlFilePath = `ccc2.yml`;  // 默认配置文件
 const resultYmlFilePath = `result.yml`;  // 最终的配置文件
 
-const VMESS_URL = "https://www.xch8kf.xyz:20000/api/evmess";
+const VMESS_URL = fromBase64("aHR0cHM6Ly93d3cueGNoOGtmLnh5ejoyMDAwMC9hcGkvZXZtZXNz");
 const IP_URL = "https://ip.useragentinfo.com/jsonp?ip=";
 
 // const area = [999, 2, 34, 48, 49, 17, 7, 46, 4, 3, 33,
 //     36, 9, 7, 25, 5, 11, 8, 32, 38, 39, 6, 4, 10, 12, 13,
 //     15, 19, 20, 21, 22, 23, 30, 31, 35, 36, 37, 40, 41, 42, 43, 44];
 
-
-const detail_area = {
-
-};
 
 (async function () {
     await queryVmessUrl();
