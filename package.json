@@ -10,6 +10,7 @@
     "protobufjs": "^7.2.4",
     "request": "^2.88.2",
     "request-promise": "^4.2.6",
+    "stream": "^0.0.2",
     "superagent": "^8.0.0",
     "superagent-proxy": "^3.0.0",
     "uuid": "^8.3.2"
