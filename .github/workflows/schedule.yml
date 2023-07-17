@@ -2,11 +2,11 @@ name: Run JavaScript Script
 
 on:
   schedule:
-    - cron: '0 3 * * 1'
+    - cron: '0 18 * * 0,3'
   workflow_dispatch:
-    # push:
-    #     branches:
-    #     - xxx
+  # push:
+  #     branches:
+  #     - xxx
 
 jobs:
   run-script:
@@ -14,11 +14,11 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with: { ref: xxx }
 
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: 16
 
@@ -30,9 +30,9 @@ jobs:
 
       - name: Commit and Push Changes
         run: |
-            git config --local user.email "haoyu3@163.com"
-            git config --local user.name "haoyu3_git"
-            git pull
-            git add .
-            git commit -m "Auto-generated files"
-            git push
+          git config --local user.email "haoyu3@163.com"
+          git config --local user.name "haoyu3_git"
+          git pull
+          git add .
+          git commit -m "Auto-generated files"
+          git push
