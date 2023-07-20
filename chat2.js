@@ -1,6 +1,5 @@
 const CryptoJS = require("crypto-js");
 const axios = require('axios');
-const { ca } = require("date-fns/locale");
 
 const key = "14487141bvirvvG"
 const iv = "osxuinipoop111Pp";
