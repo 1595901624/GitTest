@@ -20,8 +20,8 @@ var enc = CryptoJS.AES.encrypt(time, key, {
 
 const url = 'https://api.gptplus.one/chat-process';
 const data = JSON.stringify({
-    "prompt": "将我说的前一个问题翻译成英文",
-    // "prompt": "哈哈哈，你知道GPT3.5吗？",
+    // "prompt": "将我说的前一个问题翻译成英文",
+    "prompt": "哈哈哈，你知道GPT3.5吗？",
     "options": {
         "parentMessageId": "chatcmpl-7c18bITmmYdirwzqiKZNtmakRv2Aw"
     },
@@ -36,35 +36,10 @@ const headers = {
     'Content-Type': 'application/json',
 };
 
-// // 创建一个可写流，用于实时输出数据
-// const writableStream = new stream.Writable({
-//     write(chunk, encoding, callback) {
-//         console.log(chunk.toString('utf-8')); // 将 chunk 转为 UTF-8 字符串并输出
-//         callback();
-//     },
-// });
-
-// 配置 Axios 接收二进制响应
-// axios.defaults.responseType = 'arraybuffer';
-
 let buffer = "";
 axios.post(url, data, { headers, responseType: 'stream' }).then(response => {
     let stream = response.data;
     stream.on('data', (chunk) => {
-        // try {
-        // let json = chunk.toString('utf-8');
-        // if (isJSON(json)) {
-        //     // 输出 JSON 数据
-        //     tempJson = json;
-        // } else {
-        //     tempJson += json;
-        // }
-        // process.stdout.write(JSON.parse(tempJson).delta);
-        // tempJson = "";
-        // console.log(chunk.toString());
-        // } catch (error) {
-        // }
-        // console.log('-------------------------------------------------');
 
         buffer += chunk; // 将数据块添加到缓冲区
 
@@ -86,22 +61,3 @@ axios.post(url, data, { headers, responseType: 'stream' }).then(response => {
     console.error('请求失败:', error);
 });
 
-// (async function () {
-//     const response = await axios.post(url, data, { headers, responseType: 'stream' });
-//     const stream = response.data
-//     stream.on('data', data => {
-//         data = data.toString()
-//         console.log(data)
-//     })
-// })();
-
-// console.log(enc.toString());
-
-function isJSON(str) {
-    try {
-        JSON.parse(str);
-        return true;
-    } catch (error) {
-        return false;
-    }
-}
