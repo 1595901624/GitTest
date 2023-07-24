@@ -7,7 +7,7 @@ const { format } = require('date-fns');
 
 
 const currentDate = new Date();
-const filePath = `${format(currentDate, 'yyyyMMdd')}.txt`;  // 根据今天的日期生成文件路径
+const filePath = `${format(currentDate, 'yyyyMMdd')}.dql`;  // 根据今天的日期生成文件路径
 
 const defaultYmlFilePath = `ccc2.yml`;  // 默认配置文件
 const resultYmlFilePath = `result.yml`;  // 最终的配置文件

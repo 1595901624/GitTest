@@ -45,7 +45,7 @@ const url = 'https://chatgpt.vulcanlabs.co/api/v3/chat'; // 替换为目标地�
 const data = JSON.stringify({
     // "model": "gpt-3.5-turbo",
     "model": "gpt-4",
-    "user": "7D96FAEA643F2QQA",
+    "user": "7D96FAEAA43F2QQA",
     "messages": [
         // {
         //     "role": "system",
@@ -53,7 +53,7 @@ const data = JSON.stringify({
         // },
         {
             "role": "user",
-            "content": "你好，你是谁啊?你知道GPT3.5吗?你知道哈哈哈吗？"
+            "content": "你好啊，你是谁啊"
         },
         // {
         //     role: 'assistant',
@@ -75,7 +75,7 @@ const data = JSON.stringify({
 });
 
 const headers = {
-    'user-agent': 'Chat GPT Android 2.8.4 292',
+    'user-agent': 'Chat GPT Android 2.8.3 290',
     'Authorization': barear,
     'Content-Type': 'application/json',
 };
