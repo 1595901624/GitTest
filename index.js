@@ -7,7 +7,7 @@ const { format } = require('date-fns');
 
 
 const currentDate = new Date();
-const filePath = `${format(currentDate, 'yyyyMMdd')}.dql`;  // 根据今天的日期生成文件路径
+const filePath = `temp.dql`;  // 根据今天的日期生成文件路径
 
 const defaultYmlFilePath = `ccc2.yml`;  // 默认配置文件
 const resultYmlFilePath = `result.yml`;  // 最终的配置文件
@@ -21,6 +21,8 @@ const IP_URL = "https://ip.useragentinfo.com/jsonp?ip=";
 
 
 (async function () {
+    clearHistortFile();
+
     await queryVmessUrl();
 
     convert2ClashYml();
@@ -28,6 +30,19 @@ const IP_URL = "https://ip.useragentinfo.com/jsonp?ip=";
     // console.log("***************抓取完成***************");
     // 转换为 clash
 })()
+
+/**
+ * 清理历史文件
+ */
+function clearHistortFile() {
+    fs.unlink(filePath, (err) => {
+        if (err) {
+            console.error(err)
+            return
+        }
+        console.log("历史文件删除成功");
+    });
+}
 
 /**
  * 查询vmess
