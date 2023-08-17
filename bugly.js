@@ -82,10 +82,10 @@
 
             // 请求 url
             let crashIds = await requestCrashInfoList(issueId);
-            let csvArray = await requestCrashInfoDetail(crashIds);
-            saveArrayOfObjectsAsCsv(csvArray, 'IssueId' + issueId + '-CrashListDetail.csv');
             // console.log(crashIds);
             // 请求详细信息
+            let csvArray = await requestCrashInfoDetail(crashIds);
+            saveArrayOfObjectsAsCsv(csvArray, 'IssueId' + issueId + '-CrashListDetail.csv');
         }
 
         // 请求 url
