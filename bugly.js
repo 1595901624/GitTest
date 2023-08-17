@@ -16,8 +16,6 @@
     // 正则表达式，匹配 issue- 后面跟着 N 位数字的内容
     const ISSUE_REGEX = /issue-\d+/;
 
-    const BUGLY_COOKIE = document.cookie;
-
     var currentPage = "";
 
     // 监听元素变化
