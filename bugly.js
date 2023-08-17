@@ -74,7 +74,6 @@
         // 将按钮添加到元素中
         element.parentElement.parentElement.parentElement.appendChild(button);
 
-
         // 请求 crash 信息
         async function requestCrashInfo(issueId) {
             // let start = 0;
