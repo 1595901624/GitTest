@@ -144,7 +144,7 @@
             let csvArray = [];
 
             let groups = [];
-            let groupSize = 10;
+            let groupSize = 50;
             let totalGroups = Math.ceil(crashIds.length / groupSize);
 
             for (let i = 0; i < totalGroups; i++) {
@@ -167,6 +167,11 @@
                 // 构建CSV
                 for (let i = 0; i < res.length; i++) {
                     try {
+                        // if (res[i].data.data.responseCode != 0) {
+                        //     // 后面的数据已经被清理
+                        //     break;
+                        // }
+
                         let crashMap = res[i].data.data.crashMap;
                         // console.log(crashMap);
                         let csvObject = {
