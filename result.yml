@@ -5,106 +5,106 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国加利福尼亚0, server: 107.148.195.25, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.19401390.xyz}}}
-  - {name: 美国加利福尼亚1, server: 198.2.197.76, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.71825152.xyz}}}
-  - {name: 美国加利福尼亚2, server: 45.199.138.194, port: 40035, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 中国香港特别行政区3, server: 156.225.67.81, port: 443, client-fingerprint: chrome, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.13340198.xyz}}}
-  - {name: 美国加利福尼亚4, server: 38.26.135.18, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.39838266.xyz}}}
-  - {name: 美国加利福尼亚5, server: 142.4.100.203, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.22567471.xyz}}}
-  - {name: 中国香港特别行政区6, server: 156.245.8.95, port: 443, client-fingerprint: chrome, type: vmess, uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.47734647.xyz}}}
-  - {name: 美国加利福尼亚7, server: 142.4.126.60, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.29135019.xyz}}}
-  - {name: 美国加利福尼亚8, server: 45.199.138.197, port: 46068, client-fingerprint: chrome, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 美国加利福尼亚9, server: 198.2.202.65, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.49746402.xyz}}}
-  - {name: 美国加利福尼亚10, server: 45.199.138.162, port: 48912, client-fingerprint: chrome, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 荷兰北荷兰省11, server: 154.85.1.245, port: 55821, client-fingerprint: chrome, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 中国香港特别行政区12, server: 156.245.8.235, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.92873889.xyz}}}
-  - {name: 美国加利福尼亚13, server: 142.4.114.18, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.47734954.xyz}}}
-  - {name: 美国加利福尼亚14, server: 142.4.114.18, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.47734954.xyz}}}
-  - {name: 中国香港特别行政区15, server: 156.225.67.76, port: 48697, client-fingerprint: chrome, type: vmess, uuid: 3e016c4d-986e-42df-838c-6046f3d89ecf, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 美国加利福尼亚16, server: 45.199.138.188, port: 30009, client-fingerprint: chrome, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 美国加利福尼亚17, server: 137.175.0.155, port: 41551, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 中国香港特别行政区18, server: 156.225.67.229, port: 443, client-fingerprint: chrome, type: vmess, uuid: 515bcb4d-0ba1-4cae-87cf-a047007eec54, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.73938022.xyz}}}
-  - {name: 中国香港特别行政区19, server: 156.245.8.152, port: 443, client-fingerprint: chrome, type: vmess, uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.57424349.xyz}}}
-  - {name: 美国加利福尼亚20, server: 137.175.86.189, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.46158590.xyz}}}
-  - {name: 中国香港特别行政区21, server: 156.245.8.235, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.92873889.xyz}}}
-  - {name: 中国香港特别行政区22, server: 156.225.67.74, port: 45109, client-fingerprint: chrome, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 美国加利福尼亚23, server: 45.199.138.161, port: 48453, client-fingerprint: chrome, type: vmess, uuid: 9549a2cf-129b-43a1-88db-ef7f648de74a, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 美国加利福尼亚24, server: 137.175.86.189, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.46158590.xyz}}}
-  - {name: 美国加利福尼亚25, server: 45.199.138.161, port: 48453, client-fingerprint: chrome, type: vmess, uuid: 9549a2cf-129b-43a1-88db-ef7f648de74a, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 美国加利福尼亚26, server: 142.4.126.60, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.29135019.xyz}}}
-  - {name: 美国加利福尼亚27, server: 198.2.204.49, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.44337922.xyz}}}
-  - {name: 美国加利福尼亚28, server: 137.175.86.189, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.46158590.xyz}}}
-  - {name: 美国加利福尼亚29, server: 137.175.0.155, port: 41551, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 中国香港特别行政区30, server: 156.225.67.223, port: 443, client-fingerprint: chrome, type: vmess, uuid: ebec2adf-e940-446f-bed4-d8c91143b54a, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.16658180.xyz}}}
-  - {name: 中国香港特别行政区31, server: 156.245.8.247, port: 34417, client-fingerprint: chrome, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 中国香港特别行政区32, server: 156.225.67.223, port: 443, client-fingerprint: chrome, type: vmess, uuid: ebec2adf-e940-446f-bed4-d8c91143b54a, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.16658180.xyz}}}
-  - {name: 美国加利福尼亚33, server: 192.74.238.228, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.15963678.xyz}}}
-  - {name: 美国加利福尼亚34, server: 45.199.138.197, port: 46068, client-fingerprint: chrome, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 美国加利福尼亚35, server: 198.2.204.49, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.44337922.xyz}}}
-  - {name: 美国加利福尼亚36, server: 45.199.138.161, port: 48453, client-fingerprint: chrome, type: vmess, uuid: 9549a2cf-129b-43a1-88db-ef7f648de74a, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 美国加利福尼亚37, server: 107.148.203.82, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.22866947.xyz}}}
-  - {name: 美国加利福尼亚38, server: 198.2.204.33, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.75575729.xyz}}}
-  - {name: 美国加利福尼亚39, server: 137.175.32.84, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.45176089.xyz}}}
-  - {name: 中国香港特别行政区40, server: 156.225.67.229, port: 443, client-fingerprint: chrome, type: vmess, uuid: 515bcb4d-0ba1-4cae-87cf-a047007eec54, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.73938022.xyz}}}
-  - {name: 德国黑森41, server: 156.249.18.50, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.69414502.xyz}}}
-  - {name: 美国加利福尼亚42, server: 45.199.138.168, port: 50785, client-fingerprint: chrome, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f013421b, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 中国香港特别行政区43, server: 156.225.67.112, port: 443, client-fingerprint: chrome, type: vmess, uuid: b8df3ef1-887f-4ee4-855f-4f80416c2464, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.12460158.xyz}}}
-  - {name: 美国加利福尼亚44, server: 38.26.135.18, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.39838266.xyz}}}
-  - {name: 美国加利福尼亚45, server: 198.2.204.33, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.75575729.xyz}}}
-  - {name: 中国香港特别行政区46, server: 156.225.67.158, port: 443, client-fingerprint: chrome, type: vmess, uuid: 9c026efe-6af0-465f-b8c0-3f58c8c2d4c5, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.84661158.xyz}}}
-  - {name: 美国加利福尼亚47, server: 45.199.138.180, port: 54905, client-fingerprint: chrome, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 美国加利福尼亚48, server: 38.26.135.18, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.39838266.xyz}}}
-  - {name: 美国加利福尼亚49, server: 142.4.106.82, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.44509549.xyz}}}
-  - {name: 中国香港特别行政区50, server: 156.225.67.164, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.75544744.xyz}}}
-  - {name: 美国加利福尼亚51, server: 45.199.138.148, port: 48912, client-fingerprint: chrome, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 美国加利福尼亚52, server: 198.2.223.10, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.45202449.xyz}}}
-  - {name: 中国香港特别行政区53, server: 156.225.67.76, port: 48697, client-fingerprint: chrome, type: vmess, uuid: 3e016c4d-986e-42df-838c-6046f3d89ecf, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 中国香港特别行政区54, server: 156.225.67.223, port: 443, client-fingerprint: chrome, type: vmess, uuid: ebec2adf-e940-446f-bed4-d8c91143b54a, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.16658180.xyz}}}
-  - {name: 美国加利福尼亚55, server: 45.199.138.157, port: 49922, client-fingerprint: chrome, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 美国加利福尼亚56, server: 137.175.0.155, port: 41551, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 美国加利福尼亚57, server: 137.175.0.155, port: 41551, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 美国加利福尼亚58, server: 137.175.0.155, port: 41551, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 中国香港特别行政区59, server: 156.245.8.235, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.92873889.xyz}}}
-  - {name: 美国加利福尼亚60, server: 198.2.202.81, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.65825524.xyz}}}
-  - {name: 美国加利福尼亚61, server: 198.200.56.105, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.62618992.xyz}}}
-  - {name: 美国加利福尼亚62, server: 45.199.138.148, port: 48912, client-fingerprint: chrome, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 中国香港特别行政区63, server: 156.225.67.229, port: 443, client-fingerprint: chrome, type: vmess, uuid: 515bcb4d-0ba1-4cae-87cf-a047007eec54, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.73938022.xyz}}}
-  - {name: 中国香港特别行政区64, server: 156.225.67.112, port: 443, client-fingerprint: chrome, type: vmess, uuid: b8df3ef1-887f-4ee4-855f-4f80416c2464, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.12460158.xyz}}}
-  - {name: 美国加利福尼亚65, server: 198.2.204.49, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.44337922.xyz}}}
-  - {name: 美国加利福尼亚66, server: 45.199.138.62, port: 34346, client-fingerprint: chrome, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 中国香港特别行政区67, server: 156.225.67.112, port: 443, client-fingerprint: chrome, type: vmess, uuid: b8df3ef1-887f-4ee4-855f-4f80416c2464, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.12460158.xyz}}}
-  - {name: 中国香港特别行政区68, server: 156.225.67.23, port: 43334, client-fingerprint: chrome, type: vmess, uuid: 375e70f0-5d46-476f-8d69-0fb35c5548a9, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 中国香港特别行政区69, server: 156.225.67.205, port: 443, client-fingerprint: chrome, type: vmess, uuid: d7735058-1dac-4618-99ff-0aa0441ec2d7, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.20163322.xyz}}}
-  - {name: 中国香港特别行政区70, server: 156.225.67.158, port: 443, client-fingerprint: chrome, type: vmess, uuid: 9c026efe-6af0-465f-b8c0-3f58c8c2d4c5, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.84661158.xyz}}}
-  - {name: 美国加利福尼亚71, server: 45.199.138.194, port: 40035, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 荷兰北荷兰省72, server: 154.85.1.245, port: 55821, client-fingerprint: chrome, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 美国加利福尼亚73, server: 45.199.138.152, port: 55786, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 美国加利福尼亚74, server: 137.175.0.155, port: 41551, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 美国加利福尼亚75, server: 137.175.86.189, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.46158590.xyz}}}
-  - {name: 美国加利福尼亚76, server: 192.74.238.228, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.15963678.xyz}}}
-  - {name: 美国加利福尼亚77, server: 23.224.255.171, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.53638055.xyz}}}
-  - {name: 美国加利福尼亚78, server: 198.2.213.161, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.54699295.xyz}}}
-  - {name: 中国香港特别行政区79, server: 156.225.67.51, port: 443, client-fingerprint: chrome, type: vmess, uuid: 990006bd-cb20-482f-9c97-f5fc65359605, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.43430140.xyz}}}
-  - {name: 美国加利福尼亚80, server: 137.175.18.81, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.66273264.xyz}}}
-  - {name: 美国加利福尼亚81, server: 45.199.138.168, port: 50785, client-fingerprint: chrome, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f013421b, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 中国香港特别行政区82, server: 156.225.67.95, port: 49821, client-fingerprint: chrome, type: vmess, uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 中国香港特别行政区83, server: 156.225.67.103, port: 53797, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 中国香港特别行政区84, server: 156.225.67.164, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.75544744.xyz}}}
-  - {name: 中国香港特别行政区85, server: 156.225.67.81, port: 443, client-fingerprint: chrome, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.13340198.xyz}}}
-  - {name: 美国加利福尼亚86, server: 137.175.86.129, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.46074906.xyz}}}
-  - {name: 中国香港特别行政区87, server: 156.245.8.95, port: 443, client-fingerprint: chrome, type: vmess, uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.47734647.xyz}}}
-  - {name: 美国加利福尼亚88, server: 198.2.197.76, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.71825152.xyz}}}
-  - {name: 美国加利福尼亚89, server: 45.199.138.152, port: 55786, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 美国加利福尼亚90, server: 142.4.106.82, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.44509549.xyz}}}
-  - {name: 美国加利福尼亚91, server: 142.4.104.166, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.72304286.xyz}}}
-  - {name: 中国香港特别行政区92, server: 156.225.67.223, port: 443, client-fingerprint: chrome, type: vmess, uuid: ebec2adf-e940-446f-bed4-d8c91143b54a, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.16658180.xyz}}}
-  - {name: 中国香港特别行政区93, server: 156.245.8.95, port: 443, client-fingerprint: chrome, type: vmess, uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.47734647.xyz}}}
-  - {name: 美国加利福尼亚94, server: 198.2.223.10, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.45202449.xyz}}}
-  - {name: 中国香港特别行政区95, server: 156.225.67.23, port: 43334, client-fingerprint: chrome, type: vmess, uuid: 375e70f0-5d46-476f-8d69-0fb35c5548a9, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 荷兰北荷兰省96, server: 46.182.107.22, port: 36856, client-fingerprint: chrome, type: vmess, uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 德国黑森97, server: 156.249.18.27, port: 443, client-fingerprint: chrome, type: vmess, uuid: 3a3c8a9c-334e-4360-adb8-a80a57ddcbbf, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.16046626.xyz}}}
-  - {name: 德国黑森98, server: 156.249.18.25, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.49291261.xyz}}}
-  - {name: 中国香港特别行政区99, server: 156.225.67.158, port: 443, client-fingerprint: chrome, type: vmess, uuid: 9c026efe-6af0-465f-b8c0-3f58c8c2d4c5, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/120121122706, headers: {Host: www.84661158.xyz}}}
+  - {name: 泛播0, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播1, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播2, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播3, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播4, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播5, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播6, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播7, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播8, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播9, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播10, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播11, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播12, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播13, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播14, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播15, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播16, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播17, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播18, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播19, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播20, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播21, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播22, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播23, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播24, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播25, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播26, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播27, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播28, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播29, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播30, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播31, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播32, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播33, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播34, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播35, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播36, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播37, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播38, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播39, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播40, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播41, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播42, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播43, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播44, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播45, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播46, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播47, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播48, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播49, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播50, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播51, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播52, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播53, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播54, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播55, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播56, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播57, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播58, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播59, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播60, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播61, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播62, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播63, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播64, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播65, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播66, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播67, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播68, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播69, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播70, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播71, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播72, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播73, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播74, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播75, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播76, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播77, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播78, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播79, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播80, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播81, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播82, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播83, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播84, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播85, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播86, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播87, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播88, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播89, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播90, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播91, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播92, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播93, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播94, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播95, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播96, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播97, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播98, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
+  - {name: 泛播99, server: 1.1.1.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.google.com}}}
 
 proxy-groups:
   - name: 🔰 节点选择
@@ -112,212 +112,212 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国加利福尼亚0
-      - 美国加利福尼亚1
-      - 美国加利福尼亚2
-      - 中国香港特别行政区3
-      - 美国加利福尼亚4
-      - 美国加利福尼亚5
-      - 中国香港特别行政区6
-      - 美国加利福尼亚7
-      - 美国加利福尼亚8
-      - 美国加利福尼亚9
-      - 美国加利福尼亚10
-      - 荷兰北荷兰省11
-      - 中国香港特别行政区12
-      - 美国加利福尼亚13
-      - 美国加利福尼亚14
-      - 中国香港特别行政区15
-      - 美国加利福尼亚16
-      - 美国加利福尼亚17
-      - 中国香港特别行政区18
-      - 中国香港特别行政区19
-      - 美国加利福尼亚20
-      - 中国香港特别行政区21
-      - 中国香港特别行政区22
-      - 美国加利福尼亚23
-      - 美国加利福尼亚24
-      - 美国加利福尼亚25
-      - 美国加利福尼亚26
-      - 美国加利福尼亚27
-      - 美国加利福尼亚28
-      - 美国加利福尼亚29
-      - 中国香港特别行政区30
-      - 中国香港特别行政区31
-      - 中国香港特别行政区32
-      - 美国加利福尼亚33
-      - 美国加利福尼亚34
-      - 美国加利福尼亚35
-      - 美国加利福尼亚36
-      - 美国加利福尼亚37
-      - 美国加利福尼亚38
-      - 美国加利福尼亚39
-      - 中国香港特别行政区40
-      - 德国黑森41
-      - 美国加利福尼亚42
-      - 中国香港特别行政区43
-      - 美国加利福尼亚44
-      - 美国加利福尼亚45
-      - 中国香港特别行政区46
-      - 美国加利福尼亚47
-      - 美国加利福尼亚48
-      - 美国加利福尼亚49
-      - 中国香港特别行政区50
-      - 美国加利福尼亚51
-      - 美国加利福尼亚52
-      - 中国香港特别行政区53
-      - 中国香港特别行政区54
-      - 美国加利福尼亚55
-      - 美国加利福尼亚56
-      - 美国加利福尼亚57
-      - 美国加利福尼亚58
-      - 中国香港特别行政区59
-      - 美国加利福尼亚60
-      - 美国加利福尼亚61
-      - 美国加利福尼亚62
-      - 中国香港特别行政区63
-      - 中国香港特别行政区64
-      - 美国加利福尼亚65
-      - 美国加利福尼亚66
-      - 中国香港特别行政区67
-      - 中国香港特别行政区68
-      - 中国香港特别行政区69
-      - 中国香港特别行政区70
-      - 美国加利福尼亚71
-      - 荷兰北荷兰省72
-      - 美国加利福尼亚73
-      - 美国加利福尼亚74
-      - 美国加利福尼亚75
-      - 美国加利福尼亚76
-      - 美国加利福尼亚77
-      - 美国加利福尼亚78
-      - 中国香港特别行政区79
-      - 美国加利福尼亚80
-      - 美国加利福尼亚81
-      - 中国香港特别行政区82
-      - 中国香港特别行政区83
-      - 中国香港特别行政区84
-      - 中国香港特别行政区85
-      - 美国加利福尼亚86
-      - 中国香港特别行政区87
-      - 美国加利福尼亚88
-      - 美国加利福尼亚89
-      - 美国加利福尼亚90
-      - 美国加利福尼亚91
-      - 中国香港特别行政区92
-      - 中国香港特别行政区93
-      - 美国加利福尼亚94
-      - 中国香港特别行政区95
-      - 荷兰北荷兰省96
-      - 德国黑森97
-      - 德国黑森98
-      - 中国香港特别行政区99
+      - 泛播0
+      - 泛播1
+      - 泛播2
+      - 泛播3
+      - 泛播4
+      - 泛播5
+      - 泛播6
+      - 泛播7
+      - 泛播8
+      - 泛播9
+      - 泛播10
+      - 泛播11
+      - 泛播12
+      - 泛播13
+      - 泛播14
+      - 泛播15
+      - 泛播16
+      - 泛播17
+      - 泛播18
+      - 泛播19
+      - 泛播20
+      - 泛播21
+      - 泛播22
+      - 泛播23
+      - 泛播24
+      - 泛播25
+      - 泛播26
+      - 泛播27
+      - 泛播28
+      - 泛播29
+      - 泛播30
+      - 泛播31
+      - 泛播32
+      - 泛播33
+      - 泛播34
+      - 泛播35
+      - 泛播36
+      - 泛播37
+      - 泛播38
+      - 泛播39
+      - 泛播40
+      - 泛播41
+      - 泛播42
+      - 泛播43
+      - 泛播44
+      - 泛播45
+      - 泛播46
+      - 泛播47
+      - 泛播48
+      - 泛播49
+      - 泛播50
+      - 泛播51
+      - 泛播52
+      - 泛播53
+      - 泛播54
+      - 泛播55
+      - 泛播56
+      - 泛播57
+      - 泛播58
+      - 泛播59
+      - 泛播60
+      - 泛播61
+      - 泛播62
+      - 泛播63
+      - 泛播64
+      - 泛播65
+      - 泛播66
+      - 泛播67
+      - 泛播68
+      - 泛播69
+      - 泛播70
+      - 泛播71
+      - 泛播72
+      - 泛播73
+      - 泛播74
+      - 泛播75
+      - 泛播76
+      - 泛播77
+      - 泛播78
+      - 泛播79
+      - 泛播80
+      - 泛播81
+      - 泛播82
+      - 泛播83
+      - 泛播84
+      - 泛播85
+      - 泛播86
+      - 泛播87
+      - 泛播88
+      - 泛播89
+      - 泛播90
+      - 泛播91
+      - 泛播92
+      - 泛播93
+      - 泛播94
+      - 泛播95
+      - 泛播96
+      - 泛播97
+      - 泛播98
+      - 泛播99
   
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国加利福尼亚0
-      - 美国加利福尼亚1
-      - 美国加利福尼亚2
-      - 中国香港特别行政区3
-      - 美国加利福尼亚4
-      - 美国加利福尼亚5
-      - 中国香港特别行政区6
-      - 美国加利福尼亚7
-      - 美国加利福尼亚8
-      - 美国加利福尼亚9
-      - 美国加利福尼亚10
-      - 荷兰北荷兰省11
-      - 中国香港特别行政区12
-      - 美国加利福尼亚13
-      - 美国加利福尼亚14
-      - 中国香港特别行政区15
-      - 美国加利福尼亚16
-      - 美国加利福尼亚17
-      - 中国香港特别行政区18
-      - 中国香港特别行政区19
-      - 美国加利福尼亚20
-      - 中国香港特别行政区21
-      - 中国香港特别行政区22
-      - 美国加利福尼亚23
-      - 美国加利福尼亚24
-      - 美国加利福尼亚25
-      - 美国加利福尼亚26
-      - 美国加利福尼亚27
-      - 美国加利福尼亚28
-      - 美国加利福尼亚29
-      - 中国香港特别行政区30
-      - 中国香港特别行政区31
-      - 中国香港特别行政区32
-      - 美国加利福尼亚33
-      - 美国加利福尼亚34
-      - 美国加利福尼亚35
-      - 美国加利福尼亚36
-      - 美国加利福尼亚37
-      - 美国加利福尼亚38
-      - 美国加利福尼亚39
-      - 中国香港特别行政区40
-      - 德国黑森41
-      - 美国加利福尼亚42
-      - 中国香港特别行政区43
-      - 美国加利福尼亚44
-      - 美国加利福尼亚45
-      - 中国香港特别行政区46
-      - 美国加利福尼亚47
-      - 美国加利福尼亚48
-      - 美国加利福尼亚49
-      - 中国香港特别行政区50
-      - 美国加利福尼亚51
-      - 美国加利福尼亚52
-      - 中国香港特别行政区53
-      - 中国香港特别行政区54
-      - 美国加利福尼亚55
-      - 美国加利福尼亚56
-      - 美国加利福尼亚57
-      - 美国加利福尼亚58
-      - 中国香港特别行政区59
-      - 美国加利福尼亚60
-      - 美国加利福尼亚61
-      - 美国加利福尼亚62
-      - 中国香港特别行政区63
-      - 中国香港特别行政区64
-      - 美国加利福尼亚65
-      - 美国加利福尼亚66
-      - 中国香港特别行政区67
-      - 中国香港特别行政区68
-      - 中国香港特别行政区69
-      - 中国香港特别行政区70
-      - 美国加利福尼亚71
-      - 荷兰北荷兰省72
-      - 美国加利福尼亚73
-      - 美国加利福尼亚74
-      - 美国加利福尼亚75
-      - 美国加利福尼亚76
-      - 美国加利福尼亚77
-      - 美国加利福尼亚78
-      - 中国香港特别行政区79
-      - 美国加利福尼亚80
-      - 美国加利福尼亚81
-      - 中国香港特别行政区82
-      - 中国香港特别行政区83
-      - 中国香港特别行政区84
-      - 中国香港特别行政区85
-      - 美国加利福尼亚86
-      - 中国香港特别行政区87
-      - 美国加利福尼亚88
-      - 美国加利福尼亚89
-      - 美国加利福尼亚90
-      - 美国加利福尼亚91
-      - 中国香港特别行政区92
-      - 中国香港特别行政区93
-      - 美国加利福尼亚94
-      - 中国香港特别行政区95
-      - 荷兰北荷兰省96
-      - 德国黑森97
-      - 德国黑森98
-      - 中国香港特别行政区99
+      - 泛播0
+      - 泛播1
+      - 泛播2
+      - 泛播3
+      - 泛播4
+      - 泛播5
+      - 泛播6
+      - 泛播7
+      - 泛播8
+      - 泛播9
+      - 泛播10
+      - 泛播11
+      - 泛播12
+      - 泛播13
+      - 泛播14
+      - 泛播15
+      - 泛播16
+      - 泛播17
+      - 泛播18
+      - 泛播19
+      - 泛播20
+      - 泛播21
+      - 泛播22
+      - 泛播23
+      - 泛播24
+      - 泛播25
+      - 泛播26
+      - 泛播27
+      - 泛播28
+      - 泛播29
+      - 泛播30
+      - 泛播31
+      - 泛播32
+      - 泛播33
+      - 泛播34
+      - 泛播35
+      - 泛播36
+      - 泛播37
+      - 泛播38
+      - 泛播39
+      - 泛播40
+      - 泛播41
+      - 泛播42
+      - 泛播43
+      - 泛播44
+      - 泛播45
+      - 泛播46
+      - 泛播47
+      - 泛播48
+      - 泛播49
+      - 泛播50
+      - 泛播51
+      - 泛播52
+      - 泛播53
+      - 泛播54
+      - 泛播55
+      - 泛播56
+      - 泛播57
+      - 泛播58
+      - 泛播59
+      - 泛播60
+      - 泛播61
+      - 泛播62
+      - 泛播63
+      - 泛播64
+      - 泛播65
+      - 泛播66
+      - 泛播67
+      - 泛播68
+      - 泛播69
+      - 泛播70
+      - 泛播71
+      - 泛播72
+      - 泛播73
+      - 泛播74
+      - 泛播75
+      - 泛播76
+      - 泛播77
+      - 泛播78
+      - 泛播79
+      - 泛播80
+      - 泛播81
+      - 泛播82
+      - 泛播83
+      - 泛播84
+      - 泛播85
+      - 泛播86
+      - 泛播87
+      - 泛播88
+      - 泛播89
+      - 泛播90
+      - 泛播91
+      - 泛播92
+      - 泛播93
+      - 泛播94
+      - 泛播95
+      - 泛播96
+      - 泛播97
+      - 泛播98
+      - 泛播99
   
   - name: 🎥 NETFLIX
     type: select
@@ -325,106 +325,106 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国加利福尼亚0
-      - 美国加利福尼亚1
-      - 美国加利福尼亚2
-      - 中国香港特别行政区3
-      - 美国加利福尼亚4
-      - 美国加利福尼亚5
-      - 中国香港特别行政区6
-      - 美国加利福尼亚7
-      - 美国加利福尼亚8
-      - 美国加利福尼亚9
-      - 美国加利福尼亚10
-      - 荷兰北荷兰省11
-      - 中国香港特别行政区12
-      - 美国加利福尼亚13
-      - 美国加利福尼亚14
-      - 中国香港特别行政区15
-      - 美国加利福尼亚16
-      - 美国加利福尼亚17
-      - 中国香港特别行政区18
-      - 中国香港特别行政区19
-      - 美国加利福尼亚20
-      - 中国香港特别行政区21
-      - 中国香港特别行政区22
-      - 美国加利福尼亚23
-      - 美国加利福尼亚24
-      - 美国加利福尼亚25
-      - 美国加利福尼亚26
-      - 美国加利福尼亚27
-      - 美国加利福尼亚28
-      - 美国加利福尼亚29
-      - 中国香港特别行政区30
-      - 中国香港特别行政区31
-      - 中国香港特别行政区32
-      - 美国加利福尼亚33
-      - 美国加利福尼亚34
-      - 美国加利福尼亚35
-      - 美国加利福尼亚36
-      - 美国加利福尼亚37
-      - 美国加利福尼亚38
-      - 美国加利福尼亚39
-      - 中国香港特别行政区40
-      - 德国黑森41
-      - 美国加利福尼亚42
-      - 中国香港特别行政区43
-      - 美国加利福尼亚44
-      - 美国加利福尼亚45
-      - 中国香港特别行政区46
-      - 美国加利福尼亚47
-      - 美国加利福尼亚48
-      - 美国加利福尼亚49
-      - 中国香港特别行政区50
-      - 美国加利福尼亚51
-      - 美国加利福尼亚52
-      - 中国香港特别行政区53
-      - 中国香港特别行政区54
-      - 美国加利福尼亚55
-      - 美国加利福尼亚56
-      - 美国加利福尼亚57
-      - 美国加利福尼亚58
-      - 中国香港特别行政区59
-      - 美国加利福尼亚60
-      - 美国加利福尼亚61
-      - 美国加利福尼亚62
-      - 中国香港特别行政区63
-      - 中国香港特别行政区64
-      - 美国加利福尼亚65
-      - 美国加利福尼亚66
-      - 中国香港特别行政区67
-      - 中国香港特别行政区68
-      - 中国香港特别行政区69
-      - 中国香港特别行政区70
-      - 美国加利福尼亚71
-      - 荷兰北荷兰省72
-      - 美国加利福尼亚73
-      - 美国加利福尼亚74
-      - 美国加利福尼亚75
-      - 美国加利福尼亚76
-      - 美国加利福尼亚77
-      - 美国加利福尼亚78
-      - 中国香港特别行政区79
-      - 美国加利福尼亚80
-      - 美国加利福尼亚81
-      - 中国香港特别行政区82
-      - 中国香港特别行政区83
-      - 中国香港特别行政区84
-      - 中国香港特别行政区85
-      - 美国加利福尼亚86
-      - 中国香港特别行政区87
-      - 美国加利福尼亚88
-      - 美国加利福尼亚89
-      - 美国加利福尼亚90
-      - 美国加利福尼亚91
-      - 中国香港特别行政区92
-      - 中国香港特别行政区93
-      - 美国加利福尼亚94
-      - 中国香港特别行政区95
-      - 荷兰北荷兰省96
-      - 德国黑森97
-      - 德国黑森98
-      - 中国香港特别行政区99
+      - 泛播0
+      - 泛播1
+      - 泛播2
+      - 泛播3
+      - 泛播4
+      - 泛播5
+      - 泛播6
+      - 泛播7
+      - 泛播8
+      - 泛播9
+      - 泛播10
+      - 泛播11
+      - 泛播12
+      - 泛播13
+      - 泛播14
+      - 泛播15
+      - 泛播16
+      - 泛播17
+      - 泛播18
+      - 泛播19
+      - 泛播20
+      - 泛播21
+      - 泛播22
+      - 泛播23
+      - 泛播24
+      - 泛播25
+      - 泛播26
+      - 泛播27
+      - 泛播28
+      - 泛播29
+      - 泛播30
+      - 泛播31
+      - 泛播32
+      - 泛播33
+      - 泛播34
+      - 泛播35
+      - 泛播36
+      - 泛播37
+      - 泛播38
+      - 泛播39
+      - 泛播40
+      - 泛播41
+      - 泛播42
+      - 泛播43
+      - 泛播44
+      - 泛播45
+      - 泛播46
+      - 泛播47
+      - 泛播48
+      - 泛播49
+      - 泛播50
+      - 泛播51
+      - 泛播52
+      - 泛播53
+      - 泛播54
+      - 泛播55
+      - 泛播56
+      - 泛播57
+      - 泛播58
+      - 泛播59
+      - 泛播60
+      - 泛播61
+      - 泛播62
+      - 泛播63
+      - 泛播64
+      - 泛播65
+      - 泛播66
+      - 泛播67
+      - 泛播68
+      - 泛播69
+      - 泛播70
+      - 泛播71
+      - 泛播72
+      - 泛播73
+      - 泛播74
+      - 泛播75
+      - 泛播76
+      - 泛播77
+      - 泛播78
+      - 泛播79
+      - 泛播80
+      - 泛播81
+      - 泛播82
+      - 泛播83
+      - 泛播84
+      - 泛播85
+      - 泛播86
+      - 泛播87
+      - 泛播88
+      - 泛播89
+      - 泛播90
+      - 泛播91
+      - 泛播92
+      - 泛播93
+      - 泛播94
+      - 泛播95
+      - 泛播96
+      - 泛播97
+      - 泛播98
+      - 泛播99
   
   - name: ⛔️ 广告拦截
     type: select
@@ -444,106 +444,106 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国加利福尼亚0
-      - 美国加利福尼亚1
-      - 美国加利福尼亚2
-      - 中国香港特别行政区3
-      - 美国加利福尼亚4
-      - 美国加利福尼亚5
-      - 中国香港特别行政区6
-      - 美国加利福尼亚7
-      - 美国加利福尼亚8
-      - 美国加利福尼亚9
-      - 美国加利福尼亚10
-      - 荷兰北荷兰省11
-      - 中国香港特别行政区12
-      - 美国加利福尼亚13
-      - 美国加利福尼亚14
-      - 中国香港特别行政区15
-      - 美国加利福尼亚16
-      - 美国加利福尼亚17
-      - 中国香港特别行政区18
-      - 中国香港特别行政区19
-      - 美国加利福尼亚20
-      - 中国香港特别行政区21
-      - 中国香港特别行政区22
-      - 美国加利福尼亚23
-      - 美国加利福尼亚24
-      - 美国加利福尼亚25
-      - 美国加利福尼亚26
-      - 美国加利福尼亚27
-      - 美国加利福尼亚28
-      - 美国加利福尼亚29
-      - 中国香港特别行政区30
-      - 中国香港特别行政区31
-      - 中国香港特别行政区32
-      - 美国加利福尼亚33
-      - 美国加利福尼亚34
-      - 美国加利福尼亚35
-      - 美国加利福尼亚36
-      - 美国加利福尼亚37
-      - 美国加利福尼亚38
-      - 美国加利福尼亚39
-      - 中国香港特别行政区40
-      - 德国黑森41
-      - 美国加利福尼亚42
-      - 中国香港特别行政区43
-      - 美国加利福尼亚44
-      - 美国加利福尼亚45
-      - 中国香港特别行政区46
-      - 美国加利福尼亚47
-      - 美国加利福尼亚48
-      - 美国加利福尼亚49
-      - 中国香港特别行政区50
-      - 美国加利福尼亚51
-      - 美国加利福尼亚52
-      - 中国香港特别行政区53
-      - 中国香港特别行政区54
-      - 美国加利福尼亚55
-      - 美国加利福尼亚56
-      - 美国加利福尼亚57
-      - 美国加利福尼亚58
-      - 中国香港特别行政区59
-      - 美国加利福尼亚60
-      - 美国加利福尼亚61
-      - 美国加利福尼亚62
-      - 中国香港特别行政区63
-      - 中国香港特别行政区64
-      - 美国加利福尼亚65
-      - 美国加利福尼亚66
-      - 中国香港特别行政区67
-      - 中国香港特别行政区68
-      - 中国香港特别行政区69
-      - 中国香港特别行政区70
-      - 美国加利福尼亚71
-      - 荷兰北荷兰省72
-      - 美国加利福尼亚73
-      - 美国加利福尼亚74
-      - 美国加利福尼亚75
-      - 美国加利福尼亚76
-      - 美国加利福尼亚77
-      - 美国加利福尼亚78
-      - 中国香港特别行政区79
-      - 美国加利福尼亚80
-      - 美国加利福尼亚81
-      - 中国香港特别行政区82
-      - 中国香港特别行政区83
-      - 中国香港特别行政区84
-      - 中国香港特别行政区85
-      - 美国加利福尼亚86
-      - 中国香港特别行政区87
-      - 美国加利福尼亚88
-      - 美国加利福尼亚89
-      - 美国加利福尼亚90
-      - 美国加利福尼亚91
-      - 中国香港特别行政区92
-      - 中国香港特别行政区93
-      - 美国加利福尼亚94
-      - 中国香港特别行政区95
-      - 荷兰北荷兰省96
-      - 德国黑森97
-      - 德国黑森98
-      - 中国香港特别行政区99
+      - 泛播0
+      - 泛播1
+      - 泛播2
+      - 泛播3
+      - 泛播4
+      - 泛播5
+      - 泛播6
+      - 泛播7
+      - 泛播8
+      - 泛播9
+      - 泛播10
+      - 泛播11
+      - 泛播12
+      - 泛播13
+      - 泛播14
+      - 泛播15
+      - 泛播16
+      - 泛播17
+      - 泛播18
+      - 泛播19
+      - 泛播20
+      - 泛播21
+      - 泛播22
+      - 泛播23
+      - 泛播24
+      - 泛播25
+      - 泛播26
+      - 泛播27
+      - 泛播28
+      - 泛播29
+      - 泛播30
+      - 泛播31
+      - 泛播32
+      - 泛播33
+      - 泛播34
+      - 泛播35
+      - 泛播36
+      - 泛播37
+      - 泛播38
+      - 泛播39
+      - 泛播40
+      - 泛播41
+      - 泛播42
+      - 泛播43
+      - 泛播44
+      - 泛播45
+      - 泛播46
+      - 泛播47
+      - 泛播48
+      - 泛播49
+      - 泛播50
+      - 泛播51
+      - 泛播52
+      - 泛播53
+      - 泛播54
+      - 泛播55
+      - 泛播56
+      - 泛播57
+      - 泛播58
+      - 泛播59
+      - 泛播60
+      - 泛播61
+      - 泛播62
+      - 泛播63
+      - 泛播64
+      - 泛播65
+      - 泛播66
+      - 泛播67
+      - 泛播68
+      - 泛播69
+      - 泛播70
+      - 泛播71
+      - 泛播72
+      - 泛播73
+      - 泛播74
+      - 泛播75
+      - 泛播76
+      - 泛播77
+      - 泛播78
+      - 泛播79
+      - 泛播80
+      - 泛播81
+      - 泛播82
+      - 泛播83
+      - 泛播84
+      - 泛播85
+      - 泛播86
+      - 泛播87
+      - 泛播88
+      - 泛播89
+      - 泛播90
+      - 泛播91
+      - 泛播92
+      - 泛播93
+      - 泛播94
+      - 泛播95
+      - 泛播96
+      - 泛播97
+      - 泛播98
+      - 泛播99
   
   - name: 🌏 国内媒体
     type: select
@@ -555,212 +555,212 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国加利福尼亚0
-      - 美国加利福尼亚1
-      - 美国加利福尼亚2
-      - 中国香港特别行政区3
-      - 美国加利福尼亚4
-      - 美国加利福尼亚5
-      - 中国香港特别行政区6
-      - 美国加利福尼亚7
-      - 美国加利福尼亚8
-      - 美国加利福尼亚9
-      - 美国加利福尼亚10
-      - 荷兰北荷兰省11
-      - 中国香港特别行政区12
-      - 美国加利福尼亚13
-      - 美国加利福尼亚14
-      - 中国香港特别行政区15
-      - 美国加利福尼亚16
-      - 美国加利福尼亚17
-      - 中国香港特别行政区18
-      - 中国香港特别行政区19
-      - 美国加利福尼亚20
-      - 中国香港特别行政区21
-      - 中国香港特别行政区22
-      - 美国加利福尼亚23
-      - 美国加利福尼亚24
-      - 美国加利福尼亚25
-      - 美国加利福尼亚26
-      - 美国加利福尼亚27
-      - 美国加利福尼亚28
-      - 美国加利福尼亚29
-      - 中国香港特别行政区30
-      - 中国香港特别行政区31
-      - 中国香港特别行政区32
-      - 美国加利福尼亚33
-      - 美国加利福尼亚34
-      - 美国加利福尼亚35
-      - 美国加利福尼亚36
-      - 美国加利福尼亚37
-      - 美国加利福尼亚38
-      - 美国加利福尼亚39
-      - 中国香港特别行政区40
-      - 德国黑森41
-      - 美国加利福尼亚42
-      - 中国香港特别行政区43
-      - 美国加利福尼亚44
-      - 美国加利福尼亚45
-      - 中国香港特别行政区46
-      - 美国加利福尼亚47
-      - 美国加利福尼亚48
-      - 美国加利福尼亚49
-      - 中国香港特别行政区50
-      - 美国加利福尼亚51
-      - 美国加利福尼亚52
-      - 中国香港特别行政区53
-      - 中国香港特别行政区54
-      - 美国加利福尼亚55
-      - 美国加利福尼亚56
-      - 美国加利福尼亚57
-      - 美国加利福尼亚58
-      - 中国香港特别行政区59
-      - 美国加利福尼亚60
-      - 美国加利福尼亚61
-      - 美国加利福尼亚62
-      - 中国香港特别行政区63
-      - 中国香港特别行政区64
-      - 美国加利福尼亚65
-      - 美国加利福尼亚66
-      - 中国香港特别行政区67
-      - 中国香港特别行政区68
-      - 中国香港特别行政区69
-      - 中国香港特别行政区70
-      - 美国加利福尼亚71
-      - 荷兰北荷兰省72
-      - 美国加利福尼亚73
-      - 美国加利福尼亚74
-      - 美国加利福尼亚75
-      - 美国加利福尼亚76
-      - 美国加利福尼亚77
-      - 美国加利福尼亚78
-      - 中国香港特别行政区79
-      - 美国加利福尼亚80
-      - 美国加利福尼亚81
-      - 中国香港特别行政区82
-      - 中国香港特别行政区83
-      - 中国香港特别行政区84
-      - 中国香港特别行政区85
-      - 美国加利福尼亚86
-      - 中国香港特别行政区87
-      - 美国加利福尼亚88
-      - 美国加利福尼亚89
-      - 美国加利福尼亚90
-      - 美国加利福尼亚91
-      - 中国香港特别行政区92
-      - 中国香港特别行政区93
-      - 美国加利福尼亚94
-      - 中国香港特别行政区95
-      - 荷兰北荷兰省96
-      - 德国黑森97
-      - 德国黑森98
-      - 中国香港特别行政区99
+      - 泛播0
+      - 泛播1
+      - 泛播2
+      - 泛播3
+      - 泛播4
+      - 泛播5
+      - 泛播6
+      - 泛播7
+      - 泛播8
+      - 泛播9
+      - 泛播10
+      - 泛播11
+      - 泛播12
+      - 泛播13
+      - 泛播14
+      - 泛播15
+      - 泛播16
+      - 泛播17
+      - 泛播18
+      - 泛播19
+      - 泛播20
+      - 泛播21
+      - 泛播22
+      - 泛播23
+      - 泛播24
+      - 泛播25
+      - 泛播26
+      - 泛播27
+      - 泛播28
+      - 泛播29
+      - 泛播30
+      - 泛播31
+      - 泛播32
+      - 泛播33
+      - 泛播34
+      - 泛播35
+      - 泛播36
+      - 泛播37
+      - 泛播38
+      - 泛播39
+      - 泛播40
+      - 泛播41
+      - 泛播42
+      - 泛播43
+      - 泛播44
+      - 泛播45
+      - 泛播46
+      - 泛播47
+      - 泛播48
+      - 泛播49
+      - 泛播50
+      - 泛播51
+      - 泛播52
+      - 泛播53
+      - 泛播54
+      - 泛播55
+      - 泛播56
+      - 泛播57
+      - 泛播58
+      - 泛播59
+      - 泛播60
+      - 泛播61
+      - 泛播62
+      - 泛播63
+      - 泛播64
+      - 泛播65
+      - 泛播66
+      - 泛播67
+      - 泛播68
+      - 泛播69
+      - 泛播70
+      - 泛播71
+      - 泛播72
+      - 泛播73
+      - 泛播74
+      - 泛播75
+      - 泛播76
+      - 泛播77
+      - 泛播78
+      - 泛播79
+      - 泛播80
+      - 泛播81
+      - 泛播82
+      - 泛播83
+      - 泛播84
+      - 泛播85
+      - 泛播86
+      - 泛播87
+      - 泛播88
+      - 泛播89
+      - 泛播90
+      - 泛播91
+      - 泛播92
+      - 泛播93
+      - 泛播94
+      - 泛播95
+      - 泛播96
+      - 泛播97
+      - 泛播98
+      - 泛播99
   
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 美国加利福尼亚0
-      - 美国加利福尼亚1
-      - 美国加利福尼亚2
-      - 中国香港特别行政区3
-      - 美国加利福尼亚4
-      - 美国加利福尼亚5
-      - 中国香港特别行政区6
-      - 美国加利福尼亚7
-      - 美国加利福尼亚8
-      - 美国加利福尼亚9
-      - 美国加利福尼亚10
-      - 荷兰北荷兰省11
-      - 中国香港特别行政区12
-      - 美国加利福尼亚13
-      - 美国加利福尼亚14
-      - 中国香港特别行政区15
-      - 美国加利福尼亚16
-      - 美国加利福尼亚17
-      - 中国香港特别行政区18
-      - 中国香港特别行政区19
-      - 美国加利福尼亚20
-      - 中国香港特别行政区21
-      - 中国香港特别行政区22
-      - 美国加利福尼亚23
-      - 美国加利福尼亚24
-      - 美国加利福尼亚25
-      - 美国加利福尼亚26
-      - 美国加利福尼亚27
-      - 美国加利福尼亚28
-      - 美国加利福尼亚29
-      - 中国香港特别行政区30
-      - 中国香港特别行政区31
-      - 中国香港特别行政区32
-      - 美国加利福尼亚33
-      - 美国加利福尼亚34
-      - 美国加利福尼亚35
-      - 美国加利福尼亚36
-      - 美国加利福尼亚37
-      - 美国加利福尼亚38
-      - 美国加利福尼亚39
-      - 中国香港特别行政区40
-      - 德国黑森41
-      - 美国加利福尼亚42
-      - 中国香港特别行政区43
-      - 美国加利福尼亚44
-      - 美国加利福尼亚45
-      - 中国香港特别行政区46
-      - 美国加利福尼亚47
-      - 美国加利福尼亚48
-      - 美国加利福尼亚49
-      - 中国香港特别行政区50
-      - 美国加利福尼亚51
-      - 美国加利福尼亚52
-      - 中国香港特别行政区53
-      - 中国香港特别行政区54
-      - 美国加利福尼亚55
-      - 美国加利福尼亚56
-      - 美国加利福尼亚57
-      - 美国加利福尼亚58
-      - 中国香港特别行政区59
-      - 美国加利福尼亚60
-      - 美国加利福尼亚61
-      - 美国加利福尼亚62
-      - 中国香港特别行政区63
-      - 中国香港特别行政区64
-      - 美国加利福尼亚65
-      - 美国加利福尼亚66
-      - 中国香港特别行政区67
-      - 中国香港特别行政区68
-      - 中国香港特别行政区69
-      - 中国香港特别行政区70
-      - 美国加利福尼亚71
-      - 荷兰北荷兰省72
-      - 美国加利福尼亚73
-      - 美国加利福尼亚74
-      - 美国加利福尼亚75
-      - 美国加利福尼亚76
-      - 美国加利福尼亚77
-      - 美国加利福尼亚78
-      - 中国香港特别行政区79
-      - 美国加利福尼亚80
-      - 美国加利福尼亚81
-      - 中国香港特别行政区82
-      - 中国香港特别行政区83
-      - 中国香港特别行政区84
-      - 中国香港特别行政区85
-      - 美国加利福尼亚86
-      - 中国香港特别行政区87
-      - 美国加利福尼亚88
-      - 美国加利福尼亚89
-      - 美国加利福尼亚90
-      - 美国加利福尼亚91
-      - 中国香港特别行政区92
-      - 中国香港特别行政区93
-      - 美国加利福尼亚94
-      - 中国香港特别行政区95
-      - 荷兰北荷兰省96
-      - 德国黑森97
-      - 德国黑森98
-      - 中国香港特别行政区99
+      - 泛播0
+      - 泛播1
+      - 泛播2
+      - 泛播3
+      - 泛播4
+      - 泛播5
+      - 泛播6
+      - 泛播7
+      - 泛播8
+      - 泛播9
+      - 泛播10
+      - 泛播11
+      - 泛播12
+      - 泛播13
+      - 泛播14
+      - 泛播15
+      - 泛播16
+      - 泛播17
+      - 泛播18
+      - 泛播19
+      - 泛播20
+      - 泛播21
+      - 泛播22
+      - 泛播23
+      - 泛播24
+      - 泛播25
+      - 泛播26
+      - 泛播27
+      - 泛播28
+      - 泛播29
+      - 泛播30
+      - 泛播31
+      - 泛播32
+      - 泛播33
+      - 泛播34
+      - 泛播35
+      - 泛播36
+      - 泛播37
+      - 泛播38
+      - 泛播39
+      - 泛播40
+      - 泛播41
+      - 泛播42
+      - 泛播43
+      - 泛播44
+      - 泛播45
+      - 泛播46
+      - 泛播47
+      - 泛播48
+      - 泛播49
+      - 泛播50
+      - 泛播51
+      - 泛播52
+      - 泛播53
+      - 泛播54
+      - 泛播55
+      - 泛播56
+      - 泛播57
+      - 泛播58
+      - 泛播59
+      - 泛播60
+      - 泛播61
+      - 泛播62
+      - 泛播63
+      - 泛播64
+      - 泛播65
+      - 泛播66
+      - 泛播67
+      - 泛播68
+      - 泛播69
+      - 泛播70
+      - 泛播71
+      - 泛播72
+      - 泛播73
+      - 泛播74
+      - 泛播75
+      - 泛播76
+      - 泛播77
+      - 泛播78
+      - 泛播79
+      - 泛播80
+      - 泛播81
+      - 泛播82
+      - 泛播83
+      - 泛播84
+      - 泛播85
+      - 泛播86
+      - 泛播87
+      - 泛播88
+      - 泛播89
+      - 泛播90
+      - 泛播91
+      - 泛播92
+      - 泛播93
+      - 泛播94
+      - 泛播95
+      - 泛播96
+      - 泛播97
+      - 泛播98
+      - 泛播99
   
   - name: 🍎 苹果服务
     type: select
@@ -768,106 +768,106 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国加利福尼亚0
-      - 美国加利福尼亚1
-      - 美国加利福尼亚2
-      - 中国香港特别行政区3
-      - 美国加利福尼亚4
-      - 美国加利福尼亚5
-      - 中国香港特别行政区6
-      - 美国加利福尼亚7
-      - 美国加利福尼亚8
-      - 美国加利福尼亚9
-      - 美国加利福尼亚10
-      - 荷兰北荷兰省11
-      - 中国香港特别行政区12
-      - 美国加利福尼亚13
-      - 美国加利福尼亚14
-      - 中国香港特别行政区15
-      - 美国加利福尼亚16
-      - 美国加利福尼亚17
-      - 中国香港特别行政区18
-      - 中国香港特别行政区19
-      - 美国加利福尼亚20
-      - 中国香港特别行政区21
-      - 中国香港特别行政区22
-      - 美国加利福尼亚23
-      - 美国加利福尼亚24
-      - 美国加利福尼亚25
-      - 美国加利福尼亚26
-      - 美国加利福尼亚27
-      - 美国加利福尼亚28
-      - 美国加利福尼亚29
-      - 中国香港特别行政区30
-      - 中国香港特别行政区31
-      - 中国香港特别行政区32
-      - 美国加利福尼亚33
-      - 美国加利福尼亚34
-      - 美国加利福尼亚35
-      - 美国加利福尼亚36
-      - 美国加利福尼亚37
-      - 美国加利福尼亚38
-      - 美国加利福尼亚39
-      - 中国香港特别行政区40
-      - 德国黑森41
-      - 美国加利福尼亚42
-      - 中国香港特别行政区43
-      - 美国加利福尼亚44
-      - 美国加利福尼亚45
-      - 中国香港特别行政区46
-      - 美国加利福尼亚47
-      - 美国加利福尼亚48
-      - 美国加利福尼亚49
-      - 中国香港特别行政区50
-      - 美国加利福尼亚51
-      - 美国加利福尼亚52
-      - 中国香港特别行政区53
-      - 中国香港特别行政区54
-      - 美国加利福尼亚55
-      - 美国加利福尼亚56
-      - 美国加利福尼亚57
-      - 美国加利福尼亚58
-      - 中国香港特别行政区59
-      - 美国加利福尼亚60
-      - 美国加利福尼亚61
-      - 美国加利福尼亚62
-      - 中国香港特别行政区63
-      - 中国香港特别行政区64
-      - 美国加利福尼亚65
-      - 美国加利福尼亚66
-      - 中国香港特别行政区67
-      - 中国香港特别行政区68
-      - 中国香港特别行政区69
-      - 中国香港特别行政区70
-      - 美国加利福尼亚71
-      - 荷兰北荷兰省72
-      - 美国加利福尼亚73
-      - 美国加利福尼亚74
-      - 美国加利福尼亚75
-      - 美国加利福尼亚76
-      - 美国加利福尼亚77
-      - 美国加利福尼亚78
-      - 中国香港特别行政区79
-      - 美国加利福尼亚80
-      - 美国加利福尼亚81
-      - 中国香港特别行政区82
-      - 中国香港特别行政区83
-      - 中国香港特别行政区84
-      - 中国香港特别行政区85
-      - 美国加利福尼亚86
-      - 中国香港特别行政区87
-      - 美国加利福尼亚88
-      - 美国加利福尼亚89
-      - 美国加利福尼亚90
-      - 美国加利福尼亚91
-      - 中国香港特别行政区92
-      - 中国香港特别行政区93
-      - 美国加利福尼亚94
-      - 中国香港特别行政区95
-      - 荷兰北荷兰省96
-      - 德国黑森97
-      - 德国黑森98
-      - 中国香港特别行政区99
+      - 泛播0
+      - 泛播1
+      - 泛播2
+      - 泛播3
+      - 泛播4
+      - 泛播5
+      - 泛播6
+      - 泛播7
+      - 泛播8
+      - 泛播9
+      - 泛播10
+      - 泛播11
+      - 泛播12
+      - 泛播13
+      - 泛播14
+      - 泛播15
+      - 泛播16
+      - 泛播17
+      - 泛播18
+      - 泛播19
+      - 泛播20
+      - 泛播21
+      - 泛播22
+      - 泛播23
+      - 泛播24
+      - 泛播25
+      - 泛播26
+      - 泛播27
+      - 泛播28
+      - 泛播29
+      - 泛播30
+      - 泛播31
+      - 泛播32
+      - 泛播33
+      - 泛播34
+      - 泛播35
+      - 泛播36
+      - 泛播37
+      - 泛播38
+      - 泛播39
+      - 泛播40
+      - 泛播41
+      - 泛播42
+      - 泛播43
+      - 泛播44
+      - 泛播45
+      - 泛播46
+      - 泛播47
+      - 泛播48
+      - 泛播49
+      - 泛播50
+      - 泛播51
+      - 泛播52
+      - 泛播53
+      - 泛播54
+      - 泛播55
+      - 泛播56
+      - 泛播57
+      - 泛播58
+      - 泛播59
+      - 泛播60
+      - 泛播61
+      - 泛播62
+      - 泛播63
+      - 泛播64
+      - 泛播65
+      - 泛播66
+      - 泛播67
+      - 泛播68
+      - 泛播69
+      - 泛播70
+      - 泛播71
+      - 泛播72
+      - 泛播73
+      - 泛播74
+      - 泛播75
+      - 泛播76
+      - 泛播77
+      - 泛播78
+      - 泛播79
+      - 泛播80
+      - 泛播81
+      - 泛播82
+      - 泛播83
+      - 泛播84
+      - 泛播85
+      - 泛播86
+      - 泛播87
+      - 泛播88
+      - 泛播89
+      - 泛播90
+      - 泛播91
+      - 泛播92
+      - 泛播93
+      - 泛播94
+      - 泛播95
+      - 泛播96
+      - 泛播97
+      - 泛播98
+      - 泛播99
   
   - name: 🎯 全球直连
     type: select
@@ -884,106 +884,106 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国加利福尼亚0
-      - 美国加利福尼亚1
-      - 美国加利福尼亚2
-      - 中国香港特别行政区3
-      - 美国加利福尼亚4
-      - 美国加利福尼亚5
-      - 中国香港特别行政区6
-      - 美国加利福尼亚7
-      - 美国加利福尼亚8
-      - 美国加利福尼亚9
-      - 美国加利福尼亚10
-      - 荷兰北荷兰省11
-      - 中国香港特别行政区12
-      - 美国加利福尼亚13
-      - 美国加利福尼亚14
-      - 中国香港特别行政区15
-      - 美国加利福尼亚16
-      - 美国加利福尼亚17
-      - 中国香港特别行政区18
-      - 中国香港特别行政区19
-      - 美国加利福尼亚20
-      - 中国香港特别行政区21
-      - 中国香港特别行政区22
-      - 美国加利福尼亚23
-      - 美国加利福尼亚24
-      - 美国加利福尼亚25
-      - 美国加利福尼亚26
-      - 美国加利福尼亚27
-      - 美国加利福尼亚28
-      - 美国加利福尼亚29
-      - 中国香港特别行政区30
-      - 中国香港特别行政区31
-      - 中国香港特别行政区32
-      - 美国加利福尼亚33
-      - 美国加利福尼亚34
-      - 美国加利福尼亚35
-      - 美国加利福尼亚36
-      - 美国加利福尼亚37
-      - 美国加利福尼亚38
-      - 美国加利福尼亚39
-      - 中国香港特别行政区40
-      - 德国黑森41
-      - 美国加利福尼亚42
-      - 中国香港特别行政区43
-      - 美国加利福尼亚44
-      - 美国加利福尼亚45
-      - 中国香港特别行政区46
-      - 美国加利福尼亚47
-      - 美国加利福尼亚48
-      - 美国加利福尼亚49
-      - 中国香港特别行政区50
-      - 美国加利福尼亚51
-      - 美国加利福尼亚52
-      - 中国香港特别行政区53
-      - 中国香港特别行政区54
-      - 美国加利福尼亚55
-      - 美国加利福尼亚56
-      - 美国加利福尼亚57
-      - 美国加利福尼亚58
-      - 中国香港特别行政区59
-      - 美国加利福尼亚60
-      - 美国加利福尼亚61
-      - 美国加利福尼亚62
-      - 中国香港特别行政区63
-      - 中国香港特别行政区64
-      - 美国加利福尼亚65
-      - 美国加利福尼亚66
-      - 中国香港特别行政区67
-      - 中国香港特别行政区68
-      - 中国香港特别行政区69
-      - 中国香港特别行政区70
-      - 美国加利福尼亚71
-      - 荷兰北荷兰省72
-      - 美国加利福尼亚73
-      - 美国加利福尼亚74
-      - 美国加利福尼亚75
-      - 美国加利福尼亚76
-      - 美国加利福尼亚77
-      - 美国加利福尼亚78
-      - 中国香港特别行政区79
-      - 美国加利福尼亚80
-      - 美国加利福尼亚81
-      - 中国香港特别行政区82
-      - 中国香港特别行政区83
-      - 中国香港特别行政区84
-      - 中国香港特别行政区85
-      - 美国加利福尼亚86
-      - 中国香港特别行政区87
-      - 美国加利福尼亚88
-      - 美国加利福尼亚89
-      - 美国加利福尼亚90
-      - 美国加利福尼亚91
-      - 中国香港特别行政区92
-      - 中国香港特别行政区93
-      - 美国加利福尼亚94
-      - 中国香港特别行政区95
-      - 荷兰北荷兰省96
-      - 德国黑森97
-      - 德国黑森98
-      - 中国香港特别行政区99
+      - 泛播0
+      - 泛播1
+      - 泛播2
+      - 泛播3
+      - 泛播4
+      - 泛播5
+      - 泛播6
+      - 泛播7
+      - 泛播8
+      - 泛播9
+      - 泛播10
+      - 泛播11
+      - 泛播12
+      - 泛播13
+      - 泛播14
+      - 泛播15
+      - 泛播16
+      - 泛播17
+      - 泛播18
+      - 泛播19
+      - 泛播20
+      - 泛播21
+      - 泛播22
+      - 泛播23
+      - 泛播24
+      - 泛播25
+      - 泛播26
+      - 泛播27
+      - 泛播28
+      - 泛播29
+      - 泛播30
+      - 泛播31
+      - 泛播32
+      - 泛播33
+      - 泛播34
+      - 泛播35
+      - 泛播36
+      - 泛播37
+      - 泛播38
+      - 泛播39
+      - 泛播40
+      - 泛播41
+      - 泛播42
+      - 泛播43
+      - 泛播44
+      - 泛播45
+      - 泛播46
+      - 泛播47
+      - 泛播48
+      - 泛播49
+      - 泛播50
+      - 泛播51
+      - 泛播52
+      - 泛播53
+      - 泛播54
+      - 泛播55
+      - 泛播56
+      - 泛播57
+      - 泛播58
+      - 泛播59
+      - 泛播60
+      - 泛播61
+      - 泛播62
+      - 泛播63
+      - 泛播64
+      - 泛播65
+      - 泛播66
+      - 泛播67
+      - 泛播68
+      - 泛播69
+      - 泛播70
+      - 泛播71
+      - 泛播72
+      - 泛播73
+      - 泛播74
+      - 泛播75
+      - 泛播76
+      - 泛播77
+      - 泛播78
+      - 泛播79
+      - 泛播80
+      - 泛播81
+      - 泛播82
+      - 泛播83
+      - 泛播84
+      - 泛播85
+      - 泛播86
+      - 泛播87
+      - 泛播88
+      - 泛播89
+      - 泛播90
+      - 泛播91
+      - 泛播92
+      - 泛播93
+      - 泛播94
+      - 泛播95
+      - 泛播96
+      - 泛播97
+      - 泛播98
+      - 泛播99
   
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
