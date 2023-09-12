@@ -48,7 +48,7 @@ function clearHistortFile() {
  * 查询vmess
  */
 async function queryVmessUrl() {
-    for (let i = 1; i < 101; i++) {
+    for (let i = 1; i < 51; i++) {
         let option = {
             method: 'GET',
             // uri: getCommonParams(VMESS_URL, area[index]),
@@ -67,7 +67,7 @@ async function queryVmessUrl() {
         } catch (e) {
 
         }
-        sleep(10000)
+        sleep(11000)
     }
 }
 
@@ -216,10 +216,10 @@ function getCommonParams(url, area) {
     let deviceId = uuidv4().replace(/-/g, "");
     let apps = md5(sign + deviceId);
     let time = new Date().getTime();
-    let result = url + "&vip=true&proto=4&platform=android&ver=8.3.18542&deviceid=" + deviceId + "&unicode=" + deviceId + "&t="
+    let result = url + "&vip=false&proto=4&platform=android&ver=8.3.18542&deviceid=" + deviceId + "&unicode=" + deviceId + "&t="
         + time
-        + "&code=LM8ZJUQ&recomm_code=&f=2023-09-12&install=2023-09-12&token=&package=com.network.xf18642&width=411.42856&height=774.8571&apps="
-        + apps + "&area=" + area;
+        + "&code=Q5N0UKR&recomm_code=&f=2023-09-12&install=2023-09-12&token=&package=com.network.xf18642&width=411.42856&height=774.8571&apps="
+        + apps;
     return result;
 }
 
