@@ -12,7 +12,7 @@ const filePath = `temp.dql`;  // 根据今天的日期生成文件路径
 const defaultYmlFilePath = `ccc2.yml`;  // 默认配置文件
 const resultYmlFilePath = `result.yml`;  // 最终的配置文件
 
-const VMESS_URL = fromBase64("aHR0cHM6Ly93d3cueGNoOGtmLnh5ejoyMDAwMC9hcGkvZXZtZXNz");
+const VMESS_URL = fromBase64("aHR0cHM6Ly8xMTAuNDMuMzcuMjQyOjIwMDAwL2FwaS9ldm1lc3M=");
 const IP_URL = "https://ip.useragentinfo.com/jsonp?ip=";
 
 // const area = [999, 2, 34, 48, 49, 17, 7, 46, 4, 3, 33,
@@ -55,7 +55,8 @@ async function queryVmessUrl() {
             uri: getCommonParams(VMESS_URL, i),
             headers: {
                 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Mobile Safari/537.36'
-            }
+            },
+            strictSSL: false
         }
         let result = await request.get(option)
         try {
@@ -210,13 +211,14 @@ function parseVmessLink(link) {
  * @returns 
  */
 function getCommonParams(url, area) {
-    let sign = "B89F08DFD5A44402B2E8165C82623A444AA15139";
+    // let sign = "B89F08DFD5A44402B2E8165C82623A444AA15139";
+    let sign = "954d976c3c9fd5e5c63dab4016cc12da";
     let deviceId = uuidv4().replace(/-/g, "");
     let apps = md5(sign + deviceId);
     let time = new Date().getTime();
-    let result = url + "&vip=true&proto=4&platform=android&ver=7.5.3&deviceid=" + deviceId + "&unicode=" + deviceId + "&t="
+    let result = url + "&vip=true&proto=4&platform=android&ver=8.3.18542&deviceid=" + deviceId + "&unicode=" + deviceId + "&t="
         + time
-        + "&code=C1LCR6X&recomm_code=&f=2022-07-29&install=2022-06-29&token=&package=com.network.xf100&width=411.42856&height=774.8571&apps="
+        + "&code=LM8ZJUQ&recomm_code=&f=2023-09-12&install=2023-09-12&token=&package=com.network.xf18642&width=411.42856&height=774.8571&apps="
         + apps + "&area=" + area;
     return result;
 }
