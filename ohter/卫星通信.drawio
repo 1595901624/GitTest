@@ -1,17 +1,130 @@
-<mxfile host="app.diagrams.net" modified="2023-09-26T08:11:51.514Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.35" etag="pvhpl-xvR1Fq8A4fUMhN" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-26T08:50:26.988Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.35" etag="giTQY0DgpTDBuGMeRD43" version="21.6.8" type="github">
   <diagram name="第 1 页" id="6wBXwBl5Z8HS61RYGkBm">
     <mxGraphModel dx="1379" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IUubtvrcPaJ5jsY_LAJL-1" target="IUubtvrcPaJ5jsY_LAJL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-12" value="设备向手机发送设备信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IUubtvrcPaJ5jsY_LAJL-11">
+          <mxGeometry x="-0.0949" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IUubtvrcPaJ5jsY_LAJL-1" value="物联网设备&lt;br&gt;（扫地机、智能插座、灯等）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="283.3" width="210" height="70" as="geometry" />
+          <mxGeometry x="120" y="274.95" width="200" height="75.05" as="geometry" />
         </mxCell>
         <mxCell id="IUubtvrcPaJ5jsY_LAJL-3" value="服务器" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/media_converters/Media_Converter_Standalone.svg;" vertex="1" parent="1">
-          <mxGeometry x="352" y="120" width="98.06" height="80" as="geometry" />
+          <mxGeometry x="150" y="80" width="106.77" height="87.1" as="geometry" />
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IUubtvrcPaJ5jsY_LAJL-5" target="IUubtvrcPaJ5jsY_LAJL-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="250.1329509906152" as="sourcePoint" />
+            <mxPoint x="350" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-9" value="客户端向服务器绑定注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IUubtvrcPaJ5jsY_LAJL-8">
+          <mxGeometry x="0.1374" y="-2" relative="1" as="geometry">
+            <mxPoint x="49" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="IUubtvrcPaJ5jsY_LAJL-5" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Smartphone.svg;" vertex="1" parent="1">
-          <mxGeometry x="500" y="260" width="53.44" height="116.6" as="geometry" />
+          <mxGeometry x="530" y="263.3" width="41.25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="390" width="700" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IUubtvrcPaJ5jsY_LAJL-19" target="IUubtvrcPaJ5jsY_LAJL-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-18" value="设备向手机发送设备信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IUubtvrcPaJ5jsY_LAJL-17">
+          <mxGeometry x="-0.0949" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-19" value="物联网设备&lt;br&gt;（扫地机、智能插座、灯等）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="188" y="618.3" width="200" height="75.05" as="geometry" />
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-20" value="服务器" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/media_converters/Media_Converter_Standalone.svg;" vertex="1" parent="1">
+          <mxGeometry x="218" y="423.35" width="106.77" height="87.1" as="geometry" />
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IUubtvrcPaJ5jsY_LAJL-23" target="IUubtvrcPaJ5jsY_LAJL-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="558" y="593.4829509906152" as="sourcePoint" />
+            <mxPoint x="418" y="493.35" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-22" value="客户端向服务器发起绑定注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IUubtvrcPaJ5jsY_LAJL-21">
+          <mxGeometry x="0.1374" y="-2" relative="1" as="geometry">
+            <mxPoint x="49" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-23" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Smartphone.svg;" vertex="1" parent="1">
+          <mxGeometry x="598" y="606.6500000000001" width="41.25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.097;exitY=0.497;exitDx=0;exitDy=0;strokeColor=default;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IUubtvrcPaJ5jsY_LAJL-30" target="IUubtvrcPaJ5jsY_LAJL-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-25" value="手机向设备发送用户和网络信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IUubtvrcPaJ5jsY_LAJL-24">
+          <mxGeometry x="-0.0949" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-26" value="物联网设备&lt;br&gt;（扫地机、智能插座、灯等）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="974.95" width="200" height="75.05" as="geometry" />
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-27" value="服务器" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/media_converters/Media_Converter_Standalone.svg;" vertex="1" parent="1">
+          <mxGeometry x="200" y="780" width="106.77" height="87.1" as="geometry" />
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.415;exitY=0.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IUubtvrcPaJ5jsY_LAJL-26" target="IUubtvrcPaJ5jsY_LAJL-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="253" y="970" as="sourcePoint" />
+            <mxPoint x="400" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-29" value="设备向服务器发起绑定注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IUubtvrcPaJ5jsY_LAJL-28">
+          <mxGeometry x="0.1374" y="-2" relative="1" as="geometry">
+            <mxPoint x="49" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-30" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Smartphone.svg;" vertex="1" parent="1">
+          <mxGeometry x="580" y="963.3" width="41.25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="68" y="1130" width="662" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.097;exitY=0.497;exitDx=0;exitDy=0;strokeColor=default;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IUubtvrcPaJ5jsY_LAJL-38" target="IUubtvrcPaJ5jsY_LAJL-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-33" value="手机向设备发送用户和网络信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IUubtvrcPaJ5jsY_LAJL-32">
+          <mxGeometry x="-0.0949" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-34" value="物联网设备&lt;br&gt;（扫地机、智能插座、灯等）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1354.95" width="200" height="75.05" as="geometry" />
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-35" value="服务器" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/media_converters/Media_Converter_Standalone.svg;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1160" width="106.77" height="87.1" as="geometry" />
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.415;exitY=0.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IUubtvrcPaJ5jsY_LAJL-34" target="IUubtvrcPaJ5jsY_LAJL-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="253" y="1350" as="sourcePoint" />
+            <mxPoint x="400" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-37" value="设备向服务器发起绑定注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IUubtvrcPaJ5jsY_LAJL-36">
+          <mxGeometry x="0.1374" y="-2" relative="1" as="geometry">
+            <mxPoint x="49" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IUubtvrcPaJ5jsY_LAJL-38" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Smartphone.svg;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1343.3" width="41.25" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
