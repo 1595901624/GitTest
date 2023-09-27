@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T03:30:20.834Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.35" etag="_yqhQ3-kvzC5OdcysDSG" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T05:56:30.840Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.35" etag="rqRT0y_pGPm3jGUZC9Nl" version="21.8.2" type="github">
   <diagram name="第 1 页" id="6wBXwBl5Z8HS61RYGkBm">
     <mxGraphModel dx="1379" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-77" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="98" y="3740" width="742" height="380" as="geometry" />
+        </mxCell>
         <mxCell id="zgqfaP9AVYFxgBm1xzp4-58" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="3390" width="980" height="250" as="geometry" />
         </mxCell>
@@ -373,81 +376,81 @@
         <mxCell id="zgqfaP9AVYFxgBm1xzp4-57" value="响应码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="90" y="3410" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zgqfaP9AVYFxgBm1xzp4-59" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-59" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.664;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zgqfaP9AVYFxgBm1xzp4-61" target="zgqfaP9AVYFxgBm1xzp4-65">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="386.01" y="3970.004999999999" as="sourcePoint" />
-            <mxPoint x="630.01" y="3970.000389702409" as="targetPoint" />
+            <mxPoint x="354.01" y="4057.9049999999993" as="sourcePoint" />
+            <mxPoint x="598.01" y="4057.900389702409" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zgqfaP9AVYFxgBm1xzp4-60" value="设备向手机发送设备信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zgqfaP9AVYFxgBm1xzp4-59">
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-60" value="1、客户端获取设备的唯一标识符等信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zgqfaP9AVYFxgBm1xzp4-59">
           <mxGeometry x="-0.0949" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="16" y="19" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zgqfaP9AVYFxgBm1xzp4-61" value="物联网设备&lt;br&gt;（扫地机、智能插座、灯等）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="188" y="3920.7799999999997" width="200" height="75.05" as="geometry" />
+          <mxGeometry x="134.5" y="4008.68" width="200" height="75.05" as="geometry" />
         </mxCell>
         <mxCell id="zgqfaP9AVYFxgBm1xzp4-63" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zgqfaP9AVYFxgBm1xzp4-65">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="592" y="3900.1329509906154" as="sourcePoint" />
-            <mxPoint x="652.625" y="3787.1000000000004" as="targetPoint" />
+            <mxPoint x="560" y="3988.0329509906155" as="sourcePoint" />
+            <mxPoint x="620.625" y="3875.0000000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zgqfaP9AVYFxgBm1xzp4-64" value="客户端向卫星发送数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zgqfaP9AVYFxgBm1xzp4-63">
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-64" value="2、客户端向卫星发送设备绑定信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zgqfaP9AVYFxgBm1xzp4-63">
           <mxGeometry x="0.1374" y="-2" relative="1" as="geometry">
-            <mxPoint x="49" as="offset" />
+            <mxPoint x="91" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zgqfaP9AVYFxgBm1xzp4-65" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Smartphone.svg;" vertex="1" parent="1">
-          <mxGeometry x="632" y="3913.3" width="41.25" height="90" as="geometry" />
+          <mxGeometry x="621.25" y="4001.2000000000003" width="41.25" height="90" as="geometry" />
         </mxCell>
         <mxCell id="zgqfaP9AVYFxgBm1xzp4-67" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.satellite;" vertex="1" parent="1">
-          <mxGeometry x="598" y="3677.1" width="100" height="100" as="geometry" />
+          <mxGeometry x="566" y="3765" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="zgqfaP9AVYFxgBm1xzp4-68" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.308;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="zgqfaP9AVYFxgBm1xzp4-65" target="zgqfaP9AVYFxgBm1xzp4-61">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="388.8" y="3940" as="sourcePoint" />
-            <mxPoint x="500" y="3880" as="targetPoint" />
+            <mxPoint x="356.8" y="4027.9" as="sourcePoint" />
+            <mxPoint x="468" y="3967.9" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zgqfaP9AVYFxgBm1xzp4-69" value="手机向设备发送信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zgqfaP9AVYFxgBm1xzp4-68">
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-69" value="6、客户端向设备回传绑定结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zgqfaP9AVYFxgBm1xzp4-68">
           <mxGeometry x="-0.0949" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zgqfaP9AVYFxgBm1xzp4-70" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="3790" as="sourcePoint" />
-            <mxPoint x="630" y="3910" as="targetPoint" />
+            <mxPoint x="588" y="3877.9" as="sourcePoint" />
+            <mxPoint x="610" y="3998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zgqfaP9AVYFxgBm1xzp4-71" value="卫星向客户端发送数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zgqfaP9AVYFxgBm1xzp4-70">
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-71" value="5、卫星向客户端&lt;br&gt;回传绑定结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zgqfaP9AVYFxgBm1xzp4-70">
           <mxGeometry x="0.1374" y="-2" relative="1" as="geometry">
-            <mxPoint x="-45" y="-28" as="offset" />
+            <mxPoint x="-48" y="-28" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zgqfaP9AVYFxgBm1xzp4-72" value="服务器" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/media_converters/Media_Converter_Standalone.svg;" vertex="1" parent="1">
-          <mxGeometry x="222" y="3683.55" width="106.77" height="87.1" as="geometry" />
+          <mxGeometry x="190" y="3771.4500000000003" width="106.77" height="87.1" as="geometry" />
         </mxCell>
         <mxCell id="zgqfaP9AVYFxgBm1xzp4-73" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="328.77" y="3710" as="sourcePoint" />
-            <mxPoint x="588.77" y="3710" as="targetPoint" />
+            <mxPoint x="296.77" y="3797.9" as="sourcePoint" />
+            <mxPoint x="556.77" y="3797.9" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zgqfaP9AVYFxgBm1xzp4-75" value="服务器向卫星传送数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zgqfaP9AVYFxgBm1xzp4-73">
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-75" value="4、服务器向卫星回传绑定结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zgqfaP9AVYFxgBm1xzp4-73">
           <mxGeometry x="-0.229" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zgqfaP9AVYFxgBm1xzp4-74" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.012;entryY=0.866;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="zgqfaP9AVYFxgBm1xzp4-72">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="590" y="3760" as="sourcePoint" />
-            <mxPoint x="310" y="3830" as="targetPoint" />
+            <mxPoint x="558" y="3847.9" as="sourcePoint" />
+            <mxPoint x="278" y="3917.9" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zgqfaP9AVYFxgBm1xzp4-76" value="卫星向服务器&lt;br&gt;传送数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="458.77" y="3760" as="geometry">
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-76" value="3、卫星向服务器&lt;br&gt;传送绑定信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="426.77" y="3847.9" as="geometry">
             <mxPoint x="-8" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
