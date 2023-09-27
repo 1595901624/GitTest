@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T02:23:00.959Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.35" etag="vdHYVFuKdevCUxm6YrZ1" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T03:16:54.360Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.35" etag="kNVyr0BPJlYfrTnB6ZRF" version="21.8.2" type="github">
   <diagram name="第 1 页" id="6wBXwBl5Z8HS61RYGkBm">
     <mxGraphModel dx="1379" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-58" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="3390" width="980" height="250" as="geometry" />
+        </mxCell>
         <mxCell id="IUubtvrcPaJ5jsY_LAJL-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="IUubtvrcPaJ5jsY_LAJL-1" target="IUubtvrcPaJ5jsY_LAJL-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -321,6 +324,82 @@
         </mxCell>
         <mxCell id="zgqfaP9AVYFxgBm1xzp4-41" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="815.5699999999999" y="3070" width="22.5" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="3491.25" width="877" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-44" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;SS 00 CCCC UNIUSERINFO 667788AABBCC EXTRAINFO&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="3491.25" width="860" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="167" y="3541.25" as="sourcePoint" />
+            <mxPoint x="167" y="3581.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-46" value="通信方式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="137" y="3591.25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-47" value="通信卫星" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="204.5" y="3421.25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-48" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="222" y="3431.25" width="25" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-49" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="378.69" y="3472.94" width="23.38" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-50" value="用户唯一标识" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="352.38" y="3591.25" width="76.62" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-51" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="602.1" y="3468.79" width="23.38" height="208.31" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-52" value="设备唯一标识" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="571.63" y="3591.25" width="85.37" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-53" value="其它额外信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="746.9999999999999" y="3421.25" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-54" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="808.2499999999999" y="3390" width="22.5" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-56" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120.32" y="3500" as="sourcePoint" />
+            <mxPoint x="120.32" y="3450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-57" value="响应码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="3410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-59" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zgqfaP9AVYFxgBm1xzp4-61" target="zgqfaP9AVYFxgBm1xzp4-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-60" value="设备向手机发送设备信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zgqfaP9AVYFxgBm1xzp4-59">
+          <mxGeometry x="-0.0949" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-61" value="物联网设备&lt;br&gt;（扫地机、智能插座、灯等）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="222" y="3924.95" width="200" height="75.05" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-62" value="服务器" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/media_converters/Media_Converter_Standalone.svg;" vertex="1" parent="1">
+          <mxGeometry x="252" y="3730" width="106.77" height="87.1" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-63" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zgqfaP9AVYFxgBm1xzp4-65" target="zgqfaP9AVYFxgBm1xzp4-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="592" y="3900.1329509906154" as="sourcePoint" />
+            <mxPoint x="452" y="3800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-64" value="客户端向服务器绑定注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zgqfaP9AVYFxgBm1xzp4-63">
+          <mxGeometry x="0.1374" y="-2" relative="1" as="geometry">
+            <mxPoint x="49" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-65" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Smartphone.svg;" vertex="1" parent="1">
+          <mxGeometry x="632" y="3913.3" width="41.25" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
