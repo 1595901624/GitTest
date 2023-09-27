@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T07:03:53.476Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.35" etag="nUMMJeWt60PkBCuljCti" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T07:53:15.423Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.35" etag="NWVwyt_dT9tVeKFVAygv" version="21.8.2" type="github">
   <diagram name="第 1 页" id="6wBXwBl5Z8HS61RYGkBm">
     <mxGraphModel dx="1379" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -544,7 +544,7 @@
             <mxPoint x="516.3125000000001" y="5088.4400000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zgqfaP9AVYFxgBm1xzp4-102" value="1、客户端发送用户信息给设备" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zgqfaP9AVYFxgBm1xzp4-101">
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-102" value="1、客户端下发管控指令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zgqfaP9AVYFxgBm1xzp4-101">
           <mxGeometry x="-0.0949" y="2" relative="1" as="geometry">
             <mxPoint x="16" y="19" as="offset" />
           </mxGeometry>
@@ -555,7 +555,7 @@
             <mxPoint x="618.695" y="4895" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zgqfaP9AVYFxgBm1xzp4-104" value="2、设备向卫星发送设备绑定信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zgqfaP9AVYFxgBm1xzp4-103">
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-104" value="3、设备向卫星发送设备管控或者其它信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zgqfaP9AVYFxgBm1xzp4-103">
           <mxGeometry x="0.1374" y="-2" relative="1" as="geometry">
             <mxPoint x="91" as="offset" />
           </mxGeometry>
@@ -569,7 +569,7 @@
             <mxPoint x="229.81" y="5054.9225" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zgqfaP9AVYFxgBm1xzp4-107" value="6、设备向客户端回传绑定结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zgqfaP9AVYFxgBm1xzp4-106">
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-107" value="2、设备对管控指令做出响应并返回结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zgqfaP9AVYFxgBm1xzp4-106">
           <mxGeometry x="-0.0949" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -580,7 +580,7 @@
             <mxPoint x="608.07" y="5018" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zgqfaP9AVYFxgBm1xzp4-109" value="5、卫星向设备端&lt;br&gt;回传绑定结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zgqfaP9AVYFxgBm1xzp4-108">
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-109" value="6、卫星向设备&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;回传结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zgqfaP9AVYFxgBm1xzp4-108">
           <mxGeometry x="0.1374" y="-2" relative="1" as="geometry">
             <mxPoint x="-48" y="-28" as="offset" />
           </mxGeometry>
