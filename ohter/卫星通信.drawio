@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T01:51:53.239Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.35" etag="H-edlt79yLvIN74i__jW" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T02:23:00.959Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.35" etag="vdHYVFuKdevCUxm6YrZ1" version="21.8.2" type="github">
   <diagram name="第 1 页" id="6wBXwBl5Z8HS61RYGkBm">
     <mxGraphModel dx="1379" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -241,8 +241,86 @@
         <mxCell id="IUubtvrcPaJ5jsY_LAJL-63" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Smartphone.svg;" parent="1" vertex="1">
           <mxGeometry x="608" y="2546.65" width="41.25" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="zgqfaP9AVYFxgBm1xzp4-1" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;00 CCCC UNIUSERINFO 667788AABBCC&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="89" y="2893" width="642" height="60" as="geometry" />
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="36" y="2840" width="834" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-1" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;00 CCCC UNIUSERINFO 667788AABBCC EXTRAINFO&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2840" width="788" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="2890" as="sourcePoint" />
+            <mxPoint x="90" y="2930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-5" value="通信方式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2940" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-6" value="通信卫星" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="2770" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="145" y="2780" width="25" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="301.69" y="2821.69" width="23.38" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-11" value="用户唯一标识" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="275.38" y="2940" width="76.62" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="525.1" y="2817.54" width="23.38" height="208.31" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-13" value="设备唯一标识" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="494.63" y="2940" width="85.37" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-14" value="其它额外信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="2770" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-15" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="731.25" y="2738.75" width="22.5" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="43.32" y="3076.25" width="986.68" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120.32" y="3171.25" width="834" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-31" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;00 CCCC UNIUSERINFO 667788AABBCC EXTRAINFO&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="144.32" y="3171.25" width="788" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="174.32" y="3221.25" as="sourcePoint" />
+            <mxPoint x="174.32" y="3261.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-33" value="通信方式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="144.32" y="3271.25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-34" value="通信卫星" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="211.82" y="3101.25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-35" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="229.32" y="3111.25" width="25" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-36" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="386.01" y="3152.94" width="23.38" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-37" value="用户唯一标识" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="359.7" y="3271.25" width="76.62" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-38" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="609.4200000000001" y="3148.79" width="23.38" height="208.31" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-39" value="设备唯一标识" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="578.95" y="3271.25" width="85.37" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-40" value="其它额外信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="754.3199999999999" y="3101.25" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zgqfaP9AVYFxgBm1xzp4-41" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="815.5699999999999" y="3070" width="22.5" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
