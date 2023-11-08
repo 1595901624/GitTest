@@ -5,56 +5,38 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 德国黑森0, server: 51.89.114.24, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.52506348.xyz}}}
-  - {name: 德国黑森1, server: 51.89.122.191, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.12939929.xyz}}}
-  - {name: 美国加利福尼亚2, server: 142.4.117.109, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.13432059.xyz}}}
-  - {name: 美国加利福尼亚3, server: 192.74.249.3, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.37790958.xyz}}}
-  - {name: 美国加利福尼亚4, server: 107.148.86.131, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.26741204.xyz}}}
-  - {name: 德国黑森5, server: 51.38.120.157, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.38900452.xyz}}}
-  - {name: 美国加利福尼亚6, server: 198.2.203.170, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.35226205.xyz}}}
-  - {name: 美国加利福尼亚7, server: 192.74.244.1, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.54146999.xyz}}}
-  - {name: 德国黑森8, server: 51.68.163.206, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 8b447c53-feda-4d92-a975-3b7287e6ec8c, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.42198580.xyz}}}
-  - {name: 德国黑森9, server: 51.89.41.206, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.66250929.xyz}}}
-  - {name: 美国加利福尼亚10, server: 107.148.87.88, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.77980963.xyz}}}
-  - {name: 德国北莱茵-威斯特法伦州11, server: 85.114.138.238, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.84971347.xyz}}}
-  - {name: 美国加利福尼亚12, server: 38.54.185.111, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.73664999.xyz}}}
-  - {name: 德国黑森13, server: 51.89.122.191, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.12939929.xyz}}}
-  - {name: 美国加利福尼亚14, server: 198.2.197.247, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.25921573.xyz}}}
-  - {name: 德国黑森15, server: 51.195.105.66, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.86690898.xyz}}}
-  - {name: 德国黑森16, server: 135.125.155.189, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.26891435.xyz}}}
-  - {name: 德国黑森17, server: 51.68.171.3, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.32933418.xyz}}}
-  - {name: 德国北莱茵-威斯特法伦州18, server: 5.199.130.55, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.61961782.xyz}}}
-  - {name: 德国北莱茵-威斯特法伦州19, server: 89.163.150.35, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.34591664.xyz}}}
-  - {name: 德国黑森20, server: 51.89.114.24, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.52506348.xyz}}}
-  - {name: 德国黑森21, server: 51.89.16.22, port: 443, client-fingerprint: chrome, type: vmess, uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.25598954.xyz}}}
-  - {name: 德国黑森22, server: 51.89.17.152, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.64482454.xyz}}}
-  - {name: 德国北莱茵-威斯特法伦州23, server: 89.163.150.9, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.75723270.xyz}}}
-  - {name: 德国黑森24, server: 54.37.194.223, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.68569684.xyz}}}
-  - {name: 美国加利福尼亚25, server: 142.4.106.113, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.20332959.xyz}}}
-  - {name: 德国黑森26, server: 54.36.109.139, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.53349870.xyz}}}
-  - {name: 美国加利福尼亚27, server: 142.4.110.10, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 08fc4943-4c7a-4a69-9265-fb961eaea917, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.53846731.xyz}}}
-  - {name: 德国北莱茵-威斯特法伦州28, server: 5.104.107.166, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.30187697.xyz}}}
-  - {name: 美国加利福尼亚29, server: 38.54.185.111, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.73664999.xyz}}}
-  - {name: 美国加利福尼亚30, server: 142.0.131.61, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 2a23dbd5-09cf-4aa8-a835-3230728c4973, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.68757543.xyz}}}
-  - {name: 法国巴黎31, server: 51.159.214.132, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.74592732.xyz}}}
-  - {name: 德国黑森32, server: 51.68.163.206, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 8b447c53-feda-4d92-a975-3b7287e6ec8c, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.42198580.xyz}}}
-  - {name: 美国加利福尼亚33, server: 142.4.96.59, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.14023051.xyz}}}
-  - {name: 美国加利福尼亚34, server: 199.188.108.230, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.16616906.xyz}}}
-  - {name: 德国黑森35, server: 54.38.217.123, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.84493373.xyz}}}
-  - {name: 德国北莱茵-威斯特法伦州36, server: 89.163.129.17, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.70145004.xyz}}}
-  - {name: 美国加利福尼亚37, server: 137.175.13.243, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.46770405.xyz}}}
-  - {name: 德国黑森38, server: 51.68.171.3, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.32933418.xyz}}}
-  - {name: 德国北莱茵-威斯特法伦州39, server: 89.163.155.48, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.86500750.xyz}}}
-  - {name: 美国加利福尼亚40, server: 199.188.105.164, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.72405672.xyz}}}
-  - {name: 德国北莱茵-威斯特法伦州41, server: 89.163.129.17, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.70145004.xyz}}}
-  - {name: 德国黑森42, server: 51.195.105.66, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.86690898.xyz}}}
-  - {name: 美国加利福尼亚43, server: 107.148.196.242, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.86222404.xyz}}}
-  - {name: 美国加利福尼亚44, server: 142.4.110.10, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 08fc4943-4c7a-4a69-9265-fb961eaea917, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.53846731.xyz}}}
-  - {name: 德国北莱茵-威斯特法伦州45, server: 89.163.129.17, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.70145004.xyz}}}
-  - {name: 德国北莱茵-威斯特法伦州46, server: 89.163.150.213, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.68706198.xyz}}}
-  - {name: 德国黑森47, server: 51.89.114.24, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.52506348.xyz}}}
-  - {name: 德国黑森48, server: 51.77.66.65, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.38026098.xyz}}}
-  - {name: 德国黑森49, server: 51.68.171.3, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.32933418.xyz}}}
+  - {name: 美国加利福尼亚0, server: 142.4.125.19, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.66840777.xyz}}}
+  - {name: 美国加利福尼亚1, server: 198.2.202.23, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.94231160.xyz}}}
+  - {name: 美国加利福尼亚2, server: 198.2.197.247, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.25921573.xyz}}}
+  - {name: 德国北莱茵-威斯特法伦州3, server: 5.199.130.55, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.61961782.xyz}}}
+  - {name: 美国加利福尼亚4, server: 198.2.193.4, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.77853223.xyz}}}
+  - {name: 美国加利福尼亚5, server: 198.2.193.4, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.77853223.xyz}}}
+  - {name: 德国黑森6, server: 51.38.120.157, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.38900452.xyz}}}
+  - {name: 德国黑森7, server: 51.195.17.75, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.63817230.xyz}}}
+  - {name: 德国北莱茵-威斯特法伦州8, server: 89.163.130.170, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.69370503.xyz}}}
+  - {name: 德国黑森9, server: 51.89.3.229, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.12473385.xyz}}}
+  - {name: 德国北莱茵-威斯特法伦州10, server: 89.163.157.200, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.74413918.xyz}}}
+  - {name: 德国北莱茵-威斯特法伦州11, server: 89.163.152.84, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.15888660.xyz}}}
+  - {name: 德国黑森12, server: 51.38.122.102, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.75132269.xyz}}}
+  - {name: 美国加利福尼亚13, server: 107.148.87.88, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.77980963.xyz}}}
+  - {name: 德国北莱茵-威斯特法伦州14, server: 89.163.214.136, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.50683445.xyz}}}
+  - {name: 德国黑森15, server: 54.36.109.139, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.53349870.xyz}}}
+  - {name: 德国北莱茵-威斯特法伦州16, server: 85.114.138.238, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.84971347.xyz}}}
+  - {name: 德国黑森17, server: 54.38.217.123, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.84493373.xyz}}}
+  - {name: 德国黑森18, server: 51.68.163.206, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 8b447c53-feda-4d92-a975-3b7287e6ec8c, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.42198580.xyz}}}
+  - {name: 美国加利福尼亚19, server: 107.148.25.164, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.88344949.xyz}}}
+  - {name: 德国黑森20, server: 51.195.35.151, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.17920506.xyz}}}
+  - {name: 美国加利福尼亚21, server: 198.2.206.34, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.14787414.com}}}
+  - {name: 德国黑森22, server: 54.37.95.238, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.40760953.xyz}}}
+  - {name: 德国黑森23, server: 135.125.155.189, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.26891435.xyz}}}
+  - {name: 德国黑森24, server: 54.37.95.238, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.40760953.xyz}}}
+  - {name: 美国加利福尼亚25, server: 137.175.13.243, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.46770405.xyz}}}
+  - {name: 美国加利福尼亚26, server: 142.4.109.12, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.29253744.xyz}}}
+  - {name: 美国加利福尼亚27, server: 199.188.105.164, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.72405672.xyz}}}
+  - {name: 美国加利福尼亚28, server: 107.148.86.131, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.26741204.xyz}}}
+  - {name: 德国黑森29, server: 51.195.105.66, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.86690898.xyz}}}
+  - {name: 法国巴黎30, server: 51.159.214.132, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.74592732.xyz}}}
+  - {name: 美国加利福尼亚31, server: 198.2.193.4, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.77853223.xyz}}}
 
 proxy-groups:
   - name: 🔰 节点选择
@@ -62,112 +44,76 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 德国黑森0
-      - 德国黑森1
+      - 美国加利福尼亚0
+      - 美国加利福尼亚1
       - 美国加利福尼亚2
-      - 美国加利福尼亚3
+      - 德国北莱茵-威斯特法伦州3
       - 美国加利福尼亚4
-      - 德国黑森5
-      - 美国加利福尼亚6
-      - 美国加利福尼亚7
-      - 德国黑森8
+      - 美国加利福尼亚5
+      - 德国黑森6
+      - 德国黑森7
+      - 德国北莱茵-威斯特法伦州8
       - 德国黑森9
-      - 美国加利福尼亚10
+      - 德国北莱茵-威斯特法伦州10
       - 德国北莱茵-威斯特法伦州11
-      - 美国加利福尼亚12
-      - 德国黑森13
-      - 美国加利福尼亚14
+      - 德国黑森12
+      - 美国加利福尼亚13
+      - 德国北莱茵-威斯特法伦州14
       - 德国黑森15
-      - 德国黑森16
+      - 德国北莱茵-威斯特法伦州16
       - 德国黑森17
-      - 德国北莱茵-威斯特法伦州18
-      - 德国北莱茵-威斯特法伦州19
+      - 德国黑森18
+      - 美国加利福尼亚19
       - 德国黑森20
-      - 德国黑森21
+      - 美国加利福尼亚21
       - 德国黑森22
-      - 德国北莱茵-威斯特法伦州23
+      - 德国黑森23
       - 德国黑森24
       - 美国加利福尼亚25
-      - 德国黑森26
+      - 美国加利福尼亚26
       - 美国加利福尼亚27
-      - 德国北莱茵-威斯特法伦州28
-      - 美国加利福尼亚29
-      - 美国加利福尼亚30
-      - 法国巴黎31
-      - 德国黑森32
-      - 美国加利福尼亚33
-      - 美国加利福尼亚34
-      - 德国黑森35
-      - 德国北莱茵-威斯特法伦州36
-      - 美国加利福尼亚37
-      - 德国黑森38
-      - 德国北莱茵-威斯特法伦州39
-      - 美国加利福尼亚40
-      - 德国北莱茵-威斯特法伦州41
-      - 德国黑森42
-      - 美国加利福尼亚43
-      - 美国加利福尼亚44
-      - 德国北莱茵-威斯特法伦州45
-      - 德国北莱茵-威斯特法伦州46
-      - 德国黑森47
-      - 德国黑森48
-      - 德国黑森49
+      - 美国加利福尼亚28
+      - 德国黑森29
+      - 法国巴黎30
+      - 美国加利福尼亚31
   
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 德国黑森0
-      - 德国黑森1
+      - 美国加利福尼亚0
+      - 美国加利福尼亚1
       - 美国加利福尼亚2
-      - 美国加利福尼亚3
+      - 德国北莱茵-威斯特法伦州3
       - 美国加利福尼亚4
-      - 德国黑森5
-      - 美国加利福尼亚6
-      - 美国加利福尼亚7
-      - 德国黑森8
+      - 美国加利福尼亚5
+      - 德国黑森6
+      - 德国黑森7
+      - 德国北莱茵-威斯特法伦州8
       - 德国黑森9
-      - 美国加利福尼亚10
+      - 德国北莱茵-威斯特法伦州10
       - 德国北莱茵-威斯特法伦州11
-      - 美国加利福尼亚12
-      - 德国黑森13
-      - 美国加利福尼亚14
+      - 德国黑森12
+      - 美国加利福尼亚13
+      - 德国北莱茵-威斯特法伦州14
       - 德国黑森15
-      - 德国黑森16
+      - 德国北莱茵-威斯特法伦州16
       - 德国黑森17
-      - 德国北莱茵-威斯特法伦州18
-      - 德国北莱茵-威斯特法伦州19
+      - 德国黑森18
+      - 美国加利福尼亚19
       - 德国黑森20
-      - 德国黑森21
+      - 美国加利福尼亚21
       - 德国黑森22
-      - 德国北莱茵-威斯特法伦州23
+      - 德国黑森23
       - 德国黑森24
       - 美国加利福尼亚25
-      - 德国黑森26
+      - 美国加利福尼亚26
       - 美国加利福尼亚27
-      - 德国北莱茵-威斯特法伦州28
-      - 美国加利福尼亚29
-      - 美国加利福尼亚30
-      - 法国巴黎31
-      - 德国黑森32
-      - 美国加利福尼亚33
-      - 美国加利福尼亚34
-      - 德国黑森35
-      - 德国北莱茵-威斯特法伦州36
-      - 美国加利福尼亚37
-      - 德国黑森38
-      - 德国北莱茵-威斯特法伦州39
-      - 美国加利福尼亚40
-      - 德国北莱茵-威斯特法伦州41
-      - 德国黑森42
-      - 美国加利福尼亚43
-      - 美国加利福尼亚44
-      - 德国北莱茵-威斯特法伦州45
-      - 德国北莱茵-威斯特法伦州46
-      - 德国黑森47
-      - 德国黑森48
-      - 德国黑森49
+      - 美国加利福尼亚28
+      - 德国黑森29
+      - 法国巴黎30
+      - 美国加利福尼亚31
   
   - name: 🎥 NETFLIX
     type: select
@@ -175,56 +121,38 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 德国黑森0
-      - 德国黑森1
+      - 美国加利福尼亚0
+      - 美国加利福尼亚1
       - 美国加利福尼亚2
-      - 美国加利福尼亚3
+      - 德国北莱茵-威斯特法伦州3
       - 美国加利福尼亚4
-      - 德国黑森5
-      - 美国加利福尼亚6
-      - 美国加利福尼亚7
-      - 德国黑森8
+      - 美国加利福尼亚5
+      - 德国黑森6
+      - 德国黑森7
+      - 德国北莱茵-威斯特法伦州8
       - 德国黑森9
-      - 美国加利福尼亚10
+      - 德国北莱茵-威斯特法伦州10
       - 德国北莱茵-威斯特法伦州11
-      - 美国加利福尼亚12
-      - 德国黑森13
-      - 美国加利福尼亚14
+      - 德国黑森12
+      - 美国加利福尼亚13
+      - 德国北莱茵-威斯特法伦州14
       - 德国黑森15
-      - 德国黑森16
+      - 德国北莱茵-威斯特法伦州16
       - 德国黑森17
-      - 德国北莱茵-威斯特法伦州18
-      - 德国北莱茵-威斯特法伦州19
+      - 德国黑森18
+      - 美国加利福尼亚19
       - 德国黑森20
-      - 德国黑森21
+      - 美国加利福尼亚21
       - 德国黑森22
-      - 德国北莱茵-威斯特法伦州23
+      - 德国黑森23
       - 德国黑森24
       - 美国加利福尼亚25
-      - 德国黑森26
+      - 美国加利福尼亚26
       - 美国加利福尼亚27
-      - 德国北莱茵-威斯特法伦州28
-      - 美国加利福尼亚29
-      - 美国加利福尼亚30
-      - 法国巴黎31
-      - 德国黑森32
-      - 美国加利福尼亚33
-      - 美国加利福尼亚34
-      - 德国黑森35
-      - 德国北莱茵-威斯特法伦州36
-      - 美国加利福尼亚37
-      - 德国黑森38
-      - 德国北莱茵-威斯特法伦州39
-      - 美国加利福尼亚40
-      - 德国北莱茵-威斯特法伦州41
-      - 德国黑森42
-      - 美国加利福尼亚43
-      - 美国加利福尼亚44
-      - 德国北莱茵-威斯特法伦州45
-      - 德国北莱茵-威斯特法伦州46
-      - 德国黑森47
-      - 德国黑森48
-      - 德国黑森49
+      - 美国加利福尼亚28
+      - 德国黑森29
+      - 法国巴黎30
+      - 美国加利福尼亚31
   
   - name: ⛔️ 广告拦截
     type: select
@@ -244,56 +172,38 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 德国黑森0
-      - 德国黑森1
+      - 美国加利福尼亚0
+      - 美国加利福尼亚1
       - 美国加利福尼亚2
-      - 美国加利福尼亚3
+      - 德国北莱茵-威斯特法伦州3
       - 美国加利福尼亚4
-      - 德国黑森5
-      - 美国加利福尼亚6
-      - 美国加利福尼亚7
-      - 德国黑森8
+      - 美国加利福尼亚5
+      - 德国黑森6
+      - 德国黑森7
+      - 德国北莱茵-威斯特法伦州8
       - 德国黑森9
-      - 美国加利福尼亚10
+      - 德国北莱茵-威斯特法伦州10
       - 德国北莱茵-威斯特法伦州11
-      - 美国加利福尼亚12
-      - 德国黑森13
-      - 美国加利福尼亚14
+      - 德国黑森12
+      - 美国加利福尼亚13
+      - 德国北莱茵-威斯特法伦州14
       - 德国黑森15
-      - 德国黑森16
+      - 德国北莱茵-威斯特法伦州16
       - 德国黑森17
-      - 德国北莱茵-威斯特法伦州18
-      - 德国北莱茵-威斯特法伦州19
+      - 德国黑森18
+      - 美国加利福尼亚19
       - 德国黑森20
-      - 德国黑森21
+      - 美国加利福尼亚21
       - 德国黑森22
-      - 德国北莱茵-威斯特法伦州23
+      - 德国黑森23
       - 德国黑森24
       - 美国加利福尼亚25
-      - 德国黑森26
+      - 美国加利福尼亚26
       - 美国加利福尼亚27
-      - 德国北莱茵-威斯特法伦州28
-      - 美国加利福尼亚29
-      - 美国加利福尼亚30
-      - 法国巴黎31
-      - 德国黑森32
-      - 美国加利福尼亚33
-      - 美国加利福尼亚34
-      - 德国黑森35
-      - 德国北莱茵-威斯特法伦州36
-      - 美国加利福尼亚37
-      - 德国黑森38
-      - 德国北莱茵-威斯特法伦州39
-      - 美国加利福尼亚40
-      - 德国北莱茵-威斯特法伦州41
-      - 德国黑森42
-      - 美国加利福尼亚43
-      - 美国加利福尼亚44
-      - 德国北莱茵-威斯特法伦州45
-      - 德国北莱茵-威斯特法伦州46
-      - 德国黑森47
-      - 德国黑森48
-      - 德国黑森49
+      - 美国加利福尼亚28
+      - 德国黑森29
+      - 法国巴黎30
+      - 美国加利福尼亚31
   
   - name: 🌏 国内媒体
     type: select
@@ -305,112 +215,76 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 德国黑森0
-      - 德国黑森1
+      - 美国加利福尼亚0
+      - 美国加利福尼亚1
       - 美国加利福尼亚2
-      - 美国加利福尼亚3
+      - 德国北莱茵-威斯特法伦州3
       - 美国加利福尼亚4
-      - 德国黑森5
-      - 美国加利福尼亚6
-      - 美国加利福尼亚7
-      - 德国黑森8
+      - 美国加利福尼亚5
+      - 德国黑森6
+      - 德国黑森7
+      - 德国北莱茵-威斯特法伦州8
       - 德国黑森9
-      - 美国加利福尼亚10
+      - 德国北莱茵-威斯特法伦州10
       - 德国北莱茵-威斯特法伦州11
-      - 美国加利福尼亚12
-      - 德国黑森13
-      - 美国加利福尼亚14
+      - 德国黑森12
+      - 美国加利福尼亚13
+      - 德国北莱茵-威斯特法伦州14
       - 德国黑森15
-      - 德国黑森16
+      - 德国北莱茵-威斯特法伦州16
       - 德国黑森17
-      - 德国北莱茵-威斯特法伦州18
-      - 德国北莱茵-威斯特法伦州19
+      - 德国黑森18
+      - 美国加利福尼亚19
       - 德国黑森20
-      - 德国黑森21
+      - 美国加利福尼亚21
       - 德国黑森22
-      - 德国北莱茵-威斯特法伦州23
+      - 德国黑森23
       - 德国黑森24
       - 美国加利福尼亚25
-      - 德国黑森26
+      - 美国加利福尼亚26
       - 美国加利福尼亚27
-      - 德国北莱茵-威斯特法伦州28
-      - 美国加利福尼亚29
-      - 美国加利福尼亚30
-      - 法国巴黎31
-      - 德国黑森32
-      - 美国加利福尼亚33
-      - 美国加利福尼亚34
-      - 德国黑森35
-      - 德国北莱茵-威斯特法伦州36
-      - 美国加利福尼亚37
-      - 德国黑森38
-      - 德国北莱茵-威斯特法伦州39
-      - 美国加利福尼亚40
-      - 德国北莱茵-威斯特法伦州41
-      - 德国黑森42
-      - 美国加利福尼亚43
-      - 美国加利福尼亚44
-      - 德国北莱茵-威斯特法伦州45
-      - 德国北莱茵-威斯特法伦州46
-      - 德国黑森47
-      - 德国黑森48
-      - 德国黑森49
+      - 美国加利福尼亚28
+      - 德国黑森29
+      - 法国巴黎30
+      - 美国加利福尼亚31
   
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 德国黑森0
-      - 德国黑森1
+      - 美国加利福尼亚0
+      - 美国加利福尼亚1
       - 美国加利福尼亚2
-      - 美国加利福尼亚3
+      - 德国北莱茵-威斯特法伦州3
       - 美国加利福尼亚4
-      - 德国黑森5
-      - 美国加利福尼亚6
-      - 美国加利福尼亚7
-      - 德国黑森8
+      - 美国加利福尼亚5
+      - 德国黑森6
+      - 德国黑森7
+      - 德国北莱茵-威斯特法伦州8
       - 德国黑森9
-      - 美国加利福尼亚10
+      - 德国北莱茵-威斯特法伦州10
       - 德国北莱茵-威斯特法伦州11
-      - 美国加利福尼亚12
-      - 德国黑森13
-      - 美国加利福尼亚14
+      - 德国黑森12
+      - 美国加利福尼亚13
+      - 德国北莱茵-威斯特法伦州14
       - 德国黑森15
-      - 德国黑森16
+      - 德国北莱茵-威斯特法伦州16
       - 德国黑森17
-      - 德国北莱茵-威斯特法伦州18
-      - 德国北莱茵-威斯特法伦州19
+      - 德国黑森18
+      - 美国加利福尼亚19
       - 德国黑森20
-      - 德国黑森21
+      - 美国加利福尼亚21
       - 德国黑森22
-      - 德国北莱茵-威斯特法伦州23
+      - 德国黑森23
       - 德国黑森24
       - 美国加利福尼亚25
-      - 德国黑森26
+      - 美国加利福尼亚26
       - 美国加利福尼亚27
-      - 德国北莱茵-威斯特法伦州28
-      - 美国加利福尼亚29
-      - 美国加利福尼亚30
-      - 法国巴黎31
-      - 德国黑森32
-      - 美国加利福尼亚33
-      - 美国加利福尼亚34
-      - 德国黑森35
-      - 德国北莱茵-威斯特法伦州36
-      - 美国加利福尼亚37
-      - 德国黑森38
-      - 德国北莱茵-威斯特法伦州39
-      - 美国加利福尼亚40
-      - 德国北莱茵-威斯特法伦州41
-      - 德国黑森42
-      - 美国加利福尼亚43
-      - 美国加利福尼亚44
-      - 德国北莱茵-威斯特法伦州45
-      - 德国北莱茵-威斯特法伦州46
-      - 德国黑森47
-      - 德国黑森48
-      - 德国黑森49
+      - 美国加利福尼亚28
+      - 德国黑森29
+      - 法国巴黎30
+      - 美国加利福尼亚31
   
   - name: 🍎 苹果服务
     type: select
@@ -418,56 +292,38 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 德国黑森0
-      - 德国黑森1
+      - 美国加利福尼亚0
+      - 美国加利福尼亚1
       - 美国加利福尼亚2
-      - 美国加利福尼亚3
+      - 德国北莱茵-威斯特法伦州3
       - 美国加利福尼亚4
-      - 德国黑森5
-      - 美国加利福尼亚6
-      - 美国加利福尼亚7
-      - 德国黑森8
+      - 美国加利福尼亚5
+      - 德国黑森6
+      - 德国黑森7
+      - 德国北莱茵-威斯特法伦州8
       - 德国黑森9
-      - 美国加利福尼亚10
+      - 德国北莱茵-威斯特法伦州10
       - 德国北莱茵-威斯特法伦州11
-      - 美国加利福尼亚12
-      - 德国黑森13
-      - 美国加利福尼亚14
+      - 德国黑森12
+      - 美国加利福尼亚13
+      - 德国北莱茵-威斯特法伦州14
       - 德国黑森15
-      - 德国黑森16
+      - 德国北莱茵-威斯特法伦州16
       - 德国黑森17
-      - 德国北莱茵-威斯特法伦州18
-      - 德国北莱茵-威斯特法伦州19
+      - 德国黑森18
+      - 美国加利福尼亚19
       - 德国黑森20
-      - 德国黑森21
+      - 美国加利福尼亚21
       - 德国黑森22
-      - 德国北莱茵-威斯特法伦州23
+      - 德国黑森23
       - 德国黑森24
       - 美国加利福尼亚25
-      - 德国黑森26
+      - 美国加利福尼亚26
       - 美国加利福尼亚27
-      - 德国北莱茵-威斯特法伦州28
-      - 美国加利福尼亚29
-      - 美国加利福尼亚30
-      - 法国巴黎31
-      - 德国黑森32
-      - 美国加利福尼亚33
-      - 美国加利福尼亚34
-      - 德国黑森35
-      - 德国北莱茵-威斯特法伦州36
-      - 美国加利福尼亚37
-      - 德国黑森38
-      - 德国北莱茵-威斯特法伦州39
-      - 美国加利福尼亚40
-      - 德国北莱茵-威斯特法伦州41
-      - 德国黑森42
-      - 美国加利福尼亚43
-      - 美国加利福尼亚44
-      - 德国北莱茵-威斯特法伦州45
-      - 德国北莱茵-威斯特法伦州46
-      - 德国黑森47
-      - 德国黑森48
-      - 德国黑森49
+      - 美国加利福尼亚28
+      - 德国黑森29
+      - 法国巴黎30
+      - 美国加利福尼亚31
   
   - name: 🎯 全球直连
     type: select
@@ -484,56 +340,38 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 德国黑森0
-      - 德国黑森1
+      - 美国加利福尼亚0
+      - 美国加利福尼亚1
       - 美国加利福尼亚2
-      - 美国加利福尼亚3
+      - 德国北莱茵-威斯特法伦州3
       - 美国加利福尼亚4
-      - 德国黑森5
-      - 美国加利福尼亚6
-      - 美国加利福尼亚7
-      - 德国黑森8
+      - 美国加利福尼亚5
+      - 德国黑森6
+      - 德国黑森7
+      - 德国北莱茵-威斯特法伦州8
       - 德国黑森9
-      - 美国加利福尼亚10
+      - 德国北莱茵-威斯特法伦州10
       - 德国北莱茵-威斯特法伦州11
-      - 美国加利福尼亚12
-      - 德国黑森13
-      - 美国加利福尼亚14
+      - 德国黑森12
+      - 美国加利福尼亚13
+      - 德国北莱茵-威斯特法伦州14
       - 德国黑森15
-      - 德国黑森16
+      - 德国北莱茵-威斯特法伦州16
       - 德国黑森17
-      - 德国北莱茵-威斯特法伦州18
-      - 德国北莱茵-威斯特法伦州19
+      - 德国黑森18
+      - 美国加利福尼亚19
       - 德国黑森20
-      - 德国黑森21
+      - 美国加利福尼亚21
       - 德国黑森22
-      - 德国北莱茵-威斯特法伦州23
+      - 德国黑森23
       - 德国黑森24
       - 美国加利福尼亚25
-      - 德国黑森26
+      - 美国加利福尼亚26
       - 美国加利福尼亚27
-      - 德国北莱茵-威斯特法伦州28
-      - 美国加利福尼亚29
-      - 美国加利福尼亚30
-      - 法国巴黎31
-      - 德国黑森32
-      - 美国加利福尼亚33
-      - 美国加利福尼亚34
-      - 德国黑森35
-      - 德国北莱茵-威斯特法伦州36
-      - 美国加利福尼亚37
-      - 德国黑森38
-      - 德国北莱茵-威斯特法伦州39
-      - 美国加利福尼亚40
-      - 德国北莱茵-威斯特法伦州41
-      - 德国黑森42
-      - 美国加利福尼亚43
-      - 美国加利福尼亚44
-      - 德国北莱茵-威斯特法伦州45
-      - 德国北莱茵-威斯特法伦州46
-      - 德国黑森47
-      - 德国黑森48
-      - 德国黑森49
+      - 美国加利福尼亚28
+      - 德国黑森29
+      - 法国巴黎30
+      - 美国加利福尼亚31
   
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
