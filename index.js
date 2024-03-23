@@ -12,7 +12,7 @@ const filePath = `temp.dql`;  // 根据今天的日期生成文件路径
 const defaultYmlFilePath = `ccc2.yml`;  // 默认配置文件
 const resultYmlFilePath = `result.yml`;  // 最终的配置文件
 
-const VMESS_URL = fromBase64("aHR0cHM6Ly8xMTAuNDMuMzcuMjQyOjIwMDAwL2FwaS9ldm1lc3M=");
+const VMESS_URL = fromBase64("aHR0cHM6Ly93d3cueHR4NmYueHl6OjIwMDAwL2FwaS9ldm1lc3M=");
 const IP_URL = "https://ip.useragentinfo.com/jsonp?ip=";
 
 // const area = [999, 2, 34, 48, 49, 17, 7, 46, 4, 3, 33,
