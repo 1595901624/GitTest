@@ -5,50 +5,46 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "消息: 1条未读，在APP查看", server: 183.232.159.111, port: 21852, type: trojan, password: gnYAx5GbXQ, sni: www.icloud.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 P4 | 深港专线、限时体验2小时 | 3x, server: 183.232.159.111, port: 21852, type: trojan, password: gnYAx5GbXQ, sni: www.icloud.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 新加坡 P1 | 广港隧道、IPv6、限时体验2小时 | 3x, server: 183.240.179.210, port: 21855, type: trojan, password: gnYAx5GbXQ, sni: www.icloud.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 美国 F1 | 深港隧道、IPv6、闲时可见 | 2x, server: 183.240.179.221, port: 12282, type: trojan, password: gnYAx5GbXQ, sni: www.icloud.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 新加坡 F2 | 深港隧道、IPv6、限时体验4小时 | 3x, server: 183.240.179.210, port: 21853, type: trojan, password: gnYAx5GbXQ, sni: www.icloud.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 W1 | 直连 | 2x, server: 74.207.243.120, port: 43139, type: trojan, password: gnYAx5GbXQ, sni: v.qq.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 W2 | 湖南移动、ChatGPT、IPv6 | 3x, server: 183.240.179.221, port: 12151, type: trojan, password: gnYAx5GbXQ, sni: www.icloud.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 W1 | 直连、新开机 | 3x, server: 172.104.33.73, port: 43418, type: trojan, password: gnYAx5GbXQ, sni: v.qq.com, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国 W2 | 直连 | 3x, server: 45.159.248.128, port: 48166, type: trojan, password: Mf18900f, sni: v.qq.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国 W3 | 浙江联通、闲时可见 | 3x, server: 183.240.179.221, port: 22116, type: trojan, password: Md189ec8, sni: www.icloud.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 印度 W4 | 深港隧道、IPv6、闲时可见 | 3x, server: 183.240.179.210, port: 21854, type: trojan, password: gnYAx5GbXQ, sni: www.icloud.com, skip-cert-verify: true, udp: true}
-  - {name: ----- 账号信息 -----, server: 183.232.159.111, port: 21852, type: trojan, password: gnYAx5GbXQ, sni: www.icloud.com, skip-cert-verify: true, udp: true}
-  - {name: "登录账号: xshen@sina.com", server: 183.232.159.111, port: 21852, type: trojan, password: gnYAx5GbXQ, sni: www.icloud.com, skip-cert-verify: true, udp: true}
-  - {name: "体验套餐: 剩余7天", server: 183.232.159.111, port: 21852, type: trojan, password: gnYAx5GbXQ, sni: www.icloud.com, skip-cert-verify: true, udp: true}
-  - {name: "🏳️‍🌈 流量重置: 每月10日 10G，剩余10G", server: 183.232.159.111, port: 21852, type: trojan, password: gnYAx5GbXQ, sni: www.icloud.com, skip-cert-verify: true, udp: true}
-  - {name: ----- 联系我们 -----, server: 183.232.159.111, port: 21852, type: trojan, password: gnYAx5GbXQ, sni: www.icloud.com, skip-cert-verify: true, udp: true}
-  - {name: "电报: https://t.me/balecc_group", server: 183.232.159.111, port: 21852, type: trojan, password: gnYAx5GbXQ, sni: www.icloud.com, skip-cert-verify: true, udp: true}
-  - {name: "邮箱: contact@balecc.com", server: 183.232.159.111, port: 21852, type: trojan, password: gnYAx5GbXQ, sni: www.icloud.com, skip-cert-verify: true, udp: true}
-  - {name: "官网: ibale.cc", server: 183.232.159.111, port: 21852, type: trojan, password: gnYAx5GbXQ, sni: www.icloud.com, skip-cert-verify: true, udp: true}
-  - {name: "🏳️‍🌈 时间: 2024-04-10 15:39:24", server: 183.232.159.111, port: 21852, type: trojan, password: gnYAx5GbXQ, sni: www.icloud.com, skip-cert-verify: true, udp: true}
+  - {name: "消息: 1条未读，在APP查看", server: 183.236.53.112, port: 21852, type: trojan, password: Crc5kY3Qgy, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 P4 | 深港专线、限时体验2小时 | 3x, server: 183.236.53.112, port: 21852, type: trojan, password: Crc5kY3Qgy, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 新加坡 P1 | 广港隧道、IPv6、限时体验2小时、新开机 | 3x, server: 183.240.179.210, port: 21855, type: trojan, password: Crc5kY3Qgy, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 美国 F1 | 深港隧道、IPv6、闲时可见 | 2x, server: 183.240.179.221, port: 12282, type: trojan, password: Crc5kY3Qgy, sni: download.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 新加坡 F2 | 深港隧道、IPv6、限时体验4小时 | 3x, server: 183.240.179.221, port: 21853, type: trojan, password: Crc5kY3Qgy, sni: download.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 W1 | 湖南移动、ChatGPT、IPv6 | 3x, server: 183.240.179.221, port: 12151, type: trojan, password: Crc5kY3Qgy, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国 W2 | 直连 | 2x, server: 45.159.248.128, port: 48166, type: trojan, password: Me7a8de9, sni: download.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国 W3 | 浙江联通 | 3x, server: 123.158.253.165, port: 22116, type: trojan, password: M021034a, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 印度 W4 | 深港隧道、IPv6、闲时可见 | 3x, server: 183.240.179.221, port: 21854, type: trojan, password: Crc5kY3Qgy, sni: download.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: ----- 账号信息 -----, server: 183.236.53.112, port: 21852, type: trojan, password: Crc5kY3Qgy, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "登录账号: 13522783332@189.com", server: 183.236.53.112, port: 21852, type: trojan, password: Crc5kY3Qgy, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "体验套餐: 剩余7天", server: 183.236.53.112, port: 21852, type: trojan, password: Crc5kY3Qgy, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "🏳️‍🌈 流量重置: 每月1日 10G，剩余10G", server: 183.236.53.112, port: 21852, type: trojan, password: Crc5kY3Qgy, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: ----- 联系我们 -----, server: 183.236.53.112, port: 21852, type: trojan, password: Crc5kY3Qgy, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "电报: https://t.me/balecc_group", server: 183.236.53.112, port: 21852, type: trojan, password: Crc5kY3Qgy, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "邮箱: contact@balecc.com", server: 183.236.53.112, port: 21852, type: trojan, password: Crc5kY3Qgy, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "官网: ibale.cc", server: 183.236.53.112, port: 21852, type: trojan, password: Crc5kY3Qgy, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "🏳️‍🌈 时间: 2024-03-31 11:04:38", server: 183.236.53.112, port: 21852, type: trojan, password: Crc5kY3Qgy, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - "消息: 1条未读，在APP查看"
       - 🇭🇰 香港 P4 | 深港专线、限时体验2小时 | 3x
-      - 🇭🇰 新加坡 P1 | 广港隧道、IPv6、限时体验2小时 | 3x
+      - 🇭🇰 新加坡 P1 | 广港隧道、IPv6、限时体验2小时、新开机 | 3x
       - 🇭🇰 美国 F1 | 深港隧道、IPv6、闲时可见 | 2x
       - 🇭🇰 新加坡 F2 | 深港隧道、IPv6、限时体验4小时 | 3x
-      - 🇺🇸 美国 W1 | 直连 | 2x
-      - 🇺🇸 美国 W2 | 湖南移动、ChatGPT、IPv6 | 3x
-      - 🇸🇬 新加坡 W1 | 直连、新开机 | 3x
-      - 🇬🇧 英国 W2 | 直连 | 3x
-      - 🇩🇪 德国 W3 | 浙江联通、闲时可见 | 3x
+      - 🇺🇸 美国 W1 | 湖南移动、ChatGPT、IPv6 | 3x
+      - 🇬🇧 英国 W2 | 直连 | 2x
+      - 🇩🇪 德国 W3 | 浙江联通 | 3x
       - 🇭🇰 印度 W4 | 深港隧道、IPv6、闲时可见 | 3x
       - ----- 账号信息 -----
-      - "登录账号: xshen@sina.com"
+      - "登录账号: 13522783332@189.com"
       - "体验套餐: 剩余7天"
-      - "🏳️‍🌈 流量重置: 每月10日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月1日 10G，剩余10G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: ibale.cc"
-      - "🏳️‍🌈 时间: 2024-04-10 15:39:24"
+      - "🏳️‍🌈 时间: 2024-03-31 11:04:38"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -56,24 +52,22 @@ proxy-groups:
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
       - 🇭🇰 香港 P4 | 深港专线、限时体验2小时 | 3x
-      - 🇭🇰 新加坡 P1 | 广港隧道、IPv6、限时体验2小时 | 3x
+      - 🇭🇰 新加坡 P1 | 广港隧道、IPv6、限时体验2小时、新开机 | 3x
       - 🇭🇰 美国 F1 | 深港隧道、IPv6、闲时可见 | 2x
       - 🇭🇰 新加坡 F2 | 深港隧道、IPv6、限时体验4小时 | 3x
-      - 🇺🇸 美国 W1 | 直连 | 2x
-      - 🇺🇸 美国 W2 | 湖南移动、ChatGPT、IPv6 | 3x
-      - 🇸🇬 新加坡 W1 | 直连、新开机 | 3x
-      - 🇬🇧 英国 W2 | 直连 | 3x
-      - 🇩🇪 德国 W3 | 浙江联通、闲时可见 | 3x
+      - 🇺🇸 美国 W1 | 湖南移动、ChatGPT、IPv6 | 3x
+      - 🇬🇧 英国 W2 | 直连 | 2x
+      - 🇩🇪 德国 W3 | 浙江联通 | 3x
       - 🇭🇰 印度 W4 | 深港隧道、IPv6、闲时可见 | 3x
       - ----- 账号信息 -----
-      - "登录账号: xshen@sina.com"
+      - "登录账号: 13522783332@189.com"
       - "体验套餐: 剩余7天"
-      - "🏳️‍🌈 流量重置: 每月10日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月1日 10G，剩余10G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: ibale.cc"
-      - "🏳️‍🌈 时间: 2024-04-10 15:39:24"
+      - "🏳️‍🌈 时间: 2024-03-31 11:04:38"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -81,24 +75,22 @@ proxy-groups:
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
       - 🇭🇰 香港 P4 | 深港专线、限时体验2小时 | 3x
-      - 🇭🇰 新加坡 P1 | 广港隧道、IPv6、限时体验2小时 | 3x
+      - 🇭🇰 新加坡 P1 | 广港隧道、IPv6、限时体验2小时、新开机 | 3x
       - 🇭🇰 美国 F1 | 深港隧道、IPv6、闲时可见 | 2x
       - 🇭🇰 新加坡 F2 | 深港隧道、IPv6、限时体验4小时 | 3x
-      - 🇺🇸 美国 W1 | 直连 | 2x
-      - 🇺🇸 美国 W2 | 湖南移动、ChatGPT、IPv6 | 3x
-      - 🇸🇬 新加坡 W1 | 直连、新开机 | 3x
-      - 🇬🇧 英国 W2 | 直连 | 3x
-      - 🇩🇪 德国 W3 | 浙江联通、闲时可见 | 3x
+      - 🇺🇸 美国 W1 | 湖南移动、ChatGPT、IPv6 | 3x
+      - 🇬🇧 英国 W2 | 直连 | 2x
+      - 🇩🇪 德国 W3 | 浙江联通 | 3x
       - 🇭🇰 印度 W4 | 深港隧道、IPv6、闲时可见 | 3x
       - ----- 账号信息 -----
-      - "登录账号: xshen@sina.com"
+      - "登录账号: 13522783332@189.com"
       - "体验套餐: 剩余7天"
-      - "🏳️‍🌈 流量重置: 每月10日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月1日 10G，剩余10G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: ibale.cc"
-      - "🏳️‍🌈 时间: 2024-04-10 15:39:24"
+      - "🏳️‍🌈 时间: 2024-03-31 11:04:38"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -106,24 +98,22 @@ proxy-groups:
       - 🚀 节点选择
       - "消息: 1条未读，在APP查看"
       - 🇭🇰 香港 P4 | 深港专线、限时体验2小时 | 3x
-      - 🇭🇰 新加坡 P1 | 广港隧道、IPv6、限时体验2小时 | 3x
+      - 🇭🇰 新加坡 P1 | 广港隧道、IPv6、限时体验2小时、新开机 | 3x
       - 🇭🇰 美国 F1 | 深港隧道、IPv6、闲时可见 | 2x
       - 🇭🇰 新加坡 F2 | 深港隧道、IPv6、限时体验4小时 | 3x
-      - 🇺🇸 美国 W1 | 直连 | 2x
-      - 🇺🇸 美国 W2 | 湖南移动、ChatGPT、IPv6 | 3x
-      - 🇸🇬 新加坡 W1 | 直连、新开机 | 3x
-      - 🇬🇧 英国 W2 | 直连 | 3x
-      - 🇩🇪 德国 W3 | 浙江联通、闲时可见 | 3x
+      - 🇺🇸 美国 W1 | 湖南移动、ChatGPT、IPv6 | 3x
+      - 🇬🇧 英国 W2 | 直连 | 2x
+      - 🇩🇪 德国 W3 | 浙江联通 | 3x
       - 🇭🇰 印度 W4 | 深港隧道、IPv6、闲时可见 | 3x
       - ----- 账号信息 -----
-      - "登录账号: xshen@sina.com"
+      - "登录账号: 13522783332@189.com"
       - "体验套餐: 剩余7天"
-      - "🏳️‍🌈 流量重置: 每月10日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月1日 10G，剩余10G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: ibale.cc"
-      - "🏳️‍🌈 时间: 2024-04-10 15:39:24"
+      - "🏳️‍🌈 时间: 2024-03-31 11:04:38"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -131,24 +121,22 @@ proxy-groups:
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
       - 🇭🇰 香港 P4 | 深港专线、限时体验2小时 | 3x
-      - 🇭🇰 新加坡 P1 | 广港隧道、IPv6、限时体验2小时 | 3x
+      - 🇭🇰 新加坡 P1 | 广港隧道、IPv6、限时体验2小时、新开机 | 3x
       - 🇭🇰 美国 F1 | 深港隧道、IPv6、闲时可见 | 2x
       - 🇭🇰 新加坡 F2 | 深港隧道、IPv6、限时体验4小时 | 3x
-      - 🇺🇸 美国 W1 | 直连 | 2x
-      - 🇺🇸 美国 W2 | 湖南移动、ChatGPT、IPv6 | 3x
-      - 🇸🇬 新加坡 W1 | 直连、新开机 | 3x
-      - 🇬🇧 英国 W2 | 直连 | 3x
-      - 🇩🇪 德国 W3 | 浙江联通、闲时可见 | 3x
+      - 🇺🇸 美国 W1 | 湖南移动、ChatGPT、IPv6 | 3x
+      - 🇬🇧 英国 W2 | 直连 | 2x
+      - 🇩🇪 德国 W3 | 浙江联通 | 3x
       - 🇭🇰 印度 W4 | 深港隧道、IPv6、闲时可见 | 3x
       - ----- 账号信息 -----
-      - "登录账号: xshen@sina.com"
+      - "登录账号: 13522783332@189.com"
       - "体验套餐: 剩余7天"
-      - "🏳️‍🌈 流量重置: 每月10日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月1日 10G，剩余10G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: ibale.cc"
-      - "🏳️‍🌈 时间: 2024-04-10 15:39:24"
+      - "🏳️‍🌈 时间: 2024-03-31 11:04:38"
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -156,24 +144,22 @@ proxy-groups:
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
       - 🇭🇰 香港 P4 | 深港专线、限时体验2小时 | 3x
-      - 🇭🇰 新加坡 P1 | 广港隧道、IPv6、限时体验2小时 | 3x
+      - 🇭🇰 新加坡 P1 | 广港隧道、IPv6、限时体验2小时、新开机 | 3x
       - 🇭🇰 美国 F1 | 深港隧道、IPv6、闲时可见 | 2x
       - 🇭🇰 新加坡 F2 | 深港隧道、IPv6、限时体验4小时 | 3x
-      - 🇺🇸 美国 W1 | 直连 | 2x
-      - 🇺🇸 美国 W2 | 湖南移动、ChatGPT、IPv6 | 3x
-      - 🇸🇬 新加坡 W1 | 直连、新开机 | 3x
-      - 🇬🇧 英国 W2 | 直连 | 3x
-      - 🇩🇪 德国 W3 | 浙江联通、闲时可见 | 3x
+      - 🇺🇸 美国 W1 | 湖南移动、ChatGPT、IPv6 | 3x
+      - 🇬🇧 英国 W2 | 直连 | 2x
+      - 🇩🇪 德国 W3 | 浙江联通 | 3x
       - 🇭🇰 印度 W4 | 深港隧道、IPv6、闲时可见 | 3x
       - ----- 账号信息 -----
-      - "登录账号: xshen@sina.com"
+      - "登录账号: 13522783332@189.com"
       - "体验套餐: 剩余7天"
-      - "🏳️‍🌈 流量重置: 每月10日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月1日 10G，剩余10G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: ibale.cc"
-      - "🏳️‍🌈 时间: 2024-04-10 15:39:24"
+      - "🏳️‍🌈 时间: 2024-03-31 11:04:38"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -192,24 +178,22 @@ proxy-groups:
       - 🚀 节点选择
       - "消息: 1条未读，在APP查看"
       - 🇭🇰 香港 P4 | 深港专线、限时体验2小时 | 3x
-      - 🇭🇰 新加坡 P1 | 广港隧道、IPv6、限时体验2小时 | 3x
+      - 🇭🇰 新加坡 P1 | 广港隧道、IPv6、限时体验2小时、新开机 | 3x
       - 🇭🇰 美国 F1 | 深港隧道、IPv6、闲时可见 | 2x
       - 🇭🇰 新加坡 F2 | 深港隧道、IPv6、限时体验4小时 | 3x
-      - 🇺🇸 美国 W1 | 直连 | 2x
-      - 🇺🇸 美国 W2 | 湖南移动、ChatGPT、IPv6 | 3x
-      - 🇸🇬 新加坡 W1 | 直连、新开机 | 3x
-      - 🇬🇧 英国 W2 | 直连 | 3x
-      - 🇩🇪 德国 W3 | 浙江联通、闲时可见 | 3x
+      - 🇺🇸 美国 W1 | 湖南移动、ChatGPT、IPv6 | 3x
+      - 🇬🇧 英国 W2 | 直连 | 2x
+      - 🇩🇪 德国 W3 | 浙江联通 | 3x
       - 🇭🇰 印度 W4 | 深港隧道、IPv6、闲时可见 | 3x
       - ----- 账号信息 -----
-      - "登录账号: xshen@sina.com"
+      - "登录账号: 13522783332@189.com"
       - "体验套餐: 剩余7天"
-      - "🏳️‍🌈 流量重置: 每月10日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月1日 10G，剩余10G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: ibale.cc"
-      - "🏳️‍🌈 时间: 2024-04-10 15:39:24"
+      - "🏳️‍🌈 时间: 2024-03-31 11:04:38"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -217,24 +201,22 @@ proxy-groups:
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
       - 🇭🇰 香港 P4 | 深港专线、限时体验2小时 | 3x
-      - 🇭🇰 新加坡 P1 | 广港隧道、IPv6、限时体验2小时 | 3x
+      - 🇭🇰 新加坡 P1 | 广港隧道、IPv6、限时体验2小时、新开机 | 3x
       - 🇭🇰 美国 F1 | 深港隧道、IPv6、闲时可见 | 2x
       - 🇭🇰 新加坡 F2 | 深港隧道、IPv6、限时体验4小时 | 3x
-      - 🇺🇸 美国 W1 | 直连 | 2x
-      - 🇺🇸 美国 W2 | 湖南移动、ChatGPT、IPv6 | 3x
-      - 🇸🇬 新加坡 W1 | 直连、新开机 | 3x
-      - 🇬🇧 英国 W2 | 直连 | 3x
-      - 🇩🇪 德国 W3 | 浙江联通、闲时可见 | 3x
+      - 🇺🇸 美国 W1 | 湖南移动、ChatGPT、IPv6 | 3x
+      - 🇬🇧 英国 W2 | 直连 | 2x
+      - 🇩🇪 德国 W3 | 浙江联通 | 3x
       - 🇭🇰 印度 W4 | 深港隧道、IPv6、闲时可见 | 3x
       - ----- 账号信息 -----
-      - "登录账号: xshen@sina.com"
+      - "登录账号: 13522783332@189.com"
       - "体验套餐: 剩余7天"
-      - "🏳️‍🌈 流量重置: 每月10日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月1日 10G，剩余10G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: ibale.cc"
-      - "🏳️‍🌈 时间: 2024-04-10 15:39:24"
+      - "🏳️‍🌈 时间: 2024-03-31 11:04:38"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
