@@ -5,56 +5,56 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国纽约州0, server: 38.174.164.84, port: 37001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.50979398.xyz}}}
-  - {name: 美国加利福尼亚州1, server: 148.135.12.174, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.15986187.xyz}}}
-  - {name: 美国加利福尼亚州2, server: 148.135.9.66, port: 31000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.69555583.xyz}}}
-  - {name: 美国佐治亚州3, server: 172.111.57.37, port: 31000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.13861936.xyz}}}
-  - {name: 美国加利福尼亚州4, server: 148.135.9.66, port: 31000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.69555583.xyz}}}
-  - {name: 美国加利福尼亚5, server: 38.48.141.197, port: 38001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.83429197.xyz}}}
-  - {name: 美国加利福尼亚州6, server: 148.135.9.66, port: 31000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.69555583.xyz}}}
-  - {name: 美国加利福尼亚州7, server: 38.14.121.110, port: 38001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.51291807.xyz}}}
-  - {name: 美国佐治亚州8, server: 172.111.57.74, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.75116565.xyz}}}
-  - {name: 美国加利福尼亚州9, server: 66.103.205.29, port: 31000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.73059090.xyz}}}
-  - {name: 美国加利福尼亚州10, server: 38.14.121.110, port: 38001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.51291807.xyz}}}
-  - {name: 美国加利福尼亚州11, server: 148.135.31.51, port: 31000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.95683672.xyz}}}
-  - {name: 美国加利福尼亚12, server: 38.165.73.248, port: 37001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.18469970.xyz}}}
-  - {name: 美国加利福尼亚13, server: 198.2.196.230, port: 38001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.12630069.xyz}}}
-  - {name: 荷兰北荷兰省14, server: 46.182.107.56, port: 41001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.63929391.xyz}}}
-  - {name: 美国特拉华州15, server: 69.80.226.182, port: 31003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.32410592.xyz}}}
-  - {name: 荷兰北荷兰省16, server: 46.182.107.23, port: 41000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.26595897.xyz}}}
-  - {name: 美国加利福尼亚17, server: 198.2.219.251, port: 38001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.41912208.xyz}}}
-  - {name: 美国加利福尼亚18, server: 137.175.20.85, port: 37002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.78310250.xyz}}}
-  - {name: 美国特拉华州19, server: 69.80.226.182, port: 31003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.32410592.xyz}}}
-  - {name: 美国佐治亚州20, server: 172.111.57.100, port: 32001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.53136553.xyz}}}
-  - {name: 美国佐治亚州21, server: 172.111.57.140, port: 31001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.88268904.xyz}}}
-  - {name: 美国加利福尼亚州22, server: 148.135.75.59, port: 31001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.32497476.xyz}}}
-  - {name: 美国加利福尼亚23, server: 198.2.196.230, port: 38001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.12630069.xyz}}}
-  - {name: 美国加利福尼亚24, server: 38.48.141.197, port: 38001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.83429197.xyz}}}
-  - {name: 美国加利福尼亚州25, server: 38.14.120.244, port: 37001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.65825524.xyz}}}
-  - {name: 美国加利福尼亚州26, server: 148.135.75.59, port: 31001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.32497476.xyz}}}
-  - {name: 荷兰北荷兰省27, server: 46.182.107.56, port: 41001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.63929391.xyz}}}
-  - {name: 美国加利福尼亚州28, server: 66.103.205.29, port: 31000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.73059090.xyz}}}
-  - {name: 美国加利福尼亚29, server: 198.2.196.230, port: 38001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.12630069.xyz}}}
-  - {name: 美国加利福尼亚30, server: 137.175.11.50, port: 37001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.20234339.xyz}}}
-  - {name: 美国加利福尼亚州31, server: 148.135.31.36, port: 37000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.72801237.xyz}}}
-  - {name: 美国加利福尼亚州32, server: 38.14.121.110, port: 38001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.51291807.xyz}}}
-  - {name: 美国加利福尼亚33, server: 38.38.148.249, port: 37001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.88186618.xyz}}}
-  - {name: 美国佐治亚州34, server: 172.111.57.100, port: 32001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.53136553.xyz}}}
-  - {name: 美国加利福尼亚35, server: 142.4.104.107, port: 37001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.64102475.xyz}}}
-  - {name: 美国加利福尼亚36, server: 38.48.141.197, port: 38001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.83429197.xyz}}}
-  - {name: 美国加利福尼亚37, server: 142.4.113.100, port: 38000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.94152251.xyz}}}
-  - {name: 美国佐治亚州38, server: 172.111.57.100, port: 32001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.53136553.xyz}}}
-  - {name: 荷兰北荷兰省39, server: 46.182.107.56, port: 41001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.63929391.xyz}}}
-  - {name: 美国加利福尼亚州40, server: 74.48.221.245, port: 31000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.68841301.xyz}}}
-  - {name: 美国加利福尼亚41, server: 137.175.11.50, port: 37001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.20234339.xyz}}}
-  - {name: 美国加利福尼亚42, server: 38.173.197.22, port: 37001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.23602249.xyz}}}
-  - {name: 美国加利福尼亚州43, server: 148.135.9.66, port: 31000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.69555583.xyz}}}
-  - {name: 美国加利福尼亚州44, server: 148.135.31.36, port: 37000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.72801237.xyz}}}
-  - {name: 美国加利福尼亚45, server: 137.175.20.85, port: 37002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.78310250.xyz}}}
-  - {name: 美国佐治亚州46, server: 172.111.57.37, port: 31000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.13861936.xyz}}}
-  - {name: 美国加利福尼亚州47, server: 148.135.31.36, port: 37000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.72801237.xyz}}}
-  - {name: 美国加利福尼亚48, server: 38.38.184.102, port: 37001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.59977650.xyz}}}
-  - {name: 美国加利福尼亚州49, server: 148.135.31.36, port: 37000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.72801237.xyz}}}
+  - {name: 美国加利福尼亚0, server: 198.200.56.50, port: 37001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.98382183.xyz}}}
+  - {name: 美国加利福尼亚1, server: 137.175.8.148, port: 38001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.70672263.xyz}}}
+  - {name: 美国加利福尼亚州2, server: 148.135.31.36, port: 37000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.72801237.xyz}}}
+  - {name: 美国加利福尼亚3, server: 38.38.174.231, port: 37001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.33799494.xyz}}}
+  - {name: 美国加利福尼亚州4, server: 38.14.123.166, port: 37001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.33756710.xyz}}}
+  - {name: 美国加利福尼亚5, server: 192.74.241.41, port: 38001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.12630069.xyz}}}
+  - {name: 美国加利福尼亚州6, server: 38.14.100.167, port: 37001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.80150658.xyz}}}
+  - {name: 美国加利福尼亚7, server: 198.2.213.168, port: 38001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.54699295.xyz}}}
+  - {name: 美国佐治亚州8, server: 172.111.57.140, port: 31001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.88268904.xyz}}}
+  - {name: 美国加利福尼亚州9, server: 38.14.123.166, port: 37001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.33756710.xyz}}}
+  - {name: 荷兰北荷兰省10, server: 46.182.107.17, port: 41000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.56429949.xyz}}}
+  - {name: 美国加利福尼亚11, server: 142.4.126.253, port: 38001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.87140386.xyz}}}
+  - {name: 美国加利福尼亚州12, server: 148.135.33.228, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.60988297.xyz}}}
+  - {name: 美国加利福尼亚州13, server: 148.135.9.66, port: 31000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.69555583.xyz}}}
+  - {name: 美国加利福尼亚14, server: 142.4.126.253, port: 38001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.87140386.xyz}}}
+  - {name: 美国加利福尼亚15, server: 38.48.166.242, port: 38001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.87137277.xyz}}}
+  - {name: 美国加利福尼亚16, server: 38.11.217.216, port: 38001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.72649000.xyz}}}
+  - {name: 美国加利福尼亚17, server: 142.4.119.115, port: 37001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.96128725.xyz}}}
+  - {name: 美国加利福尼亚18, server: 137.175.40.25, port: 38001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.75596620.xyz}}}
+  - {name: 荷兰北荷兰省19, server: 46.182.107.179, port: 41000, client-fingerprint: chrome, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.76788791.xyz}}}
+  - {name: 美国佐治亚州20, server: 172.111.57.140, port: 31001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.88268904.xyz}}}
+  - {name: 荷兰北荷兰省21, server: 46.182.107.179, port: 41000, client-fingerprint: chrome, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.76788791.xyz}}}
+  - {name: 美国加利福尼亚22, server: 142.4.126.253, port: 38001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.87140386.xyz}}}
+  - {name: 美国加利福尼亚23, server: 38.11.217.216, port: 38001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.72649000.xyz}}}
+  - {name: 美国加利福尼亚24, server: 38.38.184.123, port: 37001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.59977650.xyz}}}
+  - {name: 美国佐治亚州25, server: 172.111.57.74, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.75116565.xyz}}}
+  - {name: 美国加利福尼亚州26, server: 38.14.121.169, port: 37000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.19414772.xyz}}}
+  - {name: 美国佐治亚州27, server: 172.111.57.37, port: 31000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.13861936.xyz}}}
+  - {name: 美国加利福尼亚州28, server: 148.135.38.70, port: 31000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.29810260.xyz}}}
+  - {name: 美国加利福尼亚29, server: 38.38.169.118, port: 31000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.87044255.xyz}}}
+  - {name: 荷兰北荷兰省30, server: 46.182.107.117, port: 41001, client-fingerprint: chrome, type: vmess, uuid: 990006bd-cb20-482f-9c97-f5fc65359605, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.29155169.xyz}}}
+  - {name: 美国加利福尼亚31, server: 142.4.116.123, port: 37001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.99555130.xyz}}}
+  - {name: 美国加利福尼亚32, server: 38.38.174.231, port: 37001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.33799494.xyz}}}
+  - {name: 美国加利福尼亚33, server: 142.4.119.115, port: 37001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.96128725.xyz}}}
+  - {name: 美国加利福尼亚34, server: 38.38.184.123, port: 37001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.59977650.xyz}}}
+  - {name: 美国加利福尼亚35, server: 137.175.8.148, port: 38001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.70672263.xyz}}}
+  - {name: 美国佐治亚州36, server: 172.111.57.37, port: 31000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.13861936.xyz}}}
+  - {name: 美国加利福尼亚37, server: 137.175.23.40, port: 37001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.23602249.xyz}}}
+  - {name: 美国加利福尼亚38, server: 192.74.241.41, port: 38001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.12630069.xyz}}}
+  - {name: 美国佐治亚州39, server: 172.111.57.74, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.75116565.xyz}}}
+  - {name: 荷兰北荷兰省40, server: 46.182.107.117, port: 41001, client-fingerprint: chrome, type: vmess, uuid: 990006bd-cb20-482f-9c97-f5fc65359605, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.29155169.xyz}}}
+  - {name: 美国加利福尼亚州41, server: 148.135.33.228, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.60988297.xyz}}}
+  - {name: 美国加利福尼亚州42, server: 148.135.9.146, port: 36000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.73059090.xyz}}}
+  - {name: 美国佐治亚州43, server: 172.111.57.74, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.75116565.xyz}}}
+  - {name: 美国加利福尼亚44, server: 137.175.15.143, port: 37002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.86222404.xyz}}}
+  - {name: 荷兰北荷兰省45, server: 46.182.107.179, port: 41000, client-fingerprint: chrome, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.76788791.xyz}}}
+  - {name: 美国加利福尼亚州46, server: 148.135.31.51, port: 31000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.95683672.xyz}}}
+  - {name: 美国加利福尼亚州47, server: 148.135.75.59, port: 31001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.32497476.xyz}}}
+  - {name: 美国加利福尼亚48, server: 137.175.15.143, port: 37002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.86222404.xyz}}}
+  - {name: 美国加利福尼亚49, server: 198.2.196.170, port: 37001, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.54701745.xyz}}}
 
 proxy-groups:
   - name: 🔰 节点选择
@@ -62,112 +62,112 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国纽约州0
-      - 美国加利福尼亚州1
+      - 美国加利福尼亚0
+      - 美国加利福尼亚1
       - 美国加利福尼亚州2
-      - 美国佐治亚州3
+      - 美国加利福尼亚3
       - 美国加利福尼亚州4
       - 美国加利福尼亚5
       - 美国加利福尼亚州6
-      - 美国加利福尼亚州7
+      - 美国加利福尼亚7
       - 美国佐治亚州8
       - 美国加利福尼亚州9
-      - 美国加利福尼亚州10
-      - 美国加利福尼亚州11
-      - 美国加利福尼亚12
-      - 美国加利福尼亚13
-      - 荷兰北荷兰省14
-      - 美国特拉华州15
-      - 荷兰北荷兰省16
+      - 荷兰北荷兰省10
+      - 美国加利福尼亚11
+      - 美国加利福尼亚州12
+      - 美国加利福尼亚州13
+      - 美国加利福尼亚14
+      - 美国加利福尼亚15
+      - 美国加利福尼亚16
       - 美国加利福尼亚17
       - 美国加利福尼亚18
-      - 美国特拉华州19
+      - 荷兰北荷兰省19
       - 美国佐治亚州20
-      - 美国佐治亚州21
-      - 美国加利福尼亚州22
+      - 荷兰北荷兰省21
+      - 美国加利福尼亚22
       - 美国加利福尼亚23
       - 美国加利福尼亚24
-      - 美国加利福尼亚州25
+      - 美国佐治亚州25
       - 美国加利福尼亚州26
-      - 荷兰北荷兰省27
+      - 美国佐治亚州27
       - 美国加利福尼亚州28
       - 美国加利福尼亚29
-      - 美国加利福尼亚30
-      - 美国加利福尼亚州31
-      - 美国加利福尼亚州32
+      - 荷兰北荷兰省30
+      - 美国加利福尼亚31
+      - 美国加利福尼亚32
       - 美国加利福尼亚33
-      - 美国佐治亚州34
+      - 美国加利福尼亚34
       - 美国加利福尼亚35
-      - 美国加利福尼亚36
+      - 美国佐治亚州36
       - 美国加利福尼亚37
-      - 美国佐治亚州38
-      - 荷兰北荷兰省39
-      - 美国加利福尼亚州40
-      - 美国加利福尼亚41
-      - 美国加利福尼亚42
-      - 美国加利福尼亚州43
-      - 美国加利福尼亚州44
-      - 美国加利福尼亚45
-      - 美国佐治亚州46
+      - 美国加利福尼亚38
+      - 美国佐治亚州39
+      - 荷兰北荷兰省40
+      - 美国加利福尼亚州41
+      - 美国加利福尼亚州42
+      - 美国佐治亚州43
+      - 美国加利福尼亚44
+      - 荷兰北荷兰省45
+      - 美国加利福尼亚州46
       - 美国加利福尼亚州47
       - 美国加利福尼亚48
-      - 美国加利福尼亚州49
+      - 美国加利福尼亚49
   
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国纽约州0
-      - 美国加利福尼亚州1
+      - 美国加利福尼亚0
+      - 美国加利福尼亚1
       - 美国加利福尼亚州2
-      - 美国佐治亚州3
+      - 美国加利福尼亚3
       - 美国加利福尼亚州4
       - 美国加利福尼亚5
       - 美国加利福尼亚州6
-      - 美国加利福尼亚州7
+      - 美国加利福尼亚7
       - 美国佐治亚州8
       - 美国加利福尼亚州9
-      - 美国加利福尼亚州10
-      - 美国加利福尼亚州11
-      - 美国加利福尼亚12
-      - 美国加利福尼亚13
-      - 荷兰北荷兰省14
-      - 美国特拉华州15
-      - 荷兰北荷兰省16
+      - 荷兰北荷兰省10
+      - 美国加利福尼亚11
+      - 美国加利福尼亚州12
+      - 美国加利福尼亚州13
+      - 美国加利福尼亚14
+      - 美国加利福尼亚15
+      - 美国加利福尼亚16
       - 美国加利福尼亚17
       - 美国加利福尼亚18
-      - 美国特拉华州19
+      - 荷兰北荷兰省19
       - 美国佐治亚州20
-      - 美国佐治亚州21
-      - 美国加利福尼亚州22
+      - 荷兰北荷兰省21
+      - 美国加利福尼亚22
       - 美国加利福尼亚23
       - 美国加利福尼亚24
-      - 美国加利福尼亚州25
+      - 美国佐治亚州25
       - 美国加利福尼亚州26
-      - 荷兰北荷兰省27
+      - 美国佐治亚州27
       - 美国加利福尼亚州28
       - 美国加利福尼亚29
-      - 美国加利福尼亚30
-      - 美国加利福尼亚州31
-      - 美国加利福尼亚州32
+      - 荷兰北荷兰省30
+      - 美国加利福尼亚31
+      - 美国加利福尼亚32
       - 美国加利福尼亚33
-      - 美国佐治亚州34
+      - 美国加利福尼亚34
       - 美国加利福尼亚35
-      - 美国加利福尼亚36
+      - 美国佐治亚州36
       - 美国加利福尼亚37
-      - 美国佐治亚州38
-      - 荷兰北荷兰省39
-      - 美国加利福尼亚州40
-      - 美国加利福尼亚41
-      - 美国加利福尼亚42
-      - 美国加利福尼亚州43
-      - 美国加利福尼亚州44
-      - 美国加利福尼亚45
-      - 美国佐治亚州46
+      - 美国加利福尼亚38
+      - 美国佐治亚州39
+      - 荷兰北荷兰省40
+      - 美国加利福尼亚州41
+      - 美国加利福尼亚州42
+      - 美国佐治亚州43
+      - 美国加利福尼亚44
+      - 荷兰北荷兰省45
+      - 美国加利福尼亚州46
       - 美国加利福尼亚州47
       - 美国加利福尼亚48
-      - 美国加利福尼亚州49
+      - 美国加利福尼亚49
   
   - name: 🎥 NETFLIX
     type: select
@@ -175,56 +175,56 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国纽约州0
-      - 美国加利福尼亚州1
+      - 美国加利福尼亚0
+      - 美国加利福尼亚1
       - 美国加利福尼亚州2
-      - 美国佐治亚州3
+      - 美国加利福尼亚3
       - 美国加利福尼亚州4
       - 美国加利福尼亚5
       - 美国加利福尼亚州6
-      - 美国加利福尼亚州7
+      - 美国加利福尼亚7
       - 美国佐治亚州8
       - 美国加利福尼亚州9
-      - 美国加利福尼亚州10
-      - 美国加利福尼亚州11
-      - 美国加利福尼亚12
-      - 美国加利福尼亚13
-      - 荷兰北荷兰省14
-      - 美国特拉华州15
-      - 荷兰北荷兰省16
+      - 荷兰北荷兰省10
+      - 美国加利福尼亚11
+      - 美国加利福尼亚州12
+      - 美国加利福尼亚州13
+      - 美国加利福尼亚14
+      - 美国加利福尼亚15
+      - 美国加利福尼亚16
       - 美国加利福尼亚17
       - 美国加利福尼亚18
-      - 美国特拉华州19
+      - 荷兰北荷兰省19
       - 美国佐治亚州20
-      - 美国佐治亚州21
-      - 美国加利福尼亚州22
+      - 荷兰北荷兰省21
+      - 美国加利福尼亚22
       - 美国加利福尼亚23
       - 美国加利福尼亚24
-      - 美国加利福尼亚州25
+      - 美国佐治亚州25
       - 美国加利福尼亚州26
-      - 荷兰北荷兰省27
+      - 美国佐治亚州27
       - 美国加利福尼亚州28
       - 美国加利福尼亚29
-      - 美国加利福尼亚30
-      - 美国加利福尼亚州31
-      - 美国加利福尼亚州32
+      - 荷兰北荷兰省30
+      - 美国加利福尼亚31
+      - 美国加利福尼亚32
       - 美国加利福尼亚33
-      - 美国佐治亚州34
+      - 美国加利福尼亚34
       - 美国加利福尼亚35
-      - 美国加利福尼亚36
+      - 美国佐治亚州36
       - 美国加利福尼亚37
-      - 美国佐治亚州38
-      - 荷兰北荷兰省39
-      - 美国加利福尼亚州40
-      - 美国加利福尼亚41
-      - 美国加利福尼亚42
-      - 美国加利福尼亚州43
-      - 美国加利福尼亚州44
-      - 美国加利福尼亚45
-      - 美国佐治亚州46
+      - 美国加利福尼亚38
+      - 美国佐治亚州39
+      - 荷兰北荷兰省40
+      - 美国加利福尼亚州41
+      - 美国加利福尼亚州42
+      - 美国佐治亚州43
+      - 美国加利福尼亚44
+      - 荷兰北荷兰省45
+      - 美国加利福尼亚州46
       - 美国加利福尼亚州47
       - 美国加利福尼亚48
-      - 美国加利福尼亚州49
+      - 美国加利福尼亚49
   
   - name: ⛔️ 广告拦截
     type: select
@@ -244,56 +244,56 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国纽约州0
-      - 美国加利福尼亚州1
+      - 美国加利福尼亚0
+      - 美国加利福尼亚1
       - 美国加利福尼亚州2
-      - 美国佐治亚州3
+      - 美国加利福尼亚3
       - 美国加利福尼亚州4
       - 美国加利福尼亚5
       - 美国加利福尼亚州6
-      - 美国加利福尼亚州7
+      - 美国加利福尼亚7
       - 美国佐治亚州8
       - 美国加利福尼亚州9
-      - 美国加利福尼亚州10
-      - 美国加利福尼亚州11
-      - 美国加利福尼亚12
-      - 美国加利福尼亚13
-      - 荷兰北荷兰省14
-      - 美国特拉华州15
-      - 荷兰北荷兰省16
+      - 荷兰北荷兰省10
+      - 美国加利福尼亚11
+      - 美国加利福尼亚州12
+      - 美国加利福尼亚州13
+      - 美国加利福尼亚14
+      - 美国加利福尼亚15
+      - 美国加利福尼亚16
       - 美国加利福尼亚17
       - 美国加利福尼亚18
-      - 美国特拉华州19
+      - 荷兰北荷兰省19
       - 美国佐治亚州20
-      - 美国佐治亚州21
-      - 美国加利福尼亚州22
+      - 荷兰北荷兰省21
+      - 美国加利福尼亚22
       - 美国加利福尼亚23
       - 美国加利福尼亚24
-      - 美国加利福尼亚州25
+      - 美国佐治亚州25
       - 美国加利福尼亚州26
-      - 荷兰北荷兰省27
+      - 美国佐治亚州27
       - 美国加利福尼亚州28
       - 美国加利福尼亚29
-      - 美国加利福尼亚30
-      - 美国加利福尼亚州31
-      - 美国加利福尼亚州32
+      - 荷兰北荷兰省30
+      - 美国加利福尼亚31
+      - 美国加利福尼亚32
       - 美国加利福尼亚33
-      - 美国佐治亚州34
+      - 美国加利福尼亚34
       - 美国加利福尼亚35
-      - 美国加利福尼亚36
+      - 美国佐治亚州36
       - 美国加利福尼亚37
-      - 美国佐治亚州38
-      - 荷兰北荷兰省39
-      - 美国加利福尼亚州40
-      - 美国加利福尼亚41
-      - 美国加利福尼亚42
-      - 美国加利福尼亚州43
-      - 美国加利福尼亚州44
-      - 美国加利福尼亚45
-      - 美国佐治亚州46
+      - 美国加利福尼亚38
+      - 美国佐治亚州39
+      - 荷兰北荷兰省40
+      - 美国加利福尼亚州41
+      - 美国加利福尼亚州42
+      - 美国佐治亚州43
+      - 美国加利福尼亚44
+      - 荷兰北荷兰省45
+      - 美国加利福尼亚州46
       - 美国加利福尼亚州47
       - 美国加利福尼亚48
-      - 美国加利福尼亚州49
+      - 美国加利福尼亚49
   
   - name: 🌏 国内媒体
     type: select
@@ -305,112 +305,112 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国纽约州0
-      - 美国加利福尼亚州1
+      - 美国加利福尼亚0
+      - 美国加利福尼亚1
       - 美国加利福尼亚州2
-      - 美国佐治亚州3
+      - 美国加利福尼亚3
       - 美国加利福尼亚州4
       - 美国加利福尼亚5
       - 美国加利福尼亚州6
-      - 美国加利福尼亚州7
+      - 美国加利福尼亚7
       - 美国佐治亚州8
       - 美国加利福尼亚州9
-      - 美国加利福尼亚州10
-      - 美国加利福尼亚州11
-      - 美国加利福尼亚12
-      - 美国加利福尼亚13
-      - 荷兰北荷兰省14
-      - 美国特拉华州15
-      - 荷兰北荷兰省16
+      - 荷兰北荷兰省10
+      - 美国加利福尼亚11
+      - 美国加利福尼亚州12
+      - 美国加利福尼亚州13
+      - 美国加利福尼亚14
+      - 美国加利福尼亚15
+      - 美国加利福尼亚16
       - 美国加利福尼亚17
       - 美国加利福尼亚18
-      - 美国特拉华州19
+      - 荷兰北荷兰省19
       - 美国佐治亚州20
-      - 美国佐治亚州21
-      - 美国加利福尼亚州22
+      - 荷兰北荷兰省21
+      - 美国加利福尼亚22
       - 美国加利福尼亚23
       - 美国加利福尼亚24
-      - 美国加利福尼亚州25
+      - 美国佐治亚州25
       - 美国加利福尼亚州26
-      - 荷兰北荷兰省27
+      - 美国佐治亚州27
       - 美国加利福尼亚州28
       - 美国加利福尼亚29
-      - 美国加利福尼亚30
-      - 美国加利福尼亚州31
-      - 美国加利福尼亚州32
+      - 荷兰北荷兰省30
+      - 美国加利福尼亚31
+      - 美国加利福尼亚32
       - 美国加利福尼亚33
-      - 美国佐治亚州34
+      - 美国加利福尼亚34
       - 美国加利福尼亚35
-      - 美国加利福尼亚36
+      - 美国佐治亚州36
       - 美国加利福尼亚37
-      - 美国佐治亚州38
-      - 荷兰北荷兰省39
-      - 美国加利福尼亚州40
-      - 美国加利福尼亚41
-      - 美国加利福尼亚42
-      - 美国加利福尼亚州43
-      - 美国加利福尼亚州44
-      - 美国加利福尼亚45
-      - 美国佐治亚州46
+      - 美国加利福尼亚38
+      - 美国佐治亚州39
+      - 荷兰北荷兰省40
+      - 美国加利福尼亚州41
+      - 美国加利福尼亚州42
+      - 美国佐治亚州43
+      - 美国加利福尼亚44
+      - 荷兰北荷兰省45
+      - 美国加利福尼亚州46
       - 美国加利福尼亚州47
       - 美国加利福尼亚48
-      - 美国加利福尼亚州49
+      - 美国加利福尼亚49
   
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 美国纽约州0
-      - 美国加利福尼亚州1
+      - 美国加利福尼亚0
+      - 美国加利福尼亚1
       - 美国加利福尼亚州2
-      - 美国佐治亚州3
+      - 美国加利福尼亚3
       - 美国加利福尼亚州4
       - 美国加利福尼亚5
       - 美国加利福尼亚州6
-      - 美国加利福尼亚州7
+      - 美国加利福尼亚7
       - 美国佐治亚州8
       - 美国加利福尼亚州9
-      - 美国加利福尼亚州10
-      - 美国加利福尼亚州11
-      - 美国加利福尼亚12
-      - 美国加利福尼亚13
-      - 荷兰北荷兰省14
-      - 美国特拉华州15
-      - 荷兰北荷兰省16
+      - 荷兰北荷兰省10
+      - 美国加利福尼亚11
+      - 美国加利福尼亚州12
+      - 美国加利福尼亚州13
+      - 美国加利福尼亚14
+      - 美国加利福尼亚15
+      - 美国加利福尼亚16
       - 美国加利福尼亚17
       - 美国加利福尼亚18
-      - 美国特拉华州19
+      - 荷兰北荷兰省19
       - 美国佐治亚州20
-      - 美国佐治亚州21
-      - 美国加利福尼亚州22
+      - 荷兰北荷兰省21
+      - 美国加利福尼亚22
       - 美国加利福尼亚23
       - 美国加利福尼亚24
-      - 美国加利福尼亚州25
+      - 美国佐治亚州25
       - 美国加利福尼亚州26
-      - 荷兰北荷兰省27
+      - 美国佐治亚州27
       - 美国加利福尼亚州28
       - 美国加利福尼亚29
-      - 美国加利福尼亚30
-      - 美国加利福尼亚州31
-      - 美国加利福尼亚州32
+      - 荷兰北荷兰省30
+      - 美国加利福尼亚31
+      - 美国加利福尼亚32
       - 美国加利福尼亚33
-      - 美国佐治亚州34
+      - 美国加利福尼亚34
       - 美国加利福尼亚35
-      - 美国加利福尼亚36
+      - 美国佐治亚州36
       - 美国加利福尼亚37
-      - 美国佐治亚州38
-      - 荷兰北荷兰省39
-      - 美国加利福尼亚州40
-      - 美国加利福尼亚41
-      - 美国加利福尼亚42
-      - 美国加利福尼亚州43
-      - 美国加利福尼亚州44
-      - 美国加利福尼亚45
-      - 美国佐治亚州46
+      - 美国加利福尼亚38
+      - 美国佐治亚州39
+      - 荷兰北荷兰省40
+      - 美国加利福尼亚州41
+      - 美国加利福尼亚州42
+      - 美国佐治亚州43
+      - 美国加利福尼亚44
+      - 荷兰北荷兰省45
+      - 美国加利福尼亚州46
       - 美国加利福尼亚州47
       - 美国加利福尼亚48
-      - 美国加利福尼亚州49
+      - 美国加利福尼亚49
   
   - name: 🍎 苹果服务
     type: select
@@ -418,56 +418,56 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国纽约州0
-      - 美国加利福尼亚州1
+      - 美国加利福尼亚0
+      - 美国加利福尼亚1
       - 美国加利福尼亚州2
-      - 美国佐治亚州3
+      - 美国加利福尼亚3
       - 美国加利福尼亚州4
       - 美国加利福尼亚5
       - 美国加利福尼亚州6
-      - 美国加利福尼亚州7
+      - 美国加利福尼亚7
       - 美国佐治亚州8
       - 美国加利福尼亚州9
-      - 美国加利福尼亚州10
-      - 美国加利福尼亚州11
-      - 美国加利福尼亚12
-      - 美国加利福尼亚13
-      - 荷兰北荷兰省14
-      - 美国特拉华州15
-      - 荷兰北荷兰省16
+      - 荷兰北荷兰省10
+      - 美国加利福尼亚11
+      - 美国加利福尼亚州12
+      - 美国加利福尼亚州13
+      - 美国加利福尼亚14
+      - 美国加利福尼亚15
+      - 美国加利福尼亚16
       - 美国加利福尼亚17
       - 美国加利福尼亚18
-      - 美国特拉华州19
+      - 荷兰北荷兰省19
       - 美国佐治亚州20
-      - 美国佐治亚州21
-      - 美国加利福尼亚州22
+      - 荷兰北荷兰省21
+      - 美国加利福尼亚22
       - 美国加利福尼亚23
       - 美国加利福尼亚24
-      - 美国加利福尼亚州25
+      - 美国佐治亚州25
       - 美国加利福尼亚州26
-      - 荷兰北荷兰省27
+      - 美国佐治亚州27
       - 美国加利福尼亚州28
       - 美国加利福尼亚29
-      - 美国加利福尼亚30
-      - 美国加利福尼亚州31
-      - 美国加利福尼亚州32
+      - 荷兰北荷兰省30
+      - 美国加利福尼亚31
+      - 美国加利福尼亚32
       - 美国加利福尼亚33
-      - 美国佐治亚州34
+      - 美国加利福尼亚34
       - 美国加利福尼亚35
-      - 美国加利福尼亚36
+      - 美国佐治亚州36
       - 美国加利福尼亚37
-      - 美国佐治亚州38
-      - 荷兰北荷兰省39
-      - 美国加利福尼亚州40
-      - 美国加利福尼亚41
-      - 美国加利福尼亚42
-      - 美国加利福尼亚州43
-      - 美国加利福尼亚州44
-      - 美国加利福尼亚45
-      - 美国佐治亚州46
+      - 美国加利福尼亚38
+      - 美国佐治亚州39
+      - 荷兰北荷兰省40
+      - 美国加利福尼亚州41
+      - 美国加利福尼亚州42
+      - 美国佐治亚州43
+      - 美国加利福尼亚44
+      - 荷兰北荷兰省45
+      - 美国加利福尼亚州46
       - 美国加利福尼亚州47
       - 美国加利福尼亚48
-      - 美国加利福尼亚州49
+      - 美国加利福尼亚49
   
   - name: 🎯 全球直连
     type: select
@@ -484,56 +484,56 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国纽约州0
-      - 美国加利福尼亚州1
+      - 美国加利福尼亚0
+      - 美国加利福尼亚1
       - 美国加利福尼亚州2
-      - 美国佐治亚州3
+      - 美国加利福尼亚3
       - 美国加利福尼亚州4
       - 美国加利福尼亚5
       - 美国加利福尼亚州6
-      - 美国加利福尼亚州7
+      - 美国加利福尼亚7
       - 美国佐治亚州8
       - 美国加利福尼亚州9
-      - 美国加利福尼亚州10
-      - 美国加利福尼亚州11
-      - 美国加利福尼亚12
-      - 美国加利福尼亚13
-      - 荷兰北荷兰省14
-      - 美国特拉华州15
-      - 荷兰北荷兰省16
+      - 荷兰北荷兰省10
+      - 美国加利福尼亚11
+      - 美国加利福尼亚州12
+      - 美国加利福尼亚州13
+      - 美国加利福尼亚14
+      - 美国加利福尼亚15
+      - 美国加利福尼亚16
       - 美国加利福尼亚17
       - 美国加利福尼亚18
-      - 美国特拉华州19
+      - 荷兰北荷兰省19
       - 美国佐治亚州20
-      - 美国佐治亚州21
-      - 美国加利福尼亚州22
+      - 荷兰北荷兰省21
+      - 美国加利福尼亚22
       - 美国加利福尼亚23
       - 美国加利福尼亚24
-      - 美国加利福尼亚州25
+      - 美国佐治亚州25
       - 美国加利福尼亚州26
-      - 荷兰北荷兰省27
+      - 美国佐治亚州27
       - 美国加利福尼亚州28
       - 美国加利福尼亚29
-      - 美国加利福尼亚30
-      - 美国加利福尼亚州31
-      - 美国加利福尼亚州32
+      - 荷兰北荷兰省30
+      - 美国加利福尼亚31
+      - 美国加利福尼亚32
       - 美国加利福尼亚33
-      - 美国佐治亚州34
+      - 美国加利福尼亚34
       - 美国加利福尼亚35
-      - 美国加利福尼亚36
+      - 美国佐治亚州36
       - 美国加利福尼亚37
-      - 美国佐治亚州38
-      - 荷兰北荷兰省39
-      - 美国加利福尼亚州40
-      - 美国加利福尼亚41
-      - 美国加利福尼亚42
-      - 美国加利福尼亚州43
-      - 美国加利福尼亚州44
-      - 美国加利福尼亚45
-      - 美国佐治亚州46
+      - 美国加利福尼亚38
+      - 美国佐治亚州39
+      - 荷兰北荷兰省40
+      - 美国加利福尼亚州41
+      - 美国加利福尼亚州42
+      - 美国佐治亚州43
+      - 美国加利福尼亚44
+      - 荷兰北荷兰省45
+      - 美国加利福尼亚州46
       - 美国加利福尼亚州47
       - 美国加利福尼亚48
-      - 美国加利福尼亚州49
+      - 美国加利福尼亚49
   
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
