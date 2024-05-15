@@ -12,7 +12,7 @@ const filePath = `temp.dql`;  // 根据今天的日期生成文件路径
 const defaultYmlFilePath = `ccc2.yml`;  // 默认配置文件
 const resultYmlFilePath = `result.yml`;  // 最终的配置文件
 
-const VMESS_URL = fromBase64("aHR0cHM6Ly93d3cueHR4NmYueHl6OjIwMDAwL2FwaS9ldm1lc3M=");
+const VMESS_URL = fromBase64("aHR0cHM6Ly93d3cueGIwZi54eXo6MjAwMDAvYXBpL2V2bWVzcw==");
 const IP_URL = "https://ip.useragentinfo.com/jsonp?ip=";
 
 // const area = [999, 2, 34, 48, 49, 17, 7, 46, 4, 3, 33,
@@ -216,9 +216,9 @@ function getCommonParams(url, area) {
     let deviceId = uuidv4().replace(/-/g, "");
     let apps = md5(sign + deviceId);
     let time = new Date().getTime();
-    let result = url + "&vip=false&proto=4&platform=android&ver=8.3.18542&deviceid=" + deviceId + "&unicode=" + deviceId + "&t="
+    let result = url + "&vip=false&proto=4&platform=android&ver=8.17157.01919&deviceid=" + deviceId + "&unicode=" + deviceId + "&t="
         + time
-        + "&code=Q5N0UKR&recomm_code=&f=2023-09-12&install=2023-09-12&token=&package=com.network.xf18642&width=411.42856&height=774.8571&apps="
+        + "&code=Q5N0UKR&recomm_code=&f=2023-09-12&install=2024-05-15&token=&package=com.network.xf1715701919&width=411.42856&height=774.8571&apps="
         + apps;
     return result;
 }
