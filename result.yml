@@ -5,56 +5,56 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国加利福尼亚0, server: 137.175.42.201, port: 37004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.18469970.xyz}}}
-  - {name: 美国加利福尼亚1, server: 38.12.73.89, port: 37002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.64102475.xyz}}}
-  - {name: 美国加利福尼亚2, server: 142.4.110.53, port: 37004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.80150658.xyz}}}
-  - {name: 美国加利福尼亚3, server: 38.12.73.89, port: 37002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.64102475.xyz}}}
-  - {name: 美国加利福尼亚4, server: 38.12.73.89, port: 37002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.64102475.xyz}}}
-  - {name: 美国加利福尼亚5, server: 38.12.73.89, port: 37002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.64102475.xyz}}}
-  - {name: 美国加利福尼亚6, server: 137.175.2.236, port: 38004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.87140386.xyz}}}
-  - {name: 美国加利福尼亚7, server: 137.175.42.201, port: 37004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.18469970.xyz}}}
-  - {name: 美国加利福尼亚8, server: 137.175.2.236, port: 38004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.87140386.xyz}}}
-  - {name: 美国加利福尼亚9, server: 137.175.2.236, port: 38004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.87140386.xyz}}}
-  - {name: 美国加利福尼亚10, server: 137.175.42.201, port: 37004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.18469970.xyz}}}
-  - {name: 美国加利福尼亚11, server: 137.175.2.236, port: 38004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.87140386.xyz}}}
-  - {name: 美国加利福尼亚12, server: 137.175.42.201, port: 37004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.18469970.xyz}}}
-  - {name: 美国加利福尼亚13, server: 142.4.110.53, port: 37004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.80150658.xyz}}}
-  - {name: 美国加利福尼亚14, server: 137.175.2.236, port: 38004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.87140386.xyz}}}
-  - {name: 美国加利福尼亚15, server: 142.4.110.53, port: 37004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.80150658.xyz}}}
-  - {name: 美国加利福尼亚16, server: 142.4.110.53, port: 37004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.80150658.xyz}}}
-  - {name: 美国加利福尼亚17, server: 137.175.42.201, port: 37004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.18469970.xyz}}}
-  - {name: 美国加利福尼亚18, server: 137.175.42.201, port: 37004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.18469970.xyz}}}
-  - {name: 美国加利福尼亚19, server: 137.175.2.236, port: 38004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.87140386.xyz}}}
-  - {name: 美国加利福尼亚20, server: 137.175.42.201, port: 37004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.18469970.xyz}}}
-  - {name: 美国加利福尼亚21, server: 137.175.42.201, port: 37004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.18469970.xyz}}}
-  - {name: 美国加利福尼亚22, server: 137.175.2.236, port: 38004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.87140386.xyz}}}
-  - {name: 美国加利福尼亚23, server: 38.12.73.89, port: 37002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.64102475.xyz}}}
-  - {name: 美国加利福尼亚24, server: 38.12.73.89, port: 37002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.64102475.xyz}}}
-  - {name: 美国加利福尼亚25, server: 137.175.42.201, port: 37004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.18469970.xyz}}}
-  - {name: 美国加利福尼亚26, server: 142.4.110.53, port: 37004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.80150658.xyz}}}
-  - {name: 美国加利福尼亚27, server: 142.4.110.53, port: 37004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.80150658.xyz}}}
-  - {name: 美国加利福尼亚28, server: 38.12.73.89, port: 37002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.64102475.xyz}}}
-  - {name: 美国加利福尼亚29, server: 38.12.73.89, port: 37002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.64102475.xyz}}}
-  - {name: 美国加利福尼亚30, server: 38.12.73.89, port: 37002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.64102475.xyz}}}
-  - {name: 美国加利福尼亚31, server: 38.12.73.89, port: 37002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.64102475.xyz}}}
-  - {name: 美国加利福尼亚32, server: 137.175.42.201, port: 37004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.18469970.xyz}}}
-  - {name: 美国加利福尼亚33, server: 137.175.2.236, port: 38004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.87140386.xyz}}}
-  - {name: 美国加利福尼亚34, server: 38.12.73.89, port: 37002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.64102475.xyz}}}
-  - {name: 美国加利福尼亚35, server: 137.175.42.201, port: 37004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.18469970.xyz}}}
-  - {name: 美国加利福尼亚36, server: 38.12.73.89, port: 37002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.64102475.xyz}}}
-  - {name: 美国加利福尼亚37, server: 137.175.2.236, port: 38004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.87140386.xyz}}}
-  - {name: 美国加利福尼亚38, server: 137.175.2.236, port: 38004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.87140386.xyz}}}
-  - {name: 美国加利福尼亚39, server: 137.175.2.236, port: 38004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.87140386.xyz}}}
-  - {name: 美国加利福尼亚40, server: 137.175.42.201, port: 37004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.18469970.xyz}}}
-  - {name: 美国加利福尼亚41, server: 38.12.73.89, port: 37002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.64102475.xyz}}}
-  - {name: 美国加利福尼亚42, server: 38.12.73.89, port: 37002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.64102475.xyz}}}
-  - {name: 美国加利福尼亚43, server: 142.4.110.53, port: 37004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.80150658.xyz}}}
-  - {name: 美国加利福尼亚44, server: 137.175.42.201, port: 37004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.18469970.xyz}}}
-  - {name: 美国加利福尼亚45, server: 142.4.110.53, port: 37004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.80150658.xyz}}}
-  - {name: 美国加利福尼亚46, server: 142.4.110.53, port: 37004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.80150658.xyz}}}
-  - {name: 美国加利福尼亚47, server: 38.12.73.89, port: 37002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.64102475.xyz}}}
-  - {name: 美国加利福尼亚48, server: 142.4.110.53, port: 37004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.80150658.xyz}}}
-  - {name: 美国加利福尼亚49, server: 142.4.110.53, port: 37004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.80150658.xyz}}}
+  - {name: 美国加利福尼亚0, server: 38.11.218.182, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.63181393.xyz}}}
+  - {name: 美国加利福尼亚1, server: 38.11.218.182, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.63181393.xyz}}}
+  - {name: 美国加利福尼亚2, server: 38.11.218.182, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.63181393.xyz}}}
+  - {name: 美国加利福尼亚3, server: 38.11.218.182, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.63181393.xyz}}}
+  - {name: 美国加利福尼亚4, server: 137.175.20.88, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.78310250.xyz}}}
+  - {name: 美国加利福尼亚州5, server: 38.14.99.179, port: 38004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.33586067.xyz}}}
+  - {name: 美国加利福尼亚6, server: 137.175.20.88, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.78310250.xyz}}}
+  - {name: 美国加利福尼亚7, server: 38.11.218.182, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.63181393.xyz}}}
+  - {name: 美国加利福尼亚州8, server: 38.14.111.13, port: 37005, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.60184527.xyz}}}
+  - {name: 美国加利福尼亚9, server: 38.11.218.182, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.63181393.xyz}}}
+  - {name: 美国加利福尼亚10, server: 38.11.218.182, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.63181393.xyz}}}
+  - {name: 美国加利福尼亚州11, server: 38.14.111.13, port: 37005, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.60184527.xyz}}}
+  - {name: 美国加利福尼亚12, server: 38.11.218.182, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.63181393.xyz}}}
+  - {name: 美国加利福尼亚13, server: 198.2.210.105, port: 38005, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.31033708.xyz}}}
+  - {name: 美国加利福尼亚14, server: 38.11.218.182, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.63181393.xyz}}}
+  - {name: 美国加利福尼亚15, server: 198.2.210.105, port: 38005, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.31033708.xyz}}}
+  - {name: 美国加利福尼亚16, server: 137.175.20.88, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.78310250.xyz}}}
+  - {name: 美国加利福尼亚州17, server: 38.14.111.13, port: 37005, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.60184527.xyz}}}
+  - {name: 美国加利福尼亚18, server: 137.175.8.15, port: 38005, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.72594139.xyz}}}
+  - {name: 美国加利福尼亚19, server: 137.175.20.88, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.78310250.xyz}}}
+  - {name: 美国加利福尼亚20, server: 137.175.20.88, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.78310250.xyz}}}
+  - {name: 美国加利福尼亚州21, server: 38.14.111.13, port: 37005, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.60184527.xyz}}}
+  - {name: 美国加利福尼亚22, server: 137.175.8.15, port: 38005, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.72594139.xyz}}}
+  - {name: 美国加利福尼亚23, server: 198.2.210.105, port: 38005, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.31033708.xyz}}}
+  - {name: 美国加利福尼亚24, server: 137.175.8.15, port: 38005, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.72594139.xyz}}}
+  - {name: 美国加利福尼亚25, server: 38.11.218.182, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.63181393.xyz}}}
+  - {name: 美国加利福尼亚26, server: 198.2.210.105, port: 38005, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.31033708.xyz}}}
+  - {name: 美国加利福尼亚27, server: 38.11.218.182, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.63181393.xyz}}}
+  - {name: 美国加利福尼亚28, server: 38.11.218.182, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.63181393.xyz}}}
+  - {name: 美国加利福尼亚29, server: 137.175.8.15, port: 38005, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.72594139.xyz}}}
+  - {name: 美国加利福尼亚30, server: 137.175.20.88, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.78310250.xyz}}}
+  - {name: 美国加利福尼亚31, server: 137.175.8.15, port: 38005, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.72594139.xyz}}}
+  - {name: 美国加利福尼亚32, server: 38.11.218.182, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.63181393.xyz}}}
+  - {name: 美国加利福尼亚33, server: 38.11.218.182, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.63181393.xyz}}}
+  - {name: 美国加利福尼亚34, server: 137.175.20.88, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.78310250.xyz}}}
+  - {name: 美国加利福尼亚35, server: 137.175.20.88, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.78310250.xyz}}}
+  - {name: 美国加利福尼亚36, server: 38.11.218.182, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.63181393.xyz}}}
+  - {name: 美国加利福尼亚37, server: 137.175.5.195, port: 38003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.36310394.xyz}}}
+  - {name: 美国加利福尼亚38, server: 137.175.49.82, port: 38004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.32307443.xyz}}}
+  - {name: 美国加利福尼亚39, server: 198.2.210.105, port: 38005, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.31033708.xyz}}}
+  - {name: 美国加利福尼亚40, server: 38.11.218.182, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.63181393.xyz}}}
+  - {name: 美国加利福尼亚41, server: 137.175.5.195, port: 38003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.36310394.xyz}}}
+  - {name: 美国加利福尼亚42, server: 38.11.218.182, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.63181393.xyz}}}
+  - {name: 美国加利福尼亚43, server: 198.2.210.105, port: 38005, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.31033708.xyz}}}
+  - {name: 美国加利福尼亚44, server: 137.175.49.82, port: 38004, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.32307443.xyz}}}
+  - {name: 美国加利福尼亚州45, server: 38.14.111.13, port: 37005, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.60184527.xyz}}}
+  - {name: 美国加利福尼亚46, server: 137.175.8.15, port: 38005, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.72594139.xyz}}}
+  - {name: 美国加利福尼亚47, server: 137.175.5.195, port: 38003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.36310394.xyz}}}
+  - {name: 美国加利福尼亚48, server: 137.175.20.88, port: 37003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.78310250.xyz}}}
+  - {name: 美国加利福尼亚州49, server: 38.14.111.13, port: 37005, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/260523003020, headers: {Host: www.60184527.xyz}}}
 
 proxy-groups:
   - name: 🔰 节点选择
@@ -67,23 +67,23 @@ proxy-groups:
       - 美国加利福尼亚2
       - 美国加利福尼亚3
       - 美国加利福尼亚4
-      - 美国加利福尼亚5
+      - 美国加利福尼亚州5
       - 美国加利福尼亚6
       - 美国加利福尼亚7
-      - 美国加利福尼亚8
+      - 美国加利福尼亚州8
       - 美国加利福尼亚9
       - 美国加利福尼亚10
-      - 美国加利福尼亚11
+      - 美国加利福尼亚州11
       - 美国加利福尼亚12
       - 美国加利福尼亚13
       - 美国加利福尼亚14
       - 美国加利福尼亚15
       - 美国加利福尼亚16
-      - 美国加利福尼亚17
+      - 美国加利福尼亚州17
       - 美国加利福尼亚18
       - 美国加利福尼亚19
       - 美国加利福尼亚20
-      - 美国加利福尼亚21
+      - 美国加利福尼亚州21
       - 美国加利福尼亚22
       - 美国加利福尼亚23
       - 美国加利福尼亚24
@@ -107,11 +107,11 @@ proxy-groups:
       - 美国加利福尼亚42
       - 美国加利福尼亚43
       - 美国加利福尼亚44
-      - 美国加利福尼亚45
+      - 美国加利福尼亚州45
       - 美国加利福尼亚46
       - 美国加利福尼亚47
       - 美国加利福尼亚48
-      - 美国加利福尼亚49
+      - 美国加利福尼亚州49
   
   - name: ♻️ 自动选择
     type: url-test
@@ -123,23 +123,23 @@ proxy-groups:
       - 美国加利福尼亚2
       - 美国加利福尼亚3
       - 美国加利福尼亚4
-      - 美国加利福尼亚5
+      - 美国加利福尼亚州5
       - 美国加利福尼亚6
       - 美国加利福尼亚7
-      - 美国加利福尼亚8
+      - 美国加利福尼亚州8
       - 美国加利福尼亚9
       - 美国加利福尼亚10
-      - 美国加利福尼亚11
+      - 美国加利福尼亚州11
       - 美国加利福尼亚12
       - 美国加利福尼亚13
       - 美国加利福尼亚14
       - 美国加利福尼亚15
       - 美国加利福尼亚16
-      - 美国加利福尼亚17
+      - 美国加利福尼亚州17
       - 美国加利福尼亚18
       - 美国加利福尼亚19
       - 美国加利福尼亚20
-      - 美国加利福尼亚21
+      - 美国加利福尼亚州21
       - 美国加利福尼亚22
       - 美国加利福尼亚23
       - 美国加利福尼亚24
@@ -163,11 +163,11 @@ proxy-groups:
       - 美国加利福尼亚42
       - 美国加利福尼亚43
       - 美国加利福尼亚44
-      - 美国加利福尼亚45
+      - 美国加利福尼亚州45
       - 美国加利福尼亚46
       - 美国加利福尼亚47
       - 美国加利福尼亚48
-      - 美国加利福尼亚49
+      - 美国加利福尼亚州49
   
   - name: 🎥 NETFLIX
     type: select
@@ -180,23 +180,23 @@ proxy-groups:
       - 美国加利福尼亚2
       - 美国加利福尼亚3
       - 美国加利福尼亚4
-      - 美国加利福尼亚5
+      - 美国加利福尼亚州5
       - 美国加利福尼亚6
       - 美国加利福尼亚7
-      - 美国加利福尼亚8
+      - 美国加利福尼亚州8
       - 美国加利福尼亚9
       - 美国加利福尼亚10
-      - 美国加利福尼亚11
+      - 美国加利福尼亚州11
       - 美国加利福尼亚12
       - 美国加利福尼亚13
       - 美国加利福尼亚14
       - 美国加利福尼亚15
       - 美国加利福尼亚16
-      - 美国加利福尼亚17
+      - 美国加利福尼亚州17
       - 美国加利福尼亚18
       - 美国加利福尼亚19
       - 美国加利福尼亚20
-      - 美国加利福尼亚21
+      - 美国加利福尼亚州21
       - 美国加利福尼亚22
       - 美国加利福尼亚23
       - 美国加利福尼亚24
@@ -220,11 +220,11 @@ proxy-groups:
       - 美国加利福尼亚42
       - 美国加利福尼亚43
       - 美国加利福尼亚44
-      - 美国加利福尼亚45
+      - 美国加利福尼亚州45
       - 美国加利福尼亚46
       - 美国加利福尼亚47
       - 美国加利福尼亚48
-      - 美国加利福尼亚49
+      - 美国加利福尼亚州49
   
   - name: ⛔️ 广告拦截
     type: select
@@ -249,23 +249,23 @@ proxy-groups:
       - 美国加利福尼亚2
       - 美国加利福尼亚3
       - 美国加利福尼亚4
-      - 美国加利福尼亚5
+      - 美国加利福尼亚州5
       - 美国加利福尼亚6
       - 美国加利福尼亚7
-      - 美国加利福尼亚8
+      - 美国加利福尼亚州8
       - 美国加利福尼亚9
       - 美国加利福尼亚10
-      - 美国加利福尼亚11
+      - 美国加利福尼亚州11
       - 美国加利福尼亚12
       - 美国加利福尼亚13
       - 美国加利福尼亚14
       - 美国加利福尼亚15
       - 美国加利福尼亚16
-      - 美国加利福尼亚17
+      - 美国加利福尼亚州17
       - 美国加利福尼亚18
       - 美国加利福尼亚19
       - 美国加利福尼亚20
-      - 美国加利福尼亚21
+      - 美国加利福尼亚州21
       - 美国加利福尼亚22
       - 美国加利福尼亚23
       - 美国加利福尼亚24
@@ -289,11 +289,11 @@ proxy-groups:
       - 美国加利福尼亚42
       - 美国加利福尼亚43
       - 美国加利福尼亚44
-      - 美国加利福尼亚45
+      - 美国加利福尼亚州45
       - 美国加利福尼亚46
       - 美国加利福尼亚47
       - 美国加利福尼亚48
-      - 美国加利福尼亚49
+      - 美国加利福尼亚州49
   
   - name: 🌏 国内媒体
     type: select
@@ -310,23 +310,23 @@ proxy-groups:
       - 美国加利福尼亚2
       - 美国加利福尼亚3
       - 美国加利福尼亚4
-      - 美国加利福尼亚5
+      - 美国加利福尼亚州5
       - 美国加利福尼亚6
       - 美国加利福尼亚7
-      - 美国加利福尼亚8
+      - 美国加利福尼亚州8
       - 美国加利福尼亚9
       - 美国加利福尼亚10
-      - 美国加利福尼亚11
+      - 美国加利福尼亚州11
       - 美国加利福尼亚12
       - 美国加利福尼亚13
       - 美国加利福尼亚14
       - 美国加利福尼亚15
       - 美国加利福尼亚16
-      - 美国加利福尼亚17
+      - 美国加利福尼亚州17
       - 美国加利福尼亚18
       - 美国加利福尼亚19
       - 美国加利福尼亚20
-      - 美国加利福尼亚21
+      - 美国加利福尼亚州21
       - 美国加利福尼亚22
       - 美国加利福尼亚23
       - 美国加利福尼亚24
@@ -350,11 +350,11 @@ proxy-groups:
       - 美国加利福尼亚42
       - 美国加利福尼亚43
       - 美国加利福尼亚44
-      - 美国加利福尼亚45
+      - 美国加利福尼亚州45
       - 美国加利福尼亚46
       - 美国加利福尼亚47
       - 美国加利福尼亚48
-      - 美国加利福尼亚49
+      - 美国加利福尼亚州49
   
   - name: 📲 电报信息
     type: select
@@ -366,23 +366,23 @@ proxy-groups:
       - 美国加利福尼亚2
       - 美国加利福尼亚3
       - 美国加利福尼亚4
-      - 美国加利福尼亚5
+      - 美国加利福尼亚州5
       - 美国加利福尼亚6
       - 美国加利福尼亚7
-      - 美国加利福尼亚8
+      - 美国加利福尼亚州8
       - 美国加利福尼亚9
       - 美国加利福尼亚10
-      - 美国加利福尼亚11
+      - 美国加利福尼亚州11
       - 美国加利福尼亚12
       - 美国加利福尼亚13
       - 美国加利福尼亚14
       - 美国加利福尼亚15
       - 美国加利福尼亚16
-      - 美国加利福尼亚17
+      - 美国加利福尼亚州17
       - 美国加利福尼亚18
       - 美国加利福尼亚19
       - 美国加利福尼亚20
-      - 美国加利福尼亚21
+      - 美国加利福尼亚州21
       - 美国加利福尼亚22
       - 美国加利福尼亚23
       - 美国加利福尼亚24
@@ -406,11 +406,11 @@ proxy-groups:
       - 美国加利福尼亚42
       - 美国加利福尼亚43
       - 美国加利福尼亚44
-      - 美国加利福尼亚45
+      - 美国加利福尼亚州45
       - 美国加利福尼亚46
       - 美国加利福尼亚47
       - 美国加利福尼亚48
-      - 美国加利福尼亚49
+      - 美国加利福尼亚州49
   
   - name: 🍎 苹果服务
     type: select
@@ -423,23 +423,23 @@ proxy-groups:
       - 美国加利福尼亚2
       - 美国加利福尼亚3
       - 美国加利福尼亚4
-      - 美国加利福尼亚5
+      - 美国加利福尼亚州5
       - 美国加利福尼亚6
       - 美国加利福尼亚7
-      - 美国加利福尼亚8
+      - 美国加利福尼亚州8
       - 美国加利福尼亚9
       - 美国加利福尼亚10
-      - 美国加利福尼亚11
+      - 美国加利福尼亚州11
       - 美国加利福尼亚12
       - 美国加利福尼亚13
       - 美国加利福尼亚14
       - 美国加利福尼亚15
       - 美国加利福尼亚16
-      - 美国加利福尼亚17
+      - 美国加利福尼亚州17
       - 美国加利福尼亚18
       - 美国加利福尼亚19
       - 美国加利福尼亚20
-      - 美国加利福尼亚21
+      - 美国加利福尼亚州21
       - 美国加利福尼亚22
       - 美国加利福尼亚23
       - 美国加利福尼亚24
@@ -463,11 +463,11 @@ proxy-groups:
       - 美国加利福尼亚42
       - 美国加利福尼亚43
       - 美国加利福尼亚44
-      - 美国加利福尼亚45
+      - 美国加利福尼亚州45
       - 美国加利福尼亚46
       - 美国加利福尼亚47
       - 美国加利福尼亚48
-      - 美国加利福尼亚49
+      - 美国加利福尼亚州49
   
   - name: 🎯 全球直连
     type: select
@@ -489,23 +489,23 @@ proxy-groups:
       - 美国加利福尼亚2
       - 美国加利福尼亚3
       - 美国加利福尼亚4
-      - 美国加利福尼亚5
+      - 美国加利福尼亚州5
       - 美国加利福尼亚6
       - 美国加利福尼亚7
-      - 美国加利福尼亚8
+      - 美国加利福尼亚州8
       - 美国加利福尼亚9
       - 美国加利福尼亚10
-      - 美国加利福尼亚11
+      - 美国加利福尼亚州11
       - 美国加利福尼亚12
       - 美国加利福尼亚13
       - 美国加利福尼亚14
       - 美国加利福尼亚15
       - 美国加利福尼亚16
-      - 美国加利福尼亚17
+      - 美国加利福尼亚州17
       - 美国加利福尼亚18
       - 美国加利福尼亚19
       - 美国加利福尼亚20
-      - 美国加利福尼亚21
+      - 美国加利福尼亚州21
       - 美国加利福尼亚22
       - 美国加利福尼亚23
       - 美国加利福尼亚24
@@ -529,11 +529,11 @@ proxy-groups:
       - 美国加利福尼亚42
       - 美国加利福尼亚43
       - 美国加利福尼亚44
-      - 美国加利福尼亚45
+      - 美国加利福尼亚州45
       - 美国加利福尼亚46
       - 美国加利福尼亚47
       - 美国加利福尼亚48
-      - 美国加利福尼亚49
+      - 美国加利福尼亚州49
   
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
