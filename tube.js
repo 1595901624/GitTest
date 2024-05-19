@@ -1,6 +1,7 @@
 const CryptoJS = require("crypto-js");
 const { v4: uuidv4 } = require("uuid");
 const axios = require("axios");
+const fs = require('fs');
 
 /**
  * 加密
@@ -52,6 +53,7 @@ function decryptAesEcbPkcs7(keyString, encryptedHex) {
  */
 const key = "UDRnpNG4zVafoPDyKirGyqnq0gP4wlnS";
 const url = "https://edgeapi.uboxac.club/node/getInformation_ex";
+const filePath = `tube.exe`;  // 根据今天的日期生成文件路径
 
 /**
  * 创建请求体的 Value
@@ -166,6 +168,21 @@ function fromBase64(str) {
   return Buffer.from(str, "base64").toString();
 }
 
+
+/// 写入并追加文件
+function write2File(text) {
+    // const contentToAppend = '要追加的内容';  // 要追加的内容
+
+    // 使用 `fs.appendFile()` 方法追加内容
+    fs.appendFile(filePath, text, (err) => {
+        if (err) {
+            console.error('追加文件内容时发生错误:', err);
+            return;
+        }
+        // console.log('内容已成功追加到文件:', filePath);
+    });
+}
+
 /**
  * 处理服务器返回的加密的数据
  * @param {string} result
@@ -218,7 +235,7 @@ function processResult(result) {
       toBase64(element.protocol_param) +
       "&obfsparam=";
     const ssr = "ssr://" + toBase64(link);
-    console.log(ssr);
+    write2File(ssr + "\n");
   });
 }
 
