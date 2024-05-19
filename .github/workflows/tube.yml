@@ -1,0 +1,38 @@
+name: Tube Script
+
+on:
+  schedule:
+   - cron: '0 18 * * *'
+  workflow_dispatch:
+  # push:
+  #     branches:
+  #     - xxx
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with: { ref: xxx }
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Install dependencies
+        run: npm install request-promise uuid crypto-js crypto fs date-fns
+
+      - name: Run JavaScript script
+        run: node tube.js
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "haoyu3@163.com"
+          git config --local user.name "haoyu3_git"
+          git pull
+          git add .
+          git commit -m "Auto-generated files"
+          git push
