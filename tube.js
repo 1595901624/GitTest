@@ -1,7 +1,7 @@
 const CryptoJS = require("crypto-js");
 const { v4: uuidv4 } = require("uuid");
 const axios = require("axios");
-const fs = require('fs');
+const fs = require("fs");
 
 /**
  * 加密
@@ -53,7 +53,7 @@ function decryptAesEcbPkcs7(keyString, encryptedHex) {
  */
 const key = "UDRnpNG4zVafoPDyKirGyqnq0gP4wlnS";
 const url = "https://edgeapi.uboxac.club/node/getInformation_ex";
-const filePath = `tube.exe`;  // 根据今天的日期生成文件路径
+const filePath = `tube.info`; // 根据今天的日期生成文件路径
 
 /**
  * 创建请求体的 Value
@@ -168,19 +168,17 @@ function fromBase64(str) {
   return Buffer.from(str, "base64").toString();
 }
 
-
 /// 写入并追加文件
 function write2File(text) {
-    // const contentToAppend = '要追加的内容';  // 要追加的内容
-
-    // 使用 `fs.appendFile()` 方法追加内容
-    fs.appendFile(filePath, text, (err) => {
-        if (err) {
-            console.error('追加文件内容时发生错误:', err);
-            return;
-        }
-        // console.log('内容已成功追加到文件:', filePath);
-    });
+  // const contentToAppend = '要追加的内容';  // 要追加的内容
+  // 使用 `fs.appendFile()` 方法追加内容
+  fs.appendFile(filePath, text, (err) => {
+    if (err) {
+      console.error("追加文件内容时发生错误:", err);
+      return;
+    }
+    // console.log('内容已成功追加到文件:', filePath);
+  });
 }
 
 /**
@@ -239,15 +237,22 @@ function processResult(result) {
   });
 }
 
-// const x = decryptAesEcbPkcs7(
-//   key,
-//   "1EA7A759159338CDE7FD9320AD2B965BF66CE265BCFE93A581845285D3D2C39F0A39DAD03DFBD27B48356DDFD7DF13B09D08ED904A751308E760ECF83CA1AD99CC36C25F981AA0D19409B5C0B24AEA5A4B5CD5DC266E39EBBC30B5D2837C9B2A560D48565AB016E533B3B2FCC551D33E8A1DB983A0A32411B4FDFDD35CE88B8387B29B62766B5341158E8D780FCF6CE800E7153C61EE5CBAD781C5D16DC04795AB745BED9747B45CA50A1D76DE6498BD"
-// );
-// console.log(x);
+/**
+ * 清理历史文件
+ */
+function clearHistortFile() {
+  fs.unlink(filePath, (err) => {
+    if (err) {
+      console.error(err);
+      return;
+    }
+    console.log("历史文件删除成功");
+  });
+}
 
-// const y = encryptAesEcbPkcs7(
-//   key,
-//   '{"imei":"89752164-6bc1-99dd-9ac1-9f4e37ebb757","platform":"android","version_number":31,"models":"MI 6","sdk":"31","m":"C4B3BA4CD0367563327B7AEFD9B9B1BB","c":2}'
-// );
+function main() {
+  clearHistortFile();
+  requestServerData();
+}
 
-requestServerData();
+main();
