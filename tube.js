@@ -2,6 +2,7 @@ const CryptoJS = require("crypto-js");
 const { v4: uuidv4 } = require("uuid");
 const axios = require("axios");
 const fs = require("fs");
+const { el } = require("date-fns/locale");
 
 /**
  * 加密
@@ -213,7 +214,14 @@ function processResult(result) {
   //     country: 'JP',
   //     node_type_id: 1
   //   },
+
+  const clashProxies = [];
+  const clashProxyGroupNames = [];
+
   serverList.forEach((element) => {
+    if (element.name.indexOf("VIP") != -1) {
+      return;
+    }
     // dccm.ix2.edge.kunlunae.com:30528:auth_chain_a:chacha20:tls1.2_ticket_auth:bVBRNUM5/?remarks=&protoparam=MzE4MDE0MDE6VTlyVGY5&obfsparam=
     const link =
       element.host +
@@ -233,7 +241,50 @@ function processResult(result) {
       toBase64(element.protocol_param) +
       "&obfsparam=";
     const ssr = "ssr://" + toBase64(link);
+
+    const clashName = element.name.replaceAll("[", "_").replaceAll("]", "_");
+    const clashSSR = `  - {name: ${clashName}, server: ${element.host}, port: ${element.remotePort}, type: ssr, cipher: ${element.method}, password: ${element.password}, protocol: ${element.protocol}, obfs: ${element.obfs}, protocol-param: ${element.protocol_param}}`;
+    clashProxies.push(clashSSR);
+    clashProxyGroupNames.push(clashName);
     write2File(ssr + "\n");
+  });
+
+  // 生成clash
+  generateClashAddress(clashProxies, clashProxyGroupNames);
+}
+
+/**
+ * 生成订阅地址
+ * @param {string[]} clashProxies 订阅
+ * @param {string[]} clashProxyGroupNames 订阅名称
+ */
+function generateClashAddress(clashProxies, clashProxyGroupNames) {
+  const defaultYmlFilePath = `ccc2.yml`; // 默认配置文件
+  const resultYmlFilePath = `tube.yml`; // 最终的配置文件
+  let proxiesString = "";
+  for (let index = 0; index < clashProxies.length; index++) {
+    let item = clashProxies[index];
+    proxiesString += item + "\n";
+  }
+
+  let groupNameString = "";
+  for (let index = 0; index < clashProxyGroupNames.length; index++) {
+    let item = clashProxyGroupNames[index];
+    groupNameString += "      - " + item + "\n";
+  }
+  // console.log(proxiesString);
+
+  // 读取默认配置文件
+  fs.readFile(defaultYmlFilePath, "utf-8", (err, data) => {
+    data = data.replaceAll("# 我的订阅", proxiesString);
+    data = data.replaceAll("# 代理地址名称", groupNameString);
+    fs.writeFile(resultYmlFilePath, data, (err) => {
+      if (err) {
+        console.error("写入文件失败:", err);
+      } else {
+        console.log("写入文件成功");
+      }
+    });
   });
 }
 
