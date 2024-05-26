@@ -15,16 +15,13 @@ async function exec(db, sql, params = []) {
   });
 }
 
-async function createDatabase() {
-  return new Promise((resolve, reject) => {
-    let db = new sqlite3.Database(dbName, (err) => {
-      if (err) {
-        resolve(null);
-      } else {
-        resolve(db);
-      }
-    });
+function createDatabase() {
+  const db = new sqlite3.Database(dbName, (err) => {
+    if (err) {
+    } else {
+    }
   });
+  return db;
 }
 
 async function createVodTable(db) {
@@ -114,7 +111,7 @@ async function createVodTable(db) {
     vod_plot_detail TEXT,
     type_name TEXT
 );`;
-  return db.exec(db, sql);
+  return exec(db, sql);
 }
 
 /**
@@ -222,4 +219,4 @@ async function insertVod(db, vod) {
 }
 
 // export defa { createDatabase, createDatabase, insertVod, exec };
-module.exports = { createDatabase, createDatabase, insertVod, exec };
+module.exports = { createDatabase, createVodTable, insertVod, exec };
