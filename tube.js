@@ -301,9 +301,24 @@ function clearHistortFile() {
   });
 }
 
+function refreshCache() {
+  axios
+    .get("https://purge.jsdelivr.net/gh/1595901624/GitTest@xxx/fsl.yml")
+    .then((response) => {
+      console.log(response?.data);
+    });
+
+  axios
+    .get("https://purge.jsdelivr.net/gh/1595901624/GitTest@xxx/tube.yml")
+    .then((response) => {
+      console.log(response?.data);
+    });
+}
+
 function main() {
   clearHistortFile();
   requestServerData();
+  refreshCache();
 }
 
 main();
