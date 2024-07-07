@@ -10331,5 +10331,7 @@ rules:
   - IP-CIDR,172.26.124.172/16,🎯 全球直连,no-resolve
   - IP-CIDR,172.21.37.107/15,🎯 全球直连,no-resolve
   - IP-CIDR,172.21.37.107/16,🎯 全球直连,no-resolve
+  - IP-CIDR,172.21.24.244/15,🎯 全球直连,no-resolve
+  - IP-CIDR,172.21.24.244/16,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
