@@ -106,6 +106,6 @@ function copyFolderSync(source, target) {
     });
 }
 
-const PROJECT_NAME = "test"
+const PROJECT_NAME = "RTNBanner"
 const COPONENT_NAME = "RTNTest"
 main();
