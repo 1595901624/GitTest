@@ -1,6 +1,7 @@
   - DOMAIN-SUFFIX,komect.com,🎯 全球直连
   - DOMAIN-SUFFIX,komect.net,🎯 全球直连
   - DOMAIN-SUFFIX,hq.cmcc,🎯 全球直连
+  - DOMAIN-SUFFIX,oaifree.com,🎯 全球直连
   - IP-CIDR,172.21.154.28/15,🎯 全球直连,no-resolve
   - IP-CIDR,172.21.154.28/16,🎯 全球直连,no-resolve
   - IP-CIDR,172.26.124.172/15,🎯 全球直连,no-resolve
