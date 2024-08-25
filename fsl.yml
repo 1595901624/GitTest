@@ -5,25 +5,25 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "消息: 1条未读，在APP查看", server: 14.29.241.91, port: 30260, type: trojan, password: Y34cESy6Jb, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 P1 | 京新隧道、IPv6、限时体验2小时 | 3x, server: 14.29.241.91, port: 30260, type: trojan, password: Y34cESy6Jb, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 F1 | 沪美隧道、IPv6、限时体验4小时 | 3x, server: 125.124.147.206, port: 11854, type: trojan, password: Y34cESy6Jb, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 F2 | 浙江移动、IPv6、限时体验4小时 | 3x, server: 120.226.28.206, port: 11858, type: trojan, password: Y34cESy6Jb, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 W1 | 直连 | 2x, server: 5.180.24.164, port: 11347, type: trojan, password: Y34cESy6Jb, sni: download.windowsupdate.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 W2 | 直连、ChatGPT | 3x, server: 212.18.104.164, port: 14193, type: trojan, password: Y34cESy6Jb, sni: download.windowsupdate.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 W1 | 直连、联通优化、IPv6 | 3x, server: 172.234.86.110, port: 23649, type: trojan, password: Y34cESy6Jb, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 W2 | 直连、联通优化 | 3x, server: 172.233.65.140, port: 48669, type: trojan, password: Y34cESy6Jb, sni: download.windowsupdate.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 W1 | 直连、移动优化 | 3x, server: 139.162.2.248, port: 43491, type: trojan, password: Y34cESy6Jb, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 W2 | 直连、新开机 | 3x, server: 172.104.184.49, port: 43399, type: trojan, password: Y34cESy6Jb, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: ----- 账号信息 -----, server: 14.29.241.91, port: 30260, type: trojan, password: Y34cESy6Jb, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: "登录账号: c19844563588@gmail.com", server: 14.29.241.91, port: 30260, type: trojan, password: Y34cESy6Jb, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: "体验套餐: 剩余7天", server: 14.29.241.91, port: 30260, type: trojan, password: Y34cESy6Jb, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: "🏳️‍🌈 流量重置: 每月18日 10G，剩余10G", server: 14.29.241.91, port: 30260, type: trojan, password: Y34cESy6Jb, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: ----- 联系我们 -----, server: 14.29.241.91, port: 30260, type: trojan, password: Y34cESy6Jb, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: "电报: https://t.me/balecc_group", server: 14.29.241.91, port: 30260, type: trojan, password: Y34cESy6Jb, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: "邮箱: contact@balecc.com", server: 14.29.241.91, port: 30260, type: trojan, password: Y34cESy6Jb, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: "官网: ibale.cc/ol", server: 14.29.241.91, port: 30260, type: trojan, password: Y34cESy6Jb, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: "🏳️‍🌈 时间: 2024-08-18 21:19:15", server: 14.29.241.91, port: 30260, type: trojan, password: Y34cESy6Jb, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "消息: 1条未读，在APP查看", server: 14.29.241.91, port: 30260, type: trojan, password: Xg5ZCx3VDB, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 P1 | 京新隧道、IPv6、限时体验2小时 | 3x, server: 14.29.241.91, port: 30260, type: trojan, password: Xg5ZCx3VDB, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 F1 | 沪美隧道、IPv6、限时体验4小时 | 3x, server: 59.36.151.110, port: 11854, type: trojan, password: Xg5ZCx3VDB, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 F2 | 浙江移动、IPv6、限时体验4小时 | 3x, server: 120.226.28.206, port: 11858, type: trojan, password: Xg5ZCx3VDB, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 W1 | 直连 | 2x, server: 5.180.24.164, port: 11397, type: trojan, password: Xg5ZCx3VDB, sni: download.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 W2 | 直连、ChatGPT | 3x, server: 212.18.104.164, port: 14166, type: trojan, password: Xg5ZCx3VDB, sni: download.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 W1 | 直连、联通优化、IPv6 | 3x, server: 172.234.86.110, port: 23579, type: trojan, password: Xg5ZCx3VDB, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 W2 | 直连、联通优化 | 3x, server: 172.233.65.140, port: 48651, type: trojan, password: Xg5ZCx3VDB, sni: download.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 W1 | 直连、移动优化 | 3x, server: 139.162.2.248, port: 43468, type: trojan, password: Xg5ZCx3VDB, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 W2 | 直连 | 3x, server: 172.104.184.49, port: 43438, type: trojan, password: Xg5ZCx3VDB, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: ----- 账号信息 -----, server: 14.29.241.91, port: 30260, type: trojan, password: Xg5ZCx3VDB, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "登录账号: lizhaofeng@163.com", server: 14.29.241.91, port: 30260, type: trojan, password: Xg5ZCx3VDB, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "体验套餐: 剩余7天", server: 14.29.241.91, port: 30260, type: trojan, password: Xg5ZCx3VDB, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "🏳️‍🌈 流量重置: 每月25日 10G，剩余10G", server: 14.29.241.91, port: 30260, type: trojan, password: Xg5ZCx3VDB, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: ----- 联系我们 -----, server: 14.29.241.91, port: 30260, type: trojan, password: Xg5ZCx3VDB, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "电报: https://t.me/balecc_group", server: 14.29.241.91, port: 30260, type: trojan, password: Xg5ZCx3VDB, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "邮箱: contact@balecc.com", server: 14.29.241.91, port: 30260, type: trojan, password: Xg5ZCx3VDB, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "官网: ibale.cc/ol", server: 14.29.241.91, port: 30260, type: trojan, password: Xg5ZCx3VDB, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "🏳️‍🌈 时间: 2024-08-25 22:18:25", server: 14.29.241.91, port: 30260, type: trojan, password: Xg5ZCx3VDB, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -37,16 +37,16 @@ proxy-groups:
       - 🇯🇵 日本 W1 | 直连、联通优化、IPv6 | 3x
       - 🇯🇵 日本 W2 | 直连、联通优化 | 3x
       - 🇸🇬 新加坡 W1 | 直连、移动优化 | 3x
-      - 🇸🇬 新加坡 W2 | 直连、新开机 | 3x
+      - 🇸🇬 新加坡 W2 | 直连 | 3x
       - ----- 账号信息 -----
-      - "登录账号: c19844563588@gmail.com"
+      - "登录账号: lizhaofeng@163.com"
       - "体验套餐: 剩余7天"
-      - "🏳️‍🌈 流量重置: 每月18日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月25日 10G，剩余10G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: ibale.cc/ol"
-      - "🏳️‍🌈 时间: 2024-08-18 21:19:15"
+      - "🏳️‍🌈 时间: 2024-08-25 22:18:25"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -61,16 +61,16 @@ proxy-groups:
       - 🇯🇵 日本 W1 | 直连、联通优化、IPv6 | 3x
       - 🇯🇵 日本 W2 | 直连、联通优化 | 3x
       - 🇸🇬 新加坡 W1 | 直连、移动优化 | 3x
-      - 🇸🇬 新加坡 W2 | 直连、新开机 | 3x
+      - 🇸🇬 新加坡 W2 | 直连 | 3x
       - ----- 账号信息 -----
-      - "登录账号: c19844563588@gmail.com"
+      - "登录账号: lizhaofeng@163.com"
       - "体验套餐: 剩余7天"
-      - "🏳️‍🌈 流量重置: 每月18日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月25日 10G，剩余10G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: ibale.cc/ol"
-      - "🏳️‍🌈 时间: 2024-08-18 21:19:15"
+      - "🏳️‍🌈 时间: 2024-08-25 22:18:25"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -85,16 +85,16 @@ proxy-groups:
       - 🇯🇵 日本 W1 | 直连、联通优化、IPv6 | 3x
       - 🇯🇵 日本 W2 | 直连、联通优化 | 3x
       - 🇸🇬 新加坡 W1 | 直连、移动优化 | 3x
-      - 🇸🇬 新加坡 W2 | 直连、新开机 | 3x
+      - 🇸🇬 新加坡 W2 | 直连 | 3x
       - ----- 账号信息 -----
-      - "登录账号: c19844563588@gmail.com"
+      - "登录账号: lizhaofeng@163.com"
       - "体验套餐: 剩余7天"
-      - "🏳️‍🌈 流量重置: 每月18日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月25日 10G，剩余10G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: ibale.cc/ol"
-      - "🏳️‍🌈 时间: 2024-08-18 21:19:15"
+      - "🏳️‍🌈 时间: 2024-08-25 22:18:25"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -109,16 +109,16 @@ proxy-groups:
       - 🇯🇵 日本 W1 | 直连、联通优化、IPv6 | 3x
       - 🇯🇵 日本 W2 | 直连、联通优化 | 3x
       - 🇸🇬 新加坡 W1 | 直连、移动优化 | 3x
-      - 🇸🇬 新加坡 W2 | 直连、新开机 | 3x
+      - 🇸🇬 新加坡 W2 | 直连 | 3x
       - ----- 账号信息 -----
-      - "登录账号: c19844563588@gmail.com"
+      - "登录账号: lizhaofeng@163.com"
       - "体验套餐: 剩余7天"
-      - "🏳️‍🌈 流量重置: 每月18日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月25日 10G，剩余10G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: ibale.cc/ol"
-      - "🏳️‍🌈 时间: 2024-08-18 21:19:15"
+      - "🏳️‍🌈 时间: 2024-08-25 22:18:25"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -133,16 +133,16 @@ proxy-groups:
       - 🇯🇵 日本 W1 | 直连、联通优化、IPv6 | 3x
       - 🇯🇵 日本 W2 | 直连、联通优化 | 3x
       - 🇸🇬 新加坡 W1 | 直连、移动优化 | 3x
-      - 🇸🇬 新加坡 W2 | 直连、新开机 | 3x
+      - 🇸🇬 新加坡 W2 | 直连 | 3x
       - ----- 账号信息 -----
-      - "登录账号: c19844563588@gmail.com"
+      - "登录账号: lizhaofeng@163.com"
       - "体验套餐: 剩余7天"
-      - "🏳️‍🌈 流量重置: 每月18日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月25日 10G，剩余10G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: ibale.cc/ol"
-      - "🏳️‍🌈 时间: 2024-08-18 21:19:15"
+      - "🏳️‍🌈 时间: 2024-08-25 22:18:25"
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -157,16 +157,16 @@ proxy-groups:
       - 🇯🇵 日本 W1 | 直连、联通优化、IPv6 | 3x
       - 🇯🇵 日本 W2 | 直连、联通优化 | 3x
       - 🇸🇬 新加坡 W1 | 直连、移动优化 | 3x
-      - 🇸🇬 新加坡 W2 | 直连、新开机 | 3x
+      - 🇸🇬 新加坡 W2 | 直连 | 3x
       - ----- 账号信息 -----
-      - "登录账号: c19844563588@gmail.com"
+      - "登录账号: lizhaofeng@163.com"
       - "体验套餐: 剩余7天"
-      - "🏳️‍🌈 流量重置: 每月18日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月25日 10G，剩余10G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: ibale.cc/ol"
-      - "🏳️‍🌈 时间: 2024-08-18 21:19:15"
+      - "🏳️‍🌈 时间: 2024-08-25 22:18:25"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -192,16 +192,16 @@ proxy-groups:
       - 🇯🇵 日本 W1 | 直连、联通优化、IPv6 | 3x
       - 🇯🇵 日本 W2 | 直连、联通优化 | 3x
       - 🇸🇬 新加坡 W1 | 直连、移动优化 | 3x
-      - 🇸🇬 新加坡 W2 | 直连、新开机 | 3x
+      - 🇸🇬 新加坡 W2 | 直连 | 3x
       - ----- 账号信息 -----
-      - "登录账号: c19844563588@gmail.com"
+      - "登录账号: lizhaofeng@163.com"
       - "体验套餐: 剩余7天"
-      - "🏳️‍🌈 流量重置: 每月18日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月25日 10G，剩余10G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: ibale.cc/ol"
-      - "🏳️‍🌈 时间: 2024-08-18 21:19:15"
+      - "🏳️‍🌈 时间: 2024-08-25 22:18:25"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -216,16 +216,16 @@ proxy-groups:
       - 🇯🇵 日本 W1 | 直连、联通优化、IPv6 | 3x
       - 🇯🇵 日本 W2 | 直连、联通优化 | 3x
       - 🇸🇬 新加坡 W1 | 直连、移动优化 | 3x
-      - 🇸🇬 新加坡 W2 | 直连、新开机 | 3x
+      - 🇸🇬 新加坡 W2 | 直连 | 3x
       - ----- 账号信息 -----
-      - "登录账号: c19844563588@gmail.com"
+      - "登录账号: lizhaofeng@163.com"
       - "体验套餐: 剩余7天"
-      - "🏳️‍🌈 流量重置: 每月18日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月25日 10G，剩余10G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: ibale.cc/ol"
-      - "🏳️‍🌈 时间: 2024-08-18 21:19:15"
+      - "🏳️‍🌈 时间: 2024-08-25 22:18:25"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
