@@ -23,7 +23,7 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        run: npm install request-promise uuid crypto-js crypto fs date-fns
+        run: npm install request-promise uuid crypto-js crypto fs date-fns https
 
       - name: Run JavaScript script
         run: node tube.js
