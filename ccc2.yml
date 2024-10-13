@@ -8404,7 +8404,6 @@ rules:
   - DOMAIN-SUFFIX,v2.reachmax.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,track.sohu.com,🛑 全球拦截
   - DOMAIN-SUFFIX,hui.sohu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,bugly.qq.com,🛑 全球拦截
   - DOMAIN-SUFFIX,e.qq.com,🛑 全球拦截
   - DOMAIN-SUFFIX,gdt.qq.com,🛑 全球拦截
   - DOMAIN-SUFFIX,rqd.qq.com,🛑 全球拦截
@@ -8571,7 +8570,6 @@ rules:
   - DOMAIN-SUFFIX,www.googleadservices.com,🛑 全球拦截
   - DOMAIN-SUFFIX,www.google-analytics.com,🛑 全球拦截
   - DOMAIN-SUFFIX,fusion.qq.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ios.bugly.qq.com,🛑 全球拦截
   - DOMAIN-SUFFIX,wup.imtt.qq.com,🛑 全球拦截
   - DOMAIN-SUFFIX,tns.simba.taobao.com,🛑 全球拦截
   - DOMAIN-SUFFIX,click.mz.simba.taobao.com,🛑 全球拦截

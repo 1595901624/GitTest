@@ -1420,7 +1420,6 @@ rules:
   - DOMAIN-SUFFIX,act.qq.com,🍃 应用净化
   - DOMAIN-SUFFIX,ad.qun.qq.com,🍃 应用净化
   - DOMAIN-SUFFIX,adsfile.qq.com,🍃 应用净化
-  - DOMAIN-SUFFIX,bugly.qq.com,🍃 应用净化
   - DOMAIN-SUFFIX,buluo.qq.com,🍃 应用净化
   - DOMAIN-SUFFIX,e.qq.com,🍃 应用净化
   - DOMAIN-SUFFIX,gdt.qq.com,🍃 应用净化
@@ -3682,7 +3681,6 @@ rules:
   - DOMAIN-SUFFIX,hq.cmcc,🎯 全球直连
   - DOMAIN-SUFFIX,oaifree.com,🎯 全球直连
   - DOMAIN-SUFFIX,bugly.qq.com,🎯 全球直连
-  - IP-CIDR,183.194.189.191/15,🎯 全球直连,no-resolve
   - IP-CIDR,172.21.154.28/15,🎯 全球直连,no-resolve
   - IP-CIDR,172.21.154.28/16,🎯 全球直连,no-resolve
   - IP-CIDR,172.26.124.172/15,🎯 全球直连,no-resolve
