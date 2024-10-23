@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.8.0">
   <diagram name="第 1 页" id="G2DGBCtos0AvW2S51lE0">
-    <mxGraphModel dx="719" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1042" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,6 +24,9 @@
         </mxCell>
         <mxCell id="YtAs-siCzYPvFLhMV9K_-9" value="3、调用体检接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YtAs-siCzYPvFLhMV9K_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YtAs-siCzYPvFLhMV9K_-18" target="YtAs-siCzYPvFLhMV9K_-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YtAs-siCzYPvFLhMV9K_-18" value="是否有绿色插件" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="305" y="410" width="150" height="80" as="geometry" />
