@@ -5,196 +5,133 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "消息: 1条未读，在APP查看", server: 211.72.156.82, port: 30260, type: trojan, password: KYNxTTKGMm, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 P1 | 鄂日隧道、IPv6、限时体验1小时 | 3x, server: 211.72.156.82, port: 30260, type: trojan, password: KYNxTTKGMm, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 F1 | 粤美隧道、IPv6、限时体验4小时 | 3x, server: 183.56.216.50, port: 11854, type: trojan, password: KYNxTTKGMm, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验4小时 | 2x, server: 139.162.13.96, port: 11877, type: trojan, password: KYNxTTKGMm, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 V1 | 粤美隧道、Netflix(US)、闲时可见 | 3x, server: 183.56.216.50, port: 12281, type: trojan, password: Mcc3ad79, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 W1 | 粤美隧道 | 3x, server: 183.56.216.50, port: 11327, type: trojan, password: KYNxTTKGMm, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 W2 | 直连、ChatGPT | 3x, server: 212.18.104.164, port: 14187, type: trojan, password: KYNxTTKGMm, sni: download.windowsupdate.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 W1 | 直连、联通优化、IPv6 | 3x, server: 172.233.82.200, port: 23683, type: trojan, password: KYNxTTKGMm, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 W2 | 直连、联通优化 | 3x, server: 172.233.89.32, port: 48548, type: trojan, password: KYNxTTKGMm, sni: download.windowsupdate.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 W1 | 直连、移动优化 | 3x, server: 139.162.54.116, port: 43438, type: trojan, password: KYNxTTKGMm, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 W2 | 直连、移动优化 | 3x, server: 172.104.57.191, port: 43374, type: trojan, password: KYNxTTKGMm, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 德国 W3 | 粤美隧道、闲时可见 | 3x, server: 183.56.216.50, port: 22116, type: trojan, password: M3682331, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 印度 W4 | 广港隧道、IPv6、闲时可见 | 3x, server: 112.29.185.156, port: 21854, type: trojan, password: KYNxTTKGMm, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 俄罗斯 W7 | 粤美隧道、闲时可见 | 2x, server: 183.56.216.50, port: 30175, type: trojan, password: M591d506, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
-  - {name: ----- 账号信息 -----, server: 211.72.156.82, port: 30260, type: trojan, password: KYNxTTKGMm, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: "登录账号: qinsiqi520@gmail.com", server: 211.72.156.82, port: 30260, type: trojan, password: KYNxTTKGMm, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: "体验套餐: 剩余7天", server: 211.72.156.82, port: 30260, type: trojan, password: KYNxTTKGMm, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: "🏳️‍🌈 流量重置: 每月2日 10G，剩余10G", server: 211.72.156.82, port: 30260, type: trojan, password: KYNxTTKGMm, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: ----- 联系我们 -----, server: 211.72.156.82, port: 30260, type: trojan, password: KYNxTTKGMm, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: "电报: https://t.me/balecc_group", server: 211.72.156.82, port: 30260, type: trojan, password: KYNxTTKGMm, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: "邮箱: contact@balecc.com", server: 211.72.156.82, port: 30260, type: trojan, password: KYNxTTKGMm, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: "官网: blfsl.cc/ol", server: 211.72.156.82, port: 30260, type: trojan, password: KYNxTTKGMm, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: "🏳️‍🌈 时间: 2024-12-02 08:51:21", server: 211.72.156.82, port: 30260, type: trojan, password: KYNxTTKGMm, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "消息: 1条未读，在APP查看", server: 119.96.230.160, port: 12282, type: trojan, password: vBrgD8wrng, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 美国 F1 | 鄂日隧道、IPv6、限时体验4小时 | 3x, server: 119.96.230.160, port: 12282, type: trojan, password: vBrgD8wrng, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验4小时、新开机 | 2x, server: 139.162.54.35, port: 21939, type: trojan, password: vBrgD8wrng, sni: download.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 美国 W1 | 鄂日隧道 | 3x, server: 211.72.156.82, port: 43120, type: trojan, password: vBrgD8wrng, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 W2 | 直连、ChatGPT | 3x, server: 212.18.104.164, port: 14167, type: trojan, password: vBrgD8wrng, sni: download.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: ----- 账号信息 -----, server: 119.96.230.160, port: 12282, type: trojan, password: vBrgD8wrng, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "登录账号: tesila99@gamil.com", server: 119.96.230.160, port: 12282, type: trojan, password: vBrgD8wrng, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "体验套餐: 剩余7天", server: 119.96.230.160, port: 12282, type: trojan, password: vBrgD8wrng, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "🏳️‍🌈 流量重置: 每月8日 10G，剩余11G", server: 119.96.230.160, port: 12282, type: trojan, password: vBrgD8wrng, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: ----- 联系我们 -----, server: 119.96.230.160, port: 12282, type: trojan, password: vBrgD8wrng, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "电报: https://t.me/balecc_group", server: 119.96.230.160, port: 12282, type: trojan, password: vBrgD8wrng, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "邮箱: contact@balecc.com", server: 119.96.230.160, port: 12282, type: trojan, password: vBrgD8wrng, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "官网: blfsl.cc/ol", server: 119.96.230.160, port: 12282, type: trojan, password: vBrgD8wrng, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "🏳️‍🌈 时间: 2024-12-08 21:31:40", server: 119.96.230.160, port: 12282, type: trojan, password: vBrgD8wrng, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - "消息: 1条未读，在APP查看"
-      - 🇸🇬 新加坡 P1 | 鄂日隧道、IPv6、限时体验1小时 | 3x
-      - 🇺🇸 美国 F1 | 粤美隧道、IPv6、限时体验4小时 | 3x
-      - 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验4小时 | 2x
-      - 🇺🇸 美国 V1 | 粤美隧道、Netflix(US)、闲时可见 | 3x
-      - 🇺🇸 美国 W1 | 粤美隧道 | 3x
+      - 🇯🇵 美国 F1 | 鄂日隧道、IPv6、限时体验4小时 | 3x
+      - 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验4小时、新开机 | 2x
+      - 🇯🇵 美国 W1 | 鄂日隧道 | 3x
       - 🇺🇸 美国 W2 | 直连、ChatGPT | 3x
-      - 🇯🇵 日本 W1 | 直连、联通优化、IPv6 | 3x
-      - 🇯🇵 日本 W2 | 直连、联通优化 | 3x
-      - 🇸🇬 新加坡 W1 | 直连、移动优化 | 3x
-      - 🇸🇬 新加坡 W2 | 直连、移动优化 | 3x
-      - 🇺🇸 德国 W3 | 粤美隧道、闲时可见 | 3x
-      - 🇭🇰 印度 W4 | 广港隧道、IPv6、闲时可见 | 3x
-      - 🇺🇸 俄罗斯 W7 | 粤美隧道、闲时可见 | 2x
       - ----- 账号信息 -----
-      - "登录账号: qinsiqi520@gmail.com"
+      - "登录账号: tesila99@gamil.com"
       - "体验套餐: 剩余7天"
-      - "🏳️‍🌈 流量重置: 每月2日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月8日 10G，剩余11G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: blfsl.cc/ol"
-      - "🏳️‍🌈 时间: 2024-12-02 08:51:21"
+      - "🏳️‍🌈 时间: 2024-12-08 21:31:40"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
-      - 🇸🇬 新加坡 P1 | 鄂日隧道、IPv6、限时体验1小时 | 3x
-      - 🇺🇸 美国 F1 | 粤美隧道、IPv6、限时体验4小时 | 3x
-      - 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验4小时 | 2x
-      - 🇺🇸 美国 V1 | 粤美隧道、Netflix(US)、闲时可见 | 3x
-      - 🇺🇸 美国 W1 | 粤美隧道 | 3x
+      - 🇯🇵 美国 F1 | 鄂日隧道、IPv6、限时体验4小时 | 3x
+      - 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验4小时、新开机 | 2x
+      - 🇯🇵 美国 W1 | 鄂日隧道 | 3x
       - 🇺🇸 美国 W2 | 直连、ChatGPT | 3x
-      - 🇯🇵 日本 W1 | 直连、联通优化、IPv6 | 3x
-      - 🇯🇵 日本 W2 | 直连、联通优化 | 3x
-      - 🇸🇬 新加坡 W1 | 直连、移动优化 | 3x
-      - 🇸🇬 新加坡 W2 | 直连、移动优化 | 3x
-      - 🇺🇸 德国 W3 | 粤美隧道、闲时可见 | 3x
-      - 🇭🇰 印度 W4 | 广港隧道、IPv6、闲时可见 | 3x
-      - 🇺🇸 俄罗斯 W7 | 粤美隧道、闲时可见 | 2x
       - ----- 账号信息 -----
-      - "登录账号: qinsiqi520@gmail.com"
+      - "登录账号: tesila99@gamil.com"
       - "体验套餐: 剩余7天"
-      - "🏳️‍🌈 流量重置: 每月2日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月8日 10G，剩余11G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: blfsl.cc/ol"
-      - "🏳️‍🌈 时间: 2024-12-02 08:51:21"
+      - "🏳️‍🌈 时间: 2024-12-08 21:31:40"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
-      - 🇸🇬 新加坡 P1 | 鄂日隧道、IPv6、限时体验1小时 | 3x
-      - 🇺🇸 美国 F1 | 粤美隧道、IPv6、限时体验4小时 | 3x
-      - 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验4小时 | 2x
-      - 🇺🇸 美国 V1 | 粤美隧道、Netflix(US)、闲时可见 | 3x
-      - 🇺🇸 美国 W1 | 粤美隧道 | 3x
+      - 🇯🇵 美国 F1 | 鄂日隧道、IPv6、限时体验4小时 | 3x
+      - 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验4小时、新开机 | 2x
+      - 🇯🇵 美国 W1 | 鄂日隧道 | 3x
       - 🇺🇸 美国 W2 | 直连、ChatGPT | 3x
-      - 🇯🇵 日本 W1 | 直连、联通优化、IPv6 | 3x
-      - 🇯🇵 日本 W2 | 直连、联通优化 | 3x
-      - 🇸🇬 新加坡 W1 | 直连、移动优化 | 3x
-      - 🇸🇬 新加坡 W2 | 直连、移动优化 | 3x
-      - 🇺🇸 德国 W3 | 粤美隧道、闲时可见 | 3x
-      - 🇭🇰 印度 W4 | 广港隧道、IPv6、闲时可见 | 3x
-      - 🇺🇸 俄罗斯 W7 | 粤美隧道、闲时可见 | 2x
       - ----- 账号信息 -----
-      - "登录账号: qinsiqi520@gmail.com"
+      - "登录账号: tesila99@gamil.com"
       - "体验套餐: 剩余7天"
-      - "🏳️‍🌈 流量重置: 每月2日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月8日 10G，剩余11G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: blfsl.cc/ol"
-      - "🏳️‍🌈 时间: 2024-12-02 08:51:21"
+      - "🏳️‍🌈 时间: 2024-12-08 21:31:40"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - "消息: 1条未读，在APP查看"
-      - 🇸🇬 新加坡 P1 | 鄂日隧道、IPv6、限时体验1小时 | 3x
-      - 🇺🇸 美国 F1 | 粤美隧道、IPv6、限时体验4小时 | 3x
-      - 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验4小时 | 2x
-      - 🇺🇸 美国 V1 | 粤美隧道、Netflix(US)、闲时可见 | 3x
-      - 🇺🇸 美国 W1 | 粤美隧道 | 3x
+      - 🇯🇵 美国 F1 | 鄂日隧道、IPv6、限时体验4小时 | 3x
+      - 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验4小时、新开机 | 2x
+      - 🇯🇵 美国 W1 | 鄂日隧道 | 3x
       - 🇺🇸 美国 W2 | 直连、ChatGPT | 3x
-      - 🇯🇵 日本 W1 | 直连、联通优化、IPv6 | 3x
-      - 🇯🇵 日本 W2 | 直连、联通优化 | 3x
-      - 🇸🇬 新加坡 W1 | 直连、移动优化 | 3x
-      - 🇸🇬 新加坡 W2 | 直连、移动优化 | 3x
-      - 🇺🇸 德国 W3 | 粤美隧道、闲时可见 | 3x
-      - 🇭🇰 印度 W4 | 广港隧道、IPv6、闲时可见 | 3x
-      - 🇺🇸 俄罗斯 W7 | 粤美隧道、闲时可见 | 2x
       - ----- 账号信息 -----
-      - "登录账号: qinsiqi520@gmail.com"
+      - "登录账号: tesila99@gamil.com"
       - "体验套餐: 剩余7天"
-      - "🏳️‍🌈 流量重置: 每月2日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月8日 10G，剩余11G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: blfsl.cc/ol"
-      - "🏳️‍🌈 时间: 2024-12-02 08:51:21"
+      - "🏳️‍🌈 时间: 2024-12-08 21:31:40"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
-      - 🇸🇬 新加坡 P1 | 鄂日隧道、IPv6、限时体验1小时 | 3x
-      - 🇺🇸 美国 F1 | 粤美隧道、IPv6、限时体验4小时 | 3x
-      - 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验4小时 | 2x
-      - 🇺🇸 美国 V1 | 粤美隧道、Netflix(US)、闲时可见 | 3x
-      - 🇺🇸 美国 W1 | 粤美隧道 | 3x
+      - 🇯🇵 美国 F1 | 鄂日隧道、IPv6、限时体验4小时 | 3x
+      - 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验4小时、新开机 | 2x
+      - 🇯🇵 美国 W1 | 鄂日隧道 | 3x
       - 🇺🇸 美国 W2 | 直连、ChatGPT | 3x
-      - 🇯🇵 日本 W1 | 直连、联通优化、IPv6 | 3x
-      - 🇯🇵 日本 W2 | 直连、联通优化 | 3x
-      - 🇸🇬 新加坡 W1 | 直连、移动优化 | 3x
-      - 🇸🇬 新加坡 W2 | 直连、移动优化 | 3x
-      - 🇺🇸 德国 W3 | 粤美隧道、闲时可见 | 3x
-      - 🇭🇰 印度 W4 | 广港隧道、IPv6、闲时可见 | 3x
-      - 🇺🇸 俄罗斯 W7 | 粤美隧道、闲时可见 | 2x
       - ----- 账号信息 -----
-      - "登录账号: qinsiqi520@gmail.com"
+      - "登录账号: tesila99@gamil.com"
       - "体验套餐: 剩余7天"
-      - "🏳️‍🌈 流量重置: 每月2日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月8日 10G，剩余11G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: blfsl.cc/ol"
-      - "🏳️‍🌈 时间: 2024-12-02 08:51:21"
+      - "🏳️‍🌈 时间: 2024-12-08 21:31:40"
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
-      - 🇸🇬 新加坡 P1 | 鄂日隧道、IPv6、限时体验1小时 | 3x
-      - 🇺🇸 美国 F1 | 粤美隧道、IPv6、限时体验4小时 | 3x
-      - 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验4小时 | 2x
-      - 🇺🇸 美国 V1 | 粤美隧道、Netflix(US)、闲时可见 | 3x
-      - 🇺🇸 美国 W1 | 粤美隧道 | 3x
+      - 🇯🇵 美国 F1 | 鄂日隧道、IPv6、限时体验4小时 | 3x
+      - 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验4小时、新开机 | 2x
+      - 🇯🇵 美国 W1 | 鄂日隧道 | 3x
       - 🇺🇸 美国 W2 | 直连、ChatGPT | 3x
-      - 🇯🇵 日本 W1 | 直连、联通优化、IPv6 | 3x
-      - 🇯🇵 日本 W2 | 直连、联通优化 | 3x
-      - 🇸🇬 新加坡 W1 | 直连、移动优化 | 3x
-      - 🇸🇬 新加坡 W2 | 直连、移动优化 | 3x
-      - 🇺🇸 德国 W3 | 粤美隧道、闲时可见 | 3x
-      - 🇭🇰 印度 W4 | 广港隧道、IPv6、闲时可见 | 3x
-      - 🇺🇸 俄罗斯 W7 | 粤美隧道、闲时可见 | 2x
       - ----- 账号信息 -----
-      - "登录账号: qinsiqi520@gmail.com"
+      - "登录账号: tesila99@gamil.com"
       - "体验套餐: 剩余7天"
-      - "🏳️‍🌈 流量重置: 每月2日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月8日 10G，剩余11G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: blfsl.cc/ol"
-      - "🏳️‍🌈 时间: 2024-12-02 08:51:21"
+      - "🏳️‍🌈 时间: 2024-12-08 21:31:40"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -212,56 +149,38 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - "消息: 1条未读，在APP查看"
-      - 🇸🇬 新加坡 P1 | 鄂日隧道、IPv6、限时体验1小时 | 3x
-      - 🇺🇸 美国 F1 | 粤美隧道、IPv6、限时体验4小时 | 3x
-      - 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验4小时 | 2x
-      - 🇺🇸 美国 V1 | 粤美隧道、Netflix(US)、闲时可见 | 3x
-      - 🇺🇸 美国 W1 | 粤美隧道 | 3x
+      - 🇯🇵 美国 F1 | 鄂日隧道、IPv6、限时体验4小时 | 3x
+      - 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验4小时、新开机 | 2x
+      - 🇯🇵 美国 W1 | 鄂日隧道 | 3x
       - 🇺🇸 美国 W2 | 直连、ChatGPT | 3x
-      - 🇯🇵 日本 W1 | 直连、联通优化、IPv6 | 3x
-      - 🇯🇵 日本 W2 | 直连、联通优化 | 3x
-      - 🇸🇬 新加坡 W1 | 直连、移动优化 | 3x
-      - 🇸🇬 新加坡 W2 | 直连、移动优化 | 3x
-      - 🇺🇸 德国 W3 | 粤美隧道、闲时可见 | 3x
-      - 🇭🇰 印度 W4 | 广港隧道、IPv6、闲时可见 | 3x
-      - 🇺🇸 俄罗斯 W7 | 粤美隧道、闲时可见 | 2x
       - ----- 账号信息 -----
-      - "登录账号: qinsiqi520@gmail.com"
+      - "登录账号: tesila99@gamil.com"
       - "体验套餐: 剩余7天"
-      - "🏳️‍🌈 流量重置: 每月2日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月8日 10G，剩余11G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: blfsl.cc/ol"
-      - "🏳️‍🌈 时间: 2024-12-02 08:51:21"
+      - "🏳️‍🌈 时间: 2024-12-08 21:31:40"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
-      - 🇸🇬 新加坡 P1 | 鄂日隧道、IPv6、限时体验1小时 | 3x
-      - 🇺🇸 美国 F1 | 粤美隧道、IPv6、限时体验4小时 | 3x
-      - 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验4小时 | 2x
-      - 🇺🇸 美国 V1 | 粤美隧道、Netflix(US)、闲时可见 | 3x
-      - 🇺🇸 美国 W1 | 粤美隧道 | 3x
+      - 🇯🇵 美国 F1 | 鄂日隧道、IPv6、限时体验4小时 | 3x
+      - 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验4小时、新开机 | 2x
+      - 🇯🇵 美国 W1 | 鄂日隧道 | 3x
       - 🇺🇸 美国 W2 | 直连、ChatGPT | 3x
-      - 🇯🇵 日本 W1 | 直连、联通优化、IPv6 | 3x
-      - 🇯🇵 日本 W2 | 直连、联通优化 | 3x
-      - 🇸🇬 新加坡 W1 | 直连、移动优化 | 3x
-      - 🇸🇬 新加坡 W2 | 直连、移动优化 | 3x
-      - 🇺🇸 德国 W3 | 粤美隧道、闲时可见 | 3x
-      - 🇭🇰 印度 W4 | 广港隧道、IPv6、闲时可见 | 3x
-      - 🇺🇸 俄罗斯 W7 | 粤美隧道、闲时可见 | 2x
       - ----- 账号信息 -----
-      - "登录账号: qinsiqi520@gmail.com"
+      - "登录账号: tesila99@gamil.com"
       - "体验套餐: 剩余7天"
-      - "🏳️‍🌈 流量重置: 每月2日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月8日 10G，剩余11G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: blfsl.cc/ol"
-      - "🏳️‍🌈 时间: 2024-12-02 08:51:21"
+      - "🏳️‍🌈 时间: 2024-12-08 21:31:40"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
