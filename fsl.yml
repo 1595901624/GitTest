@@ -3652,5 +3652,18 @@ rules:
   - IP-CIDR,101.198.128.0/18,🎯 全球直连,no-resolve
   - IP-CIDR,101.198.192.0/19,🎯 全球直连,no-resolve
   - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
+  - DOMAIN-SUFFIX,komect.com,🎯 全球直连
+  - DOMAIN-SUFFIX,komect.net,🎯 全球直连
+  - DOMAIN-SUFFIX,hq.cmcc,🎯 全球直连
+  - DOMAIN-SUFFIX,oaifree.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bugly.qq.com,🎯 全球直连
+  - IP-CIDR,172.21.154.28/15,🎯 全球直连,no-resolve
+  - IP-CIDR,172.21.154.28/16,🎯 全球直连,no-resolve
+  - IP-CIDR,172.26.124.172/15,🎯 全球直连,no-resolve
+  - IP-CIDR,172.26.124.172/16,🎯 全球直连,no-resolve
+  - IP-CIDR,172.21.37.107/15,🎯 全球直连,no-resolve
+  - IP-CIDR,172.21.37.107/16,🎯 全球直连,no-resolve
+  - IP-CIDR,172.21.24.244/15,🎯 全球直连,no-resolve
+  - IP-CIDR,172.21.24.244/16,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
