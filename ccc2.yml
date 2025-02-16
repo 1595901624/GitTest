@@ -4,6 +4,8 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
+dns:
+  enable: false
 proxies:
 # 我的订阅
 proxy-groups:

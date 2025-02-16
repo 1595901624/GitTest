@@ -3,142 +3,137 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
+dns:
+  enable: false
 external-controller: :9090
 proxies:
-  - {name: "消息: 1条未读，在APP查看", server: 106.119.162.188, port: 12282, type: trojan, password: uNvvMTeQIG, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 美国 F1 | 冀日隧道、限时体验2小时 | 3x, server: 106.119.162.188, port: 12282, type: trojan, password: uNvvMTeQIG, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验2小时 | 3x, server: 192.46.230.223, port: 11900, type: trojan, password: uNvvMTeQIG, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 美国 W1 | 冀日隧道 | 3x, server: 106.119.162.188, port: 43120, type: trojan, password: uNvvMTeQIG, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 W2 | 直连、ChatGPT | 3x, server: 212.18.104.164, port: 14174, type: trojan, password: uNvvMTeQIG, sni: download.windowsupdate.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 W1 | 直连、联通优化 | 3x, server: 172.233.84.10, port: 48701, type: trojan, password: uNvvMTeQIG, sni: download.windowsupdate.com, skip-cert-verify: true, udp: true}
-  - {name: ----- 账号信息 -----, server: 106.119.162.188, port: 12282, type: trojan, password: uNvvMTeQIG, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: "登录账号: skijeez@f.sl", server: 106.119.162.188, port: 12282, type: trojan, password: uNvvMTeQIG, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: "体验套餐: 剩余2天", server: 106.119.162.188, port: 12282, type: trojan, password: uNvvMTeQIG, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: "🏳️‍🌈 流量重置: 每月9日 10G，剩余10G", server: 106.119.162.188, port: 12282, type: trojan, password: uNvvMTeQIG, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: ----- 联系我们 -----, server: 106.119.162.188, port: 12282, type: trojan, password: uNvvMTeQIG, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: "电报: https://t.me/balecc_group", server: 106.119.162.188, port: 12282, type: trojan, password: uNvvMTeQIG, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: "邮箱: contact@balecc.com", server: 106.119.162.188, port: 12282, type: trojan, password: uNvvMTeQIG, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: "官网: blfsl.cc/ol", server: 106.119.162.188, port: 12282, type: trojan, password: uNvvMTeQIG, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: "🏳️‍🌈 时间: 2025-02-09 21:14:25", server: 106.119.162.188, port: 12282, type: trojan, password: uNvvMTeQIG, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: "消息: 1条未读，在APP查看", server: 114.80.43.17, port: 11854, type: trojan, password: UDdJVZ1E8m, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 F1 | 粤美隧道、IPv6、限时体验2小时 | 3x, server: 114.80.43.17, port: 11854, type: trojan, password: UDdJVZ1E8m, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验2小时 | 3x, server: 192.46.230.223, port: 11859, type: trojan, password: UDdJVZ1E8m, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 F3 | 移动优化、IPv6、限时体验4小时 | 3x, server: 139.162.54.35, port: 21945, type: trojan, password: UDdJVZ1E8m, sni: download.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 美国 W1 | 冀日隧道 | 3x, server: 106.119.162.188, port: 43120, type: trojan, password: UDdJVZ1E8m, sni: visualstudio.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: ----- 账号信息 -----, server: 114.80.43.17, port: 11854, type: trojan, password: UDdJVZ1E8m, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: "登录账号: plijhqs@f.sl", server: 114.80.43.17, port: 11854, type: trojan, password: UDdJVZ1E8m, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: "体验套餐: 剩余2天", server: 114.80.43.17, port: 11854, type: trojan, password: UDdJVZ1E8m, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: "🏳️‍🌈 流量重置: 每月16日 10G，剩余10G", server: 114.80.43.17, port: 11854, type: trojan, password: UDdJVZ1E8m, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: ----- 联系我们 -----, server: 114.80.43.17, port: 11854, type: trojan, password: UDdJVZ1E8m, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: "电报: https://t.me/balecc_group", server: 114.80.43.17, port: 11854, type: trojan, password: UDdJVZ1E8m, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: "邮箱: contact@balecc.com", server: 114.80.43.17, port: 11854, type: trojan, password: UDdJVZ1E8m, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: "官网: blfsl.cc/ol", server: 114.80.43.17, port: 11854, type: trojan, password: UDdJVZ1E8m, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
+  - {name: "🏳️‍🌈 时间: 2025-02-16 21:14:13", server: 114.80.43.17, port: 11854, type: trojan, password: UDdJVZ1E8m, sni: ctldl.windowsupdate.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - "消息: 1条未读，在APP查看"
-      - 🇯🇵 美国 F1 | 冀日隧道、限时体验2小时 | 3x
+      - 🇺🇸 美国 F1 | 粤美隧道、IPv6、限时体验2小时 | 3x
       - 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验2小时 | 3x
+      - 🇸🇬 新加坡 F3 | 移动优化、IPv6、限时体验4小时 | 3x
       - 🇯🇵 美国 W1 | 冀日隧道 | 3x
-      - 🇺🇸 美国 W2 | 直连、ChatGPT | 3x
-      - 🇯🇵 日本 W1 | 直连、联通优化 | 3x
       - ----- 账号信息 -----
-      - "登录账号: skijeez@f.sl"
+      - "登录账号: plijhqs@f.sl"
       - "体验套餐: 剩余2天"
-      - "🏳️‍🌈 流量重置: 每月9日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月16日 10G，剩余10G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: blfsl.cc/ol"
-      - "🏳️‍🌈 时间: 2025-02-09 21:14:25"
+      - "🏳️‍🌈 时间: 2025-02-16 21:14:13"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
-      - 🇯🇵 美国 F1 | 冀日隧道、限时体验2小时 | 3x
+      - 🇺🇸 美国 F1 | 粤美隧道、IPv6、限时体验2小时 | 3x
       - 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验2小时 | 3x
+      - 🇸🇬 新加坡 F3 | 移动优化、IPv6、限时体验4小时 | 3x
       - 🇯🇵 美国 W1 | 冀日隧道 | 3x
-      - 🇺🇸 美国 W2 | 直连、ChatGPT | 3x
-      - 🇯🇵 日本 W1 | 直连、联通优化 | 3x
       - ----- 账号信息 -----
-      - "登录账号: skijeez@f.sl"
+      - "登录账号: plijhqs@f.sl"
       - "体验套餐: 剩余2天"
-      - "🏳️‍🌈 流量重置: 每月9日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月16日 10G，剩余10G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: blfsl.cc/ol"
-      - "🏳️‍🌈 时间: 2025-02-09 21:14:25"
+      - "🏳️‍🌈 时间: 2025-02-16 21:14:13"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
-      - 🇯🇵 美国 F1 | 冀日隧道、限时体验2小时 | 3x
+      - 🇺🇸 美国 F1 | 粤美隧道、IPv6、限时体验2小时 | 3x
       - 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验2小时 | 3x
+      - 🇸🇬 新加坡 F3 | 移动优化、IPv6、限时体验4小时 | 3x
       - 🇯🇵 美国 W1 | 冀日隧道 | 3x
-      - 🇺🇸 美国 W2 | 直连、ChatGPT | 3x
-      - 🇯🇵 日本 W1 | 直连、联通优化 | 3x
       - ----- 账号信息 -----
-      - "登录账号: skijeez@f.sl"
+      - "登录账号: plijhqs@f.sl"
       - "体验套餐: 剩余2天"
-      - "🏳️‍🌈 流量重置: 每月9日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月16日 10G，剩余10G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: blfsl.cc/ol"
-      - "🏳️‍🌈 时间: 2025-02-09 21:14:25"
+      - "🏳️‍🌈 时间: 2025-02-16 21:14:13"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - "消息: 1条未读，在APP查看"
-      - 🇯🇵 美国 F1 | 冀日隧道、限时体验2小时 | 3x
+      - 🇺🇸 美国 F1 | 粤美隧道、IPv6、限时体验2小时 | 3x
       - 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验2小时 | 3x
+      - 🇸🇬 新加坡 F3 | 移动优化、IPv6、限时体验4小时 | 3x
       - 🇯🇵 美国 W1 | 冀日隧道 | 3x
-      - 🇺🇸 美国 W2 | 直连、ChatGPT | 3x
-      - 🇯🇵 日本 W1 | 直连、联通优化 | 3x
       - ----- 账号信息 -----
-      - "登录账号: skijeez@f.sl"
+      - "登录账号: plijhqs@f.sl"
       - "体验套餐: 剩余2天"
-      - "🏳️‍🌈 流量重置: 每月9日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月16日 10G，剩余10G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: blfsl.cc/ol"
-      - "🏳️‍🌈 时间: 2025-02-09 21:14:25"
+      - "🏳️‍🌈 时间: 2025-02-16 21:14:13"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
-      - 🇯🇵 美国 F1 | 冀日隧道、限时体验2小时 | 3x
+      - 🇺🇸 美国 F1 | 粤美隧道、IPv6、限时体验2小时 | 3x
       - 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验2小时 | 3x
+      - 🇸🇬 新加坡 F3 | 移动优化、IPv6、限时体验4小时 | 3x
       - 🇯🇵 美国 W1 | 冀日隧道 | 3x
-      - 🇺🇸 美国 W2 | 直连、ChatGPT | 3x
-      - 🇯🇵 日本 W1 | 直连、联通优化 | 3x
       - ----- 账号信息 -----
-      - "登录账号: skijeez@f.sl"
+      - "登录账号: plijhqs@f.sl"
       - "体验套餐: 剩余2天"
-      - "🏳️‍🌈 流量重置: 每月9日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月16日 10G，剩余10G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: blfsl.cc/ol"
-      - "🏳️‍🌈 时间: 2025-02-09 21:14:25"
+      - "🏳️‍🌈 时间: 2025-02-16 21:14:13"
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
-      - 🇯🇵 美国 F1 | 冀日隧道、限时体验2小时 | 3x
+      - 🇺🇸 美国 F1 | 粤美隧道、IPv6、限时体验2小时 | 3x
       - 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验2小时 | 3x
+      - 🇸🇬 新加坡 F3 | 移动优化、IPv6、限时体验4小时 | 3x
       - 🇯🇵 美国 W1 | 冀日隧道 | 3x
-      - 🇺🇸 美国 W2 | 直连、ChatGPT | 3x
-      - 🇯🇵 日本 W1 | 直连、联通优化 | 3x
       - ----- 账号信息 -----
-      - "登录账号: skijeez@f.sl"
+      - "登录账号: plijhqs@f.sl"
       - "体验套餐: 剩余2天"
-      - "🏳️‍🌈 流量重置: 每月9日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月16日 10G，剩余10G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: blfsl.cc/ol"
-      - "🏳️‍🌈 时间: 2025-02-09 21:14:25"
+      - "🏳️‍🌈 时间: 2025-02-16 21:14:13"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -156,40 +151,38 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - "消息: 1条未读，在APP查看"
-      - 🇯🇵 美国 F1 | 冀日隧道、限时体验2小时 | 3x
+      - 🇺🇸 美国 F1 | 粤美隧道、IPv6、限时体验2小时 | 3x
       - 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验2小时 | 3x
+      - 🇸🇬 新加坡 F3 | 移动优化、IPv6、限时体验4小时 | 3x
       - 🇯🇵 美国 W1 | 冀日隧道 | 3x
-      - 🇺🇸 美国 W2 | 直连、ChatGPT | 3x
-      - 🇯🇵 日本 W1 | 直连、联通优化 | 3x
       - ----- 账号信息 -----
-      - "登录账号: skijeez@f.sl"
+      - "登录账号: plijhqs@f.sl"
       - "体验套餐: 剩余2天"
-      - "🏳️‍🌈 流量重置: 每月9日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月16日 10G，剩余10G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: blfsl.cc/ol"
-      - "🏳️‍🌈 时间: 2025-02-09 21:14:25"
+      - "🏳️‍🌈 时间: 2025-02-16 21:14:13"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
-      - 🇯🇵 美国 F1 | 冀日隧道、限时体验2小时 | 3x
+      - 🇺🇸 美国 F1 | 粤美隧道、IPv6、限时体验2小时 | 3x
       - 🇸🇬 新加坡 F2 | 移动优化、IPv6、限时体验2小时 | 3x
+      - 🇸🇬 新加坡 F3 | 移动优化、IPv6、限时体验4小时 | 3x
       - 🇯🇵 美国 W1 | 冀日隧道 | 3x
-      - 🇺🇸 美国 W2 | 直连、ChatGPT | 3x
-      - 🇯🇵 日本 W1 | 直连、联通优化 | 3x
       - ----- 账号信息 -----
-      - "登录账号: skijeez@f.sl"
+      - "登录账号: plijhqs@f.sl"
       - "体验套餐: 剩余2天"
-      - "🏳️‍🌈 流量重置: 每月9日 10G，剩余10G"
+      - "🏳️‍🌈 流量重置: 每月16日 10G，剩余10G"
       - ----- 联系我们 -----
       - "电报: https://t.me/balecc_group"
       - "邮箱: contact@balecc.com"
       - "官网: blfsl.cc/ol"
-      - "🏳️‍🌈 时间: 2025-02-09 21:14:25"
+      - "🏳️‍🌈 时间: 2025-02-16 21:14:13"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
