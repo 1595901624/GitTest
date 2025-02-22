@@ -7,26 +7,26 @@ external-controller: :9090
 dns:
   enable: false
 proxies:
-  - {name: 日本高速 1_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50120, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52276446:SU6bOh}
-  - {name: 日本高速 2_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50121, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52276446:SU6bOh}
-  - {name: 日本高速 3_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50122, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52276446:SU6bOh}
-  - {name: 日本高速 4_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50123, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52276446:SU6bOh}
-  - {name: 日本高速 5_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50124, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52276446:SU6bOh}
-  - {name: 日本高速 6_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50125, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52276446:SU6bOh}
-  - {name: 日本高速 7_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50126, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52276446:SU6bOh}
-  - {name: 日本高速 8_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50127, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52276446:SU6bOh}
-  - {name: 日本高速 9_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50128, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52276446:SU6bOh}
-  - {name: 日本高速 10_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50129, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52276446:SU6bOh}
-  - {name: 日本高速 11_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50130, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52276446:SU6bOh}
-  - {name: 日本高速 12_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50131, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52276446:SU6bOh}
-  - {name: 日本高速 13_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50132, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52276446:SU6bOh}
-  - {name: 日本高速 14_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50133, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52276446:SU6bOh}
-  - {name: 日本高速 15_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50134, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52276446:SU6bOh}
-  - {name: 日本高速 16_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50135, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52276446:SU6bOh}
-  - {name: 新加坡高速 17_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50136, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52276446:SU6bOh}
-  - {name: 新加坡高速 18_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50137, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52276446:SU6bOh}
-  - {name: 新加坡高速 19_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50138, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52276446:SU6bOh}
-  - {name: 新加坡高速 20_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50139, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52276446:SU6bOh}
+  - {name: 日本高速 1_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50120, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52297490:wAL68D}
+  - {name: 日本高速 2_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50121, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52297490:wAL68D}
+  - {name: 日本高速 3_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50122, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52297490:wAL68D}
+  - {name: 日本高速 4_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50123, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52297490:wAL68D}
+  - {name: 日本高速 5_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50124, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52297490:wAL68D}
+  - {name: 日本高速 6_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50125, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52297490:wAL68D}
+  - {name: 日本高速 7_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50126, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52297490:wAL68D}
+  - {name: 日本高速 8_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50127, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52297490:wAL68D}
+  - {name: 日本高速 9_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50128, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52297490:wAL68D}
+  - {name: 日本高速 10_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50129, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52297490:wAL68D}
+  - {name: 日本高速 11_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50130, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52297490:wAL68D}
+  - {name: 日本高速 12_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50131, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52297490:wAL68D}
+  - {name: 日本高速 13_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50132, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52297490:wAL68D}
+  - {name: 日本高速 14_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50133, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52297490:wAL68D}
+  - {name: 日本高速 15_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50134, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52297490:wAL68D}
+  - {name: 日本高速 16_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50135, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52297490:wAL68D}
+  - {name: 新加坡高速 17_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50136, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52297490:wAL68D}
+  - {name: 新加坡高速 18_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50137, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52297490:wAL68D}
+  - {name: 新加坡高速 19_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50138, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52297490:wAL68D}
+  - {name: 新加坡高速 20_普通_, server: tacm.ix2.edge.kunlunae.com, port: 50139, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52297490:wAL68D}
 
 proxy-groups:
   - name: 🔰 节点选择
