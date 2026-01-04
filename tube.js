@@ -134,7 +134,7 @@ function requestServerData() {
     axios
         .post(url, data, config)
         .then((response) => {
-            //   console.log("Response:", response.data);
+              console.log("Response:", response.data);
             if (
                 response == null ||
                 response.data == null ||
